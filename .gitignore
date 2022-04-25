@@ -1,7 +1,15 @@
 .snakemake/*
+
 *.faa
 *.fna
 *.ffa
 *.fa
 *.fasta
 *.aln
+
+logs/*
+
+00_genomes/*
+01_prokka/*
+
+assembly_summary_genbank.txt

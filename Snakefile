@@ -12,6 +12,24 @@ define functions
 - read genome dictonary as needed
 """
 
+def get_genomes(path):
+    """
+    reads genome info file (must be csv!)
+    and return list of genomes
+    """
+    genomeList = []
+    with open(path, "r") as info_fh:
+        for line in info_fh:
+            if line.startswith("ID"):
+                continue
+            genome = line.split(",")[0]
+            genome = genome.strip()
+            # exclude the unpublished genome!
+            if genome == "Ga0418777":
+                continue
+            genomeList.append(genome)
+    return(genomeList)
+
 def convertToMb(string):
     """
     This function can convert text in the form
@@ -58,10 +76,6 @@ the group columns are arbitrarily based on the gtdbtk results.
     for now ignore:
     sphingo, syntro, moraxella,
     cutibac, burkhold, pseudo, entero, rhodocy, enteroc
-
-rule annotate (prokka)
-    re-annotating to maintain consisitency
-    check Garance's doAnnotation_${Genus}.sh
 
 rule prep for Orthofinder
     organise faa files by phylotype
@@ -188,84 +202,162 @@ scripts by Garance to refer to:
 
 """
 
+rule all:
+    input:
+        # genomes = expand("00_genomes/{genome}.fa", genome=get_genomes(GenomeInfo)),
+        prokka_faa = expand("01_prokka/{genome}/{genome}.faa", genome=get_genomes(GenomeInfo)),
+
+rule download_genome:
+    # input:
+    #     info = "GenomeInfo.csv",
+    output:
+        genome = "00_genomes/{genome}.fa",
+        genome_gz = temp("00_genomes/{genome}.fa.gz"),
+    threads: 1
+    params:
+        ftp_summary = "https://ftp.ncbi.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_genbank.txt",
+        assembly_summary_genbank = "assembly_summary_genbank.txt",
+        info = "GenomeInfo.csv",
+    log: "logs/{genome}_download.log"
+    shell:
+        """
+        # temporarily download the assembly summary to get paths
+        if [ -f {output.genome} ]; then
+            # if snakemake is working, this should never happen!
+            echo "{output.genome} exists." 2>&1 | tee -a {log}
+        else
+            echo "cannot find {output.genome}. Going to try to download!" 2>&1 | tee -a {log}
+            wget -N "{params.ftp_summary}" 2>&1 | tee -a {log}
+            strain=$(cat {params.info} | grep {wildcards.genome} | cut -f4 -d",")
+            echo "The strain is ${{strain}}" 2>&1 | tee -a {log}
+            # all these steps are to avoid having multiple urls if there are
+            # multiple genomes for the strain
+            # we sort by date column (format "yyyy/mm/dd") in reversed order
+            # (so most recent first) and take the top one
+            genbank_path=$(cat {params.assembly_summary_genbank} | grep "strain="${{strain}} | cut -f15,20 | sort -k1 -r | head -1 | cut -f2)
+            echo "${{genbank_path}}_here" 2>&1 | tee -a {log}
+            if [ -z ${{genbank_path}} ]; then
+                echo "No genbank path found for genome {wildcards.genome}. Exiting." 2>&1 | tee -a {log}
+            else
+                echo "Downloading from ${{genbank_path}}/$(basename "${{genbank_path}}")_genomic.fna.gz" 2>&1 | tee -a {log}
+                wget -O {output.genome}.gz "${{genbank_path}}/$(basename "${{genbank_path}}")_genomic.fna.gz" 2>&1 | tee -a {log}
+                ls {output.genome}.gz
+                echo "Downloaded! unzipping {output.genome}.gz" 2>&1 | tee -a {log}
+                # gzip -d {output.genome}.gz 2>&1 | tee -a {log}
+                gunzip < {output.genome}.gz > {output.genome} 2>&1 | tee -a {log}
+                echo "Unzipped! Editing header to containg only locus tag" 2>&1 | tee -a {log}
+                echo ">{wildcards.genome}" > {output.genome}.temp
+                cat {output.genome} | grep -v ">" >> {output.genome}.temp
+                mv {output.genome}.temp {output.genome}
+            fi
+        fi
+        """
+
 rule annotate:
-    input
-
-
-rule run_orthofinder:
     input:
-        faa_files = expand("database/faa_files/{{phylotype}}/{genome}.faa", genome=get_g_list_by_phylo(DBs["microbiome"], "{phylotype}")),
-        faa_dir = "database/faa_files/{phylotype}"
+        genome = "00_genomes/{genome}.fa"
     output:
-        ortho_file = "database/faa_files/{phylotype}/OrthoFinder/Results_dir/Orthogroups/Orthogroups.txt"
-    conda: "envs/core-cov-env.yaml"
+        faa = "01_prokka/{genome}/{genome}.faa",
     params:
-        mailto="aiswarya.prasad@unil.ch",
-        account="pengel_spirit",
-        runtime_s=convertToSec("0-2:10:00"),
-    resources:
-        mem_mb = 8000
-    threads: 5
-    log: "logs/{phylotype}_run_orthofinder.log"
+        outdir = "01_prokka/{genome}/"
+    #     mailto="aiswarya.prasad@unil.ch",
+    #     account="pengel_spirit",
+    #     runtime_s=convertToSec("0-2:10:00"),
+    # resources:
+    #     mem_mb = 8000
+    threads: 4
+    log: "logs/{genome}_annotate.log"
+    conda: "envs/phylogenies-env.yaml"
     shell:
         """
-        # so that nothing created in advance messes up the name
-        rm -rf "database/faa_files/{wildcards.phylotype}/OrthoFinder"
-        orthofinder -og -t {threads} -n dir -f {input.faa_dir}
+        start=${{SECONDS}}
+        # use force because snakemake creates output dirs and this confuses it
+        prokka --compliant --force \
+            --outdir {params.outdir} \
+            --locustag {wildcards.genome} \
+            --prefix {wildcards.genome} \
+            --evalue 0.001 \
+            {input.genome} 2>&1 | tee -a {log}
+            #? --proteins proteins.faa \
+        duration=$(( SECONDS - start ))
+        echo -e "The script ran for "${{duration}} "seconds" 2>&1 | tee -a {log}
         """
 
-rule get_single_ortho:
-    input:
-        ortho_file = "database/faa_files/{phylotype}/OrthoFinder/Results_dir/Orthogroups/Orthogroups.txt"
-    output:
-        ortho_single = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_single_ortho.txt"
-    params:
-        mailto="aiswarya.prasad@unil.ch",
-        account="pengel_spirit",
-        runtime_s=convertToSec("0-2:10:00"),
-    resources:
-        mem_mb = 8000
-    log: "logs/{phylotype}_get_single_ortho.log"
-    threads: 5
-    script:
-        "scripts/get_single_ortho.py"
 
-rule extract_orthologs:
-    input:
-        ortho_single = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_single_ortho.txt",
-    output:
-        ortho_seq_dir = directory("database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_ortho_sequences/")
-    params:
-        ffn_dir = "database/ffn_files",
-        faa_dir = "database/faa_files/{phylotype}",
-        mailto="aiswarya.prasad@unil.ch",
-        account="pengel_spirit",
-        runtime_s=convertToSec("0-2:10:00"),
-    resources:
-        mem_mb = 8000
-    log: "logs/{phylotype}_extract_orthologs.log"
-    threads: 5
-    script:
-        "scripts/extract_orthologs.py"
-
-rule calc_perc_id:
-    input:
-        ortho_seq_dir = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_ortho_sequences/"
-    output:
-        perc_id = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_perc_id.txt"
-    params:
-        scripts_dir = os.path.join(os.getcwd(), "scripts"),
-        meta = os.path.join(os.getcwd(), "database/"+DBs["microbiome"]+"_metafile.txt"),
-        mailto="aiswarya.prasad@unil.ch",
-        account="pengel_spirit",
-        runtime_s=convertToSec("0-3:10:00"),
-    resources:
-        mem_mb = 8000
-    conda: "envs/core-cov-env.yaml"
-    log: "logs/{phylotype}_calc_perc_id.log"
-    threads: 5
-    shell:
-        """
-        cd {input.ortho_seq_dir}
-        bash {params.scripts_dir}/aln_calc.sh {params.scripts_dir} {params.meta} ../{wildcards.phylotype}_perc_id.txt
-        """
+# rule run_orthofinder:
+#     input:
+#         faa_files = expand("database/faa_files/{{phylotype}}/{genome}.faa", genome=get_g_list_by_phylo(DBs["microbiome"], "{phylotype}")),
+#         faa_dir = "database/faa_files/{phylotype}"
+#     output:
+#         ortho_file = "database/faa_files/{phylotype}/OrthoFinder/Results_dir/Orthogroups/Orthogroups.txt"
+#     conda: "envs/core-cov-env.yaml"
+#     params:
+#         mailto="aiswarya.prasad@unil.ch",
+#         account="pengel_spirit",
+#         runtime_s=convertToSec("0-2:10:00"),
+#     resources:
+#         mem_mb = 8000
+#     threads: 5
+#     log: "logs/{phylotype}_run_orthofinder.log"
+#     shell:
+#         """
+#         # so that nothing created in advance messes up the name
+#         rm -rf "database/faa_files/{wildcards.phylotype}/OrthoFinder"
+#         orthofinder -og -t {threads} -n dir -f {input.faa_dir}
+#         """
+#
+# rule get_single_ortho:
+#     input:
+#         ortho_file = "database/faa_files/{phylotype}/OrthoFinder/Results_dir/Orthogroups/Orthogroups.txt"
+#     output:
+#         ortho_single = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_single_ortho.txt"
+#     params:
+#         mailto="aiswarya.prasad@unil.ch",
+#         account="pengel_spirit",
+#         runtime_s=convertToSec("0-2:10:00"),
+#     resources:
+#         mem_mb = 8000
+#     log: "logs/{phylotype}_get_single_ortho.log"
+#     threads: 5
+#     script:
+#         "scripts/get_single_ortho.py"
+#
+# rule extract_orthologs:
+#     input:
+#         ortho_single = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_single_ortho.txt",
+#     output:
+#         ortho_seq_dir = directory("database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_ortho_sequences/")
+#     params:
+#         ffn_dir = "database/ffn_files",
+#         faa_dir = "database/faa_files/{phylotype}",
+#         mailto="aiswarya.prasad@unil.ch",
+#         account="pengel_spirit",
+#         runtime_s=convertToSec("0-2:10:00"),
+#     resources:
+#         mem_mb = 8000
+#     log: "logs/{phylotype}_extract_orthologs.log"
+#     threads: 5
+#     script:
+#         "scripts/extract_orthologs.py"
+#
+# rule calc_perc_id:
+#     input:
+#         ortho_seq_dir = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_ortho_sequences/"
+#     output:
+#         perc_id = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_perc_id.txt"
+#     params:
+#         scripts_dir = os.path.join(os.getcwd(), "scripts"),
+#         meta = os.path.join(os.getcwd(), "database/"+DBs["microbiome"]+"_metafile.txt"),
+#         mailto="aiswarya.prasad@unil.ch",
+#         account="pengel_spirit",
+#         runtime_s=convertToSec("0-3:10:00"),
+#     resources:
+#         mem_mb = 8000
+#     conda: "envs/core-cov-env.yaml"
+#     log: "logs/{phylotype}_calc_perc_id.log"
+#     threads: 5
+#     shell:
+#         """
+#         cd {input.ortho_seq_dir}
+#         bash {params.scripts_dir}/aln_calc.sh {params.scripts_dir} {params.meta} ../{wildcards.phylotype}_perc_id.txt
+#         """
