@@ -1,0 +1,7 @@
+.snakemake/*
+*.faa
+*.fna
+*.ffa
+*.fa
+*.fasta
+*.aln

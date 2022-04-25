@@ -1,0 +1,31 @@
+name: phylogenies-env
+
+channels:
+ - bioconda
+ - conda-forge
+
+dependencies:
+ - python=3.*
+ - iqtree
+ - mafft
+ - orthofinder
+ - biopython
+ - r-base
+ - r-ggplot2
+ - r-kableExtra
+ - r-codetools
+ - r-tidyverse
+ - r-prettydoc
+ - r-viridis
+ - r-hrbrthemes
+ - r-ggthemes
+ - r-RColorBrewer
+ - r-scales
+ - r-segmented
+ - r-dplyr
+ - r-xlsx
+ - r-rmdformats
+ - r-plotly
+ - r-gridExtra
+ - r-ape
+ - bioconductor-biostrings
