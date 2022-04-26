@@ -2,9 +2,10 @@ import os
 
 configfile: "config.yaml"
 
-ProjectIdentifier = config["ProjectIdentifier"]
-ProjectPath = config["ProjectPath"]
+Project_identifier = config["Project_identifier"]
+Project_path = config["Project_path"]
 GenomeInfo = config["Genome_info_path"]
+Groups = config["Phylo_groups"]
 
 """
 define functions
@@ -204,15 +205,14 @@ scripts by Garance to refer to:
 
 rule all:
     input:
-        # genomes = expand("00_genomes/{genome}.fa", genome=get_genomes(GenomeInfo)),
         prokka_faa = expand("01_prokka/{genome}/{genome}.faa", genome=get_genomes(GenomeInfo)),
 
 rule download_genome:
     # input:
     #     info = "GenomeInfo.csv",
     output:
-        genome = "00_genomes/{genome}.fa",
-        genome_gz = temp("00_genomes/{genome}.fa.gz"),
+        genome = "Genomes_path/{genome}.fa",
+        genome_gz = temp("Genomes_path/{genome}.fa.gz"),
     threads: 1
     params:
         ftp_summary = "https://ftp.ncbi.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_genbank.txt",
@@ -221,19 +221,14 @@ rule download_genome:
     log: "logs/{genome}_download.log"
     shell:
         """
-        # temporarily download the assembly summary to get paths
         if [ -f {output.genome} ]; then
-            # if snakemake is working, this should never happen!
+            # if snakemake is working, this part should never run!
             echo "{output.genome} exists." 2>&1 | tee -a {log}
         else
             echo "cannot find {output.genome}. Going to try to download!" 2>&1 | tee -a {log}
             wget -N "{params.ftp_summary}" 2>&1 | tee -a {log}
             strain=$(cat {params.info} | grep {wildcards.genome} | cut -f4 -d",")
             echo "The strain is ${{strain}}" 2>&1 | tee -a {log}
-            # all these steps are to avoid having multiple urls if there are
-            # multiple genomes for the strain
-            # we sort by date column (format "yyyy/mm/dd") in reversed order
-            # (so most recent first) and take the top one
             genbank_path=$(cat {params.assembly_summary_genbank} | grep "strain="${{strain}} | cut -f15,20 | sort -k1 -r | head -1 | cut -f2)
             echo "${{genbank_path}}_here" 2>&1 | tee -a {log}
             if [ -z ${{genbank_path}} ]; then
@@ -243,7 +238,6 @@ rule download_genome:
                 wget -O {output.genome}.gz "${{genbank_path}}/$(basename "${{genbank_path}}")_genomic.fna.gz" 2>&1 | tee -a {log}
                 ls {output.genome}.gz
                 echo "Downloaded! unzipping {output.genome}.gz" 2>&1 | tee -a {log}
-                # gzip -d {output.genome}.gz 2>&1 | tee -a {log}
                 gunzip < {output.genome}.gz > {output.genome} 2>&1 | tee -a {log}
                 echo "Unzipped! Editing header to containg only locus tag" 2>&1 | tee -a {log}
                 echo ">{wildcards.genome}" > {output.genome}.temp
@@ -255,7 +249,7 @@ rule download_genome:
 
 rule annotate:
     input:
-        genome = "00_genomes/{genome}.fa"
+        genome = "Genomes_path/{genome}.fa"
     output:
         faa = "01_prokka/{genome}/{genome}.faa",
     params:
@@ -270,7 +264,6 @@ rule annotate:
     conda: "envs/phylogenies-env.yaml"
     shell:
         """
-        # use force because snakemake creates output dirs and this confuses it
         prokka --compliant --force \
             --outdir {params.outdir} \
             --locustag {wildcards.genome} \

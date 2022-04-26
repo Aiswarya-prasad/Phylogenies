@@ -1,6 +1,6 @@
-ProjectIdentifier: "Phylogenies_MAGs_genomes"
-ProjectPath: "/home/aiswarya/MAG_analyses/Phylogenies"
-Phylotypes:
+Project_identifier: "Phylogenies_MAGs_genomes"
+Project_path: "/home/aiswarya/MAG_analyses/Phylogenies"
+Phylo_groups:
  - "bapis"
  - "bifido"
  - "firm4"
@@ -8,4 +8,3 @@ Phylotypes:
  - "gilli"
  - "snod"
 Genome_info_path: "/home/aiswarya/MAG_analyses/Phylogenies/GenomeInfo.csv"
-# Genomes:
