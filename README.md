@@ -6,6 +6,23 @@ To get started there needs to be a config file and some metadata files with thei
 
 The pipeline is currently being tested on one of the Engel lab workstations. However, since the conda environment is available, it can also be run in the cluster with minimal setting up (lines to provide slurm parameters must be uncommented and paths in config file should be changed).
 
+## Choosing MAGs
+
+The quality of MAGs mentioned below are according to this [paper](https://doi.org/10.1038/s41586-019-0965-1), mentioned in this [review](https://doi.org/10.1016/j.csbj.2021.11.028)
+
+There are a total of 1029 redundant MAGs.
+
+* 343 MAGs have are > 95% complete and have < 5% contamination. These would be considered **high quality** MAGs.
+* 20 MAGs have are > 50% but < 95% complete and have < 10% but > 5% contamination. These would be considered **medium quality** MAGs.
+* 877 MAGs have $completeness - 5 x Contamination > 50$ could be acceptable (mentioned in this [review](https://doi.org/10.1016/j.csbj.2021.11.028)).
+
+152 MAGs will have to be dropped according to the most relaxed measures.
+
+Only medium and high quality MAGs are used for making phylogenies.
+
+Only 363 MAGs are at least medium quality out of 1029. So we dropped, 666 MAGs. These MAGs are listed in the metadata table.
+
+
 ## Metadata and config files
 
 The config file, `config.yaml` provides the following information:

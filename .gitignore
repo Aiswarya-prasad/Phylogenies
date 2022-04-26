@@ -5,7 +5,17 @@
 *.ffa
 *.fa
 *.fasta
-*.aln
+
+*.tmp
+*.sam
+*.bam
+
+*.pac
+*.sa
+*.amb
+*.ann
+*.bwt
+*.fai
 
 logs/*
 
