@@ -270,7 +270,6 @@ rule annotate:
     conda: "envs/phylogenies-env.yaml"
     shell:
         """
-        start=${{SECONDS}}
         # use force because snakemake creates output dirs and this confuses it
         prokka --compliant --force \
             --outdir {params.outdir} \
@@ -279,8 +278,6 @@ rule annotate:
             --evalue 0.001 \
             {input.genome} 2>&1 | tee -a {log}
             #? --proteins proteins.faa \
-        duration=$(( ${{SECONDS}} - ${{start}} ))
-        echo -e "The script ran for "${{duration}} "seconds" 2>&1 | tee -a {log}
         """
 
 # rule run_orthofinder:
