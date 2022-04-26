@@ -1,211 +1,480 @@
-ID,Accession,Locus_tag,Strain_name,Phylotype,SDP,Species,Host,Study,Origin,Source_database,Cluster,Group
-BGI00 ,NZ_NAHB01000058 ,BGI00 ,A-1-12 ,snod,snod_1,Apis mellifera ,Ludvigsen et al. (2017),"USA: Arizona",KE_2021_expandedGBR,snod_1,snod
-B6D08 ,NZ_NARP00000000 ,B6D08 ,A-7-12 ,gilli,gilli_1,Gilliamella apicola,Apis mellifera ,Ludvigsen et al. (2017),"USA: Arizona",KE_2021_expandedGBR,gilli_1,gillif
-BGH96 ,NZ_NAGX01000214 ,BGH96 ,A12 ,snod,snod_1,Apis mellifera ,Ludvigsen et al. (2017),"USA: Arizona",KE_2021_expandedGBR,snod_1,snod
-BGI01 ,NZ_NAHC01000084 ,BGI01 ,A2 ,snod,snod_1,Apis mellifera ,Ludvigsen et al. (2017),"USA: Arizona",KE_2021_expandedGBR,snod_1,snod
-B6D18,NASN,B6D18,A7,gilli,gilli_2,Gilliamella apis,Apis mellifera,Ludvigsen et al. (2017),"USA: Arizona",KE_2021_expandedGBR,gilli_2,gillif
-CIN,AGFR,CIN,A911,com,com_i,Drosophila melagenogaster,"Public, not published?",?,KE_2021_expandedGBR,com_i,com
-B6D21 ,NZ_NASL00000000 ,B6D21 ,AM1 ,gilli,gilli_2,Gilliamella apis,Apis mellifera ,Ludvigsen et al. (2017),"USA: Arizona",KE_2021_expandedGBR,gilli_2,gillif
-B6D22,NARY,B6D22,AM4,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Ludvigsen et al. (2017)," USA: Arizona",KE_2021_expandedGBR,gilli_1,gillif
-A9G23 ,LZGS,A9G23 ,App4-10 ,gilli,NA,NA,Bombus appositus,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-A9G24 ,LZGT,A9G24 ,App6-5 ,gilli,NA,NA,Bombus appositus,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-BGH94 ,NZ_MVDP01000065 ,BGH94 ,Aw-20 ,snod,snod_1,Apis mellifera ,Ludvigsen et al. (2017),"USA: Arizona",KE_2021_expandedGBR,snod_1,snod
-Ga0199088,CP015625.1,Ga0199088,BBC0122,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"Switzerland, Engel apiary",KE_2021_expandedGBR,NA,bapis
-Ga0199074,CP015820.1,Ga0199074,BBC0178,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"Switzerland, Engel apiary",KE_2021_expandedGBR,NA,bapis
-Ga0198795,CP015821.1,Ga0198795,BBC0244,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"Switzerland, Engel apiary",KE_2021_expandedGBR,NA,bapis
-Ga0072395,JWME00000000.1,Ga0072395,Bin2,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,bifido_1,bifido
-Ga0072399,JXJQ00000000.1,Ga0072399,Bin4,firm4,firm4_2,Lactobacillus mellifer,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm4_2,lacto
-Ga0072396,JWMF00000000.1,Ga0072396,Bin7,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,bifido_1,bifido
-Ga0072398,JXBX00000000.1,Ga0072398,Bma6,bifido,bifido_2,Bifidobacterium indicum/coryneforme,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,bifido_2,bifido
-A9G35 ,LZHH,A9G35 ,Choc5-1 ,gilli,NA,NA,Bombus impatiens,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-Ga0056940,ATLK01000001,Ga0056940,DSM 19703,bifido,NA,Bifidobacterium bombi,Bumblebee?,Milani et al. (2014),Unknown,KE_2021_expandedGBR,NA,bifido
-Ga0098206,NZ_CP011786,Ga0098206,DSM 22766,bifido,NA,Bifidobacterium actinocoloniiforme,Bumblebee digestive tract,Chen et al. (2015),Unknown,KE_2021_expandedGBR,NA,bifido
-Ga0057557,JGYP01000001,Ga0057557,DSM 22767,bifido,NA,Bifidobacterium bohemicum,Bumblebee digestive tract,Milani et al. (2014),Unknown,KE_2021_expandedGBR,NA,bifido
-CPT77,NZ_NXEN01000131,CPT77,E1,snod,snod_1,Apis mellifera ,Ludvigsen et al. (2017),"USA: Arizona State University, Tempe Campus",KE_2021_expandedGBR,snod_1,snod
-Ga0372762,CP046394,Ga0372762,ESL_0368,bom,bom_2,Apis mellifera,Bonilla-Rosso et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,bom_2,bom
-Ga0216357,WNIJ00000000,Ga0216357,ESL_0385,bom,bom_3,Apis mellifera,Bonilla-Rosso et al. (20190,"Switzerland, Engel apiary",KE_2021_expandedGBR,bom_3,bom
-Ga0077910,CP009056.1,Ga0077910,ESL0034,fper,fper_1,Frischella perrara,Apis mellifera,Engel et al. (2015),"USA, West Haven",KE_2021_expandedGBR,fper_1,gillif
-Ga0133554,QGLM00000000,Ga0133554,ESL0167,fper,fper_1,Frischella perrara,Apis mellifera,Ellegaard_Engel(2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,fper_1,gillif
-Ga0133555,QGLN,Ga0133555,ESL0169,gilli,gilli_2,Gilliamella apis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_2,gillif
-Ga0133549,QGLH00000000,Ga0133549,ESL0170,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_1,bifido
-Ga0133556,QGLO,Ga0133556,ESL0172,gilli,gilli_2,Gilliamella apis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_2,gillif
-Ga0133557,QGLP,Ga0133557,ESL0177,gilli,gilli_3,NA,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_3,gillif
-Ga0133559,QGLQ,Ga0133559,ESL0178,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_1,gillif
-Ga0133558,QGLR,Ga0133558,ESL0182,gilli,gilli_3,NA,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_3,gillif
-Ga0133561,CP029544/CP029545,Ga0133561,ESL0183,firm5,firm5_2,Lactobacillus helsingborgensis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_2,lacto
-Ga0133562,QGLG00000000,Ga0133562,ESL0184,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_3,lacto
-Ga0133563,CP029476,Ga0133563,ESL0185,firm5,firm5_1,Lactobacillus apis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_1,lacto
-Ga0133564,CP029477,Ga0133564,ESL0186,firm5,firm5_4,Lactobacillus kulllabergensis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_4,lacto
-Ga0326500,QGLS,Ga0326500,ESL0196,snod,snod_1,Apis mellifera ,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,snod_1,snod
-Ga0133550,QGLI00000000,Ga0133550,ESL0197,bifido,bifido_2,Bifidobacterium indicum/coryneforme,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_2,bifido
-Ga0133551,QGLJ00000000,Ga0133551,ESL0198,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_1,bifido
-Ga0133552,QGLK00000000,Ga0133552,ESL0199,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_1,bifido
-Ga0133553,QGLL00000000,Ga0133553,ESL0200,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_1,bifido
-Ga0226852,REHJ00000000,Ga0226852,ESL0228,firm5,NA,Lactobacillus bohemicus,Bombus bohemicus,Ellegaard et al. (2019),Switzerland,KE_2021_expandedGBR,NA,lacto
-Ga0226847,REHI00000000,Ga0226847,ESL0230,firm5,NA,Lactobacillus bombicola,Bombus pascuorum,Ellegaard et al. (2019),Switzerland,KE_2021_expandedGBR,NA,lacto
-Ga0227298,2758568604,Ga0227298,ESL0232,gilli,NA,NA,Bombus terrestris,Ellegaard et al. (2020),KE_2021_expandedGBR,NA,gillif
-Ga0227301,2758568603,Ga0227301,ESL0250,gilli,NA,NA,Bombus pascuorum,Ellegaard et al. (2020),KE_2021_expandedGBR,NA,gillif
-Ga0227310,2758568596,Ga0227310,ESL0253,snod,NA,Bombus pascuorum,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,NA,snod
-Ga0227302,2758568602,Ga0227302,ESL0254,gilli,NA,NA,Bombus pascuorum,Ellegaard et al. (2020),KE_2021_expandedGBR,NA,gillif
-Ga0225908,REHP00000000,Ga0225908,ESL0259,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_3,lacto
-Ga0226840,REHO00000000,Ga0226840,ESL0260,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_3,lacto
-Ga0226839,REHN00000000,Ga0226839,ESL0261,firm5,firm5_4,Lactobacillus kullabergensis,Apis mellifera,Ellegaard et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_4,lacto
-Ga0226842,REHL00000000,Ga0226842,ESL0263,firm5,firm5_1,Lactobacillus apis,Apis mellifera,Ellegaard et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_1,lacto
-Ga0216351,QGLT,Ga0216351,ESL0284,com,com_1,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,com_1,com
-Ga0227357,2758568560,Ga0227357,ESL0294,firm4,firm4_1,Lactobacillus mellis,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm4_1,lacto
-Ga0227358,2758568559,Ga0227358,ESL0295,firm4,firm4_1,Lactobacillus mellis,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm4_1,lacto
-Ga0227304,2758568600,Ga0227304,ESL0304,snod,snod_1,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,snod_1,snod
-Ga0227305,2758568599,Ga0227305,ESL0323,snod,snod_1,Apis mellifera ,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,snod_1,snod
-Ga0227306,2758568598,Ga0227306,ESL0324,snod,snod_1,Apis mellifera ,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,snod_1,snod
-Ga0072404,JXLI00000000.1,Ga0072404,ESL0350,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm5_3,lacto
-Ga0070887,JXBY00000000.1,Ga0070887,ESL0351,firm5,firm5_4,Lactobacillus kullabergensis,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm5_4,lacto
-Ga0072403,JXLH00000000.1,Ga0072403,ESL0352,firm5,firm5_4,Lactobacillus kimbladii,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm5_4,lacto
-Ga0072402 ,JXLG00000000.1,Ga0072402 ,ESL0353,firm5,firm5_1,Lactobacillus apis,Apis mellifera,Ellegaard et al.(2015),"Sweden,Jamtland",KE_2021_expandedGBR,firm5_1,lacto
-Ga0072400 ,JXJR00000000.1,Ga0072400 ,ESL0354,firm5,firm5_2,Lactobacillus helsingborgensis,Apis mellifera,Ellegaard et al.(2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm5_2,lacto
-Ga0216349,WNID00000000,Ga0216349,ESL0366,com,com_2,Apis mellifera,Bonilla-Rosso et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,com_2,com
-Ga0227359,2758568558,Ga0227359,ESL0393,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_3,lacto
-Ga0227360,2758568557,Ga0227360,ESL0394,firm4,firm4_1,Lactobacillus mellis,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm4_1,lacto
-Ga0307799,2785510743,Ga0307799,ESL0404,api,api_1,Apibacter sp.,Apis cerana,Ellegaard et al. (2020),"Yokohama, Japan",KE_2021_expandedGBR,api_1,api
-Ga0307800,2785510744,Ga0307800,ESL0405,gilli,NA,NA,Apis cerana,Ellegaard et al. (2020),"Yokohama, Japan",KE_2021_expandedGBR,NA,gillif
-Ga0307804,2785510748,Ga0307804,ESL0409,firm5,firm5_7,Lactobacillus panisapium,Apis cerana,Ellegaard et al. (2020),"Japan, Yokohama",KE_2021_expandedGBR,firm5_7,lacto
-Ga0311394,2799112220,Ga0311394,ESL0411,firm5,Firm5-7,Lactobacillus panisapium,Apis cerana,Ellegaard et al. (2020),"Japan, Yokohama",KE_2021_expandedGBR,Firm5-7,lacto
-Ga0312303,2799112229,Ga0312303,ESL0413,firm5,Firm5-7,Lactobacillus panisapium,Apis cerana,Ellegaard et al. (2020),"Japan, Yokohama",KE_2021_expandedGBR,Firm5-7,lacto
-Ga0312304,2799112230,Ga0312304,ESL0416,firm5,Firm5-7,Lactobacillus panisapium,Apis cerana,Ellegaard et al. (2020),"Japan, Yokohama",KE_2021_expandedGBR,Firm5-7,lacto
-Ga0312307,2799112231,Ga0312307,ESL0432,api,api_1,Apibacter sp.,Apis cerana,Ellegaard et al. (2020),"Tsukuba, Japan",KE_2021_expandedGBR,api_1,api
-Ga0307802,2785510746,Ga0307802,ESL0441,gilli,NA,NA,Apis cerana,Ellegaard et al. (2020),"Tsukuba, Japan",KE_2021_expandedGBR,NA,gillif
-Ga0307803,2785510747,Ga0307803,ESL0443,gilli,NA,NA,Apis cerana ,Ellegaard et al. (2020),"Tsukuba, Japan",KE_2021_expandedGBR,NA,gillif
-Ga0312305,2808606957,Ga0312305,ESL0447,bifido,bifido_1,Bifidobacterium asteroides,Apis cerana,Ellegaard et al. (2020),"Japan, Tsukuba",KE_2021_expandedGBR,bifido_1,bifido
-Ga0326456,2808606958,Ga0326456,ESL0449,firm4,firm4_1,Lactobacillus mellis,Apis cerana,Ellegaard et al. (2020),"Japan, Tsukuba",KE_2021_expandedGBR,firm4_1,lacto
-Ga0308523,JXCT,Ga0308523,Fhon13,lkun,lkun,Apis mellifera,Tamarit et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,lkun,lacto
-Ga0098617,JXCU,Ga0098617,Fhon2,lkun,lkun,Apis mellifera,Tamarit et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,lkun,lacto
-Ga0418777,2849328148,Ga0418777,Fper_2,fper,fper_2,Fper_2,Frischella spp.,Apis cerana,Unpublished,KE_2021_expandedGBR,fper_2,gillif
-A9G31 ,LZHA,A9G31 ,Gris1-4 ,gilli,NA,NA,Bombus griseocollis,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-BHC57 ,MEIU,BHC57 ,HK3 ,snod,NA,Bombus pensylvanicus,Steele et al. (2017),"USA",KE_2021_expandedGBR,NA,snod
-Ga0072401,JXJS00000000.1,Ga0072401,Hma3,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,bifido_1,bifido
-Ga0070888,JXBZ00000000.1,Ga0070888,Hon2,firm4,firm4_1,Lactobacillus mellis,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland ",KE_2021_expandedGBR,firm4_1,lacto
-BINDI,CP006018.1,BINDI,LMG 11587,bifido,bifido_2,Bifidobacterium indicum,?,Milani et al. (2014),"insect",KE_2021_expandedGBR,bifido_2,bifido
-BCOR,CP007287,BCOR,LMG 18911,bifido,bifido_2,Bifidobacterium coryneforme ,Apis mellifera,Milani et al. (2014),"honeybee hindgut",KE_2021_expandedGBR,bifido_2,bifido
-Ga0061073,FMAN00000000.1,Ga0061073,LMG 26964,firm5,firm5_1,Lactobacillus apis,Apis mellifera,DOE Joint genome institute,Czech republic (type strain),KE_2021_expandedGBR,firm5_1,lacto
-A9G19,LZGQ,A9G19,M1-2G,gilli,gilli_2,Gilliamella apis,Apis mellifera,Zheng et al. (2016),"USA, Austin",KE_2021_expandedGBR,gilli_2,gillif
-BHC52 ,MEIX,BHC52 ,MS1-3 ,snod,snod_1,Apis mellifera ,Steele et al. (2017),"USA: Austin, TX",KE_2021_expandedGBR,snod_1,snod
-Ga0248239,ATSX,Ga0248239,MX01,com,com_p,Monarch butterfly,Servin-Garciduenas et al. (2014),Mexico,KE_2021_expandedGBR,com_p,com
-B6D19 ,NZ_NASB00000000 ,B6D19 ,N-22 ,gilli,gilli_1,Gilliamella apicola,Apis mellifera ,Ludvigsen et al. (2017),"Norway: Aas",KE_2021_expandedGBR,gilli_1,gillif
-B6D17 ,NZ_NASS00000000 ,B6D17 ,N-G1 ,gilli,gilli_2,Gilliamella apis,Apis mellifera ,Ludvigsen et al. (2017),"Norway: Aas",KE_2021_expandedGBR,gilli_2,gillif
-B6C99,NAST,B6C99,N-G2,gilli,gilli_2,Gilliamella apis,Apis mellifera,Ludvigsen et al. (2017),"Norway, Aas",KE_2021_expandedGBR,gilli_2,gillif
-B6D14 ,NZ_NASV00000000 ,B6D14 ,N-G4 ,gilli,gilli_2,Gilliamella apis,Apis mellifera ,Ludvigsen et al. (2017),"Norway: Aas",KE_2021_expandedGBR,gilli_2,gillif
-B6D03 ,NZ_NASA00000000 ,B6D03 ,N-G5 ,gilli,gilli_1,Gilliamella apicola,Apis mellifera ,Ludvigsen et al. (2017),"Norway: Aas",KE_2021_expandedGBR,gilli_1,gillif
-BGI12 ,NZ_NAHN01000079 ,BGI12 ,N-S3 ,snod,snod_1,Apis mellifera ,Ludvigsen et al. (2017),"Norway: Aas",KE_2021_expandedGBR,snod_1,snod
-BGI13 ,NZ_NAHO01000038 ,BGI13 ,N-S4 ,snod,snod_1,Apis mellifera ,Ludvigsen et al. (2017),"Norway: Aas",KE_2021_expandedGBR,snod_1,snod
-BGI08 ,NZ_NAHJ01000062 ,BGI08 ,N-W7 ,snod,snod_1,Apis mellifera ,Ludvigsen et al. (2017),"Norway: Aas",KE_2021_expandedGBR,snod_1,snod
-BGI09 ,NZ_NAHK01000129 ,BGI09 ,N9 ,snod,snod_1,Apis mellifera ,Ludvigsen et al. (2017),"Norway: Aas",KE_2021_expandedGBR,snod_1,snod
-BHC44 ,MEIR,BHC44 ,Nev4-2 ,snod,NA,Bombus nevadensis,Steele et al. (2017),"USA",KE_2021_expandedGBR,NA,snod
-B6C96 ,NZ_NASJ00000000 ,B6C96 ,NO15 ,gilli,gilli_2,Gilliamella apis,Apis mellifera ,Ludvigsen et al. (2017),"Norway: Aas",KE_2021_expandedGBR,gilli_2,gillif
-A9G43 ,LZHQ,A9G43 ,Occ3-1 ,gilli,NA,NA,Bombus occidentalis,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-BHC48 ,MEIQ,BHC48 ,Occ4-2 ,snod,NA,Bombus occidentalis,Steele et al. (2017),"USA",KE_2021_expandedGBR,NA,snod
-A9G14,LZGJ,A9G14,P54G,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Zheng et al. (2016),"USA, Austin",KE_2021_expandedGBR,gilli_1,gillif
-A9G15,LZGI,A9G15,P62G,gilli,gilli_2,Gilliamella apis,Apis mellifera,Zheng et al. (2016) ,"USA, Austin",KE_2021_expandedGBR,gilli_2,gillif
-A9G16,LZGH,A9G16,P83G,gilli,gilli_2,Gilliamella apis,Apis mellifera,Zheng et al. (2016),"USA, Austin",KE_2021_expandedGBR,gilli_2,gillif
-PEB0122,LXYU,PEB0122,PEB0122,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"USA, West Haven",KE_2021_expandedGBR,NA,bapis
-PEB0149,LXYT,PEB0149,PEB0149,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"USA, West Haven",KE_2021_expandedGBR,NA,bapis
-PEB0150,LXYS,PEB0150,PEB0150,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"USA, West Haven",KE_2021_expandedGBR,NA,bapis
-BHC47 ,MEIV,BHC47 ,PEB0171 ,snod,snod_1,Apis mellifera ,Steele et al. (2017),"USA: New Haven, CT",KE_2021_expandedGBR,snod_1,snod
-BAST,CP003325.1,BAST,PRL2011,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Bottacini et al. (2012),"honeybee hindgut",KE_2021_expandedGBR,bifido_1,bifido
-Ga0308518,JATM,Ga0308518,R-52487,bom,bom_i,Bombus lapidarius,Li et al. (2016),Crop of Bombus lapidarius,KE_2021_expandedGBR,bom_i,bom
-Ga0061072,FOMN00000000,Ga0061072,R-53102,firm5,NA,Lactobacillus bombicola,Bombus lapidarius,DOE Joint genome institute,"Belgium, Ghent",KE_2021_expandedGBR,NA,lacto
-Ga0061080,2617270738,Ga0061080,R-53144,gilli,NA,Gilliamella intestini,soil?,JGI/Praet et al. (2017),KE_2021_expandedGBR,NA,gillif
-Ga0061079,LIVM,Ga0061079,R-53146,api,NA,Apibacter mensalis,Bombus lapidarius,Kwong et al. (2018),"Ghent, Belgium",KE_2021_expandedGBR,NA,api
-A9G47 ,LZGW,A9G47 ,WF3-4 ,gilli,NA,NA,Bombus pensylvanicus ,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-GAPWK,CP007445.1,GAPWK,wkB1,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Kwong et al. (2014b),"USA, West Haven",KE_2021_expandedGBR,gilli_1,gillif
-LACWKB10,JRJB00000000,LACWKB10,wkB10,firm5,firm5_4,Lactobacillus kullabergensis,Apis mellifera,Kwong et al.(2014a),"USA, West Haven",KE_2021_expandedGBR,firm5_4,lacto
-A9G11 ,LZGM,A9G11 ,wkB108 ,gilli,NA,NA,Apis dorsata ,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-Ga0055041,JFON,Ga0055041,wkB11,gilli,NA,NA,Bombus bimaculatus,Kwong et al. (2014b),"USA, West Haven",KE_2021_expandedGBR,NA,gillif
-A9G12 ,LZGL,A9G12 ,wkB112 ,gilli,NA,NA,Apis dorsata ,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-SALWKB12,JFZW,SALWKB12,wkB12,snod,NA,Bombus bimaculatus,Kwong et al. (2014b),"USA, West Haven",KE_2021_expandedGBR,NA,snod
-A9G13 ,LZGK,A9G13 ,wkB178 ,gilli,NA,NA,Apis dorsata ,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-C4S76,PSZN,C4S76,wkB180,api,NA,Apibacter adventoris,Apis dorsata,Kwong et al. (2018),Singapore,KE_2021_expandedGBR,NA,api
-A9G08 ,LZGP,A9G08 ,wkB195 ,gilli,NA,NA,Apis cerana ,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-SALWKB2,CP007446.1,SALWKB2,wkB2,snod,snod_1,Apis mellifera ,Kwong et al. (2014b),"USA, West Haven",KE_2021_expandedGBR,snod_1,snod
-BHC53 ,MEIM,BHC53 ,wkB237 ,snod,snod_2,Apis andreiformis,Steele et al. (2017),"Singapore: Hort Park",KE_2021_expandedGBR,snod_2,snod
-BHC54 ,MEIL,BHC54 ,wkB273 ,snod,snod_2,Apis florea,Steele et al. (2017),"Singapore: Clementi Park",KE_2021_expandedGBR,snod_2,snod
-A9G09 ,LZGO,A9G09 ,wkB292 ,gilli,NA,NA,Apis cerana ,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-BHC43 ,MEIK,BHC43 ,wkB298 ,snod,snod_2,Apis cerana,Steele et al. (2017),"Singapore: Hort Park",KE_2021_expandedGBR,snod_2,snod
-A9G10 ,LZGN,A9G10 ,wkB308 ,gilli,NA,NA,Apis cerana ,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-C4S75,PSZL,C4S75,wkB309,api,api_1,Apibacter sp.,Apis cerana,Kwong et al. (2018),"Genting, Malaysia",KE_2021_expandedGBR,api_1,api
-BHC50 ,MEII,BHC50 ,wkB339 ,snod,snod_1,Apis mellifera ,Steele et al. (2017),"Malaysia: Genting",KE_2021_expandedGBR,snod_1,snod
-A9G17,CM004509.1,A9G17,wkB7,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Zheng et al. (2016),"USA, Austin",KE_2021_expandedGBR,gilli_1,gillif
-A9G07 ,LZEI,A9G07 ,wkB72 ,gilli,NA,NA,Apis cerana ,Zheng et al. (2016),"USA: Austin",KE_2021_expandedGBR,NA,gillif
-LACWKB8,CP009531,LACWKB8,wkB8,firm5,firm5_2,Lactobacillus helsingborgensis,Apis mellifera,Kwong et al.(2014a),"USA, West Haven",KE_2021_expandedGBR,firm5_2,lacto
-AcCh07_MAG_00000003,NA,NA,NA,NA,NA,s__Syntrophosphaera thermopropionivorans,Apis cerana,NA,NA,ShiniLabMAGs2022,2_1,syntro
-DrY2_W4_MAG_00000013,NA,NA,NA,NA,NA,s__Bifidobacterium indicum,Apis mellifera,NA,NA,ShiniLabMAGs2022,3_1,bifido
-AmIu08_MAG_00000016,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_G,Apis mellifera,NA,NA,ShiniLabMAGs2022,4_1,bifido
-AmIu09_MAG_00000005,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,5_1,bifido
-AcCh03_MAG_00000006,NA,NA,NA,NA,NA,NA,Apis cerana,NA,NA,ShiniLabMAGs2022,5_3,bifido
-GrY2_N3_MAG_00000001,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_E,Apis mellifera,NA,NA,ShiniLabMAGs2022,5_4,bifido
-AmIu02_MAG_00000011,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_B,Apis mellifera,NA,NA,ShiniLabMAGs2022,5_5,bifido
-AmAi04_MAG_00000001,NA,NA,NA,NA,NA,s__Bifidobacterium sp000499185,Apis mellifera,NA,NA,ShiniLabMAGs2022,5_6,bifido
-DrY1_N1_MAG_00000002,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_A,Apis mellifera,NA,NA,ShiniLabMAGs2022,5_7,bifido
-GrY2_N2_MAG_00000011,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_A,Apis mellifera,NA,NA,ShiniLabMAGs2022,5_8,bifido
-AmIu05_MAG_00000002,NA,NA,NA,NA,NA,s__Bifidobacterium sp000499285,Apis mellifera,NA,NA,ShiniLabMAGs2022,5_9,bifido
-DrY2_W4_MAG_00000019,NA,NA,NA,NA,NA,s__Sphingomonas yantingensis,Apis mellifera,NA,NA,ShiniLabMAGs2022,6_1,sphingo
-DrY2_W2_MAG_00000015,NA,NA,NA,NA,NA,s__Sphingomonas paucimobilis,Apis mellifera,NA,NA,ShiniLabMAGs2022,7_1,sphingo
-GrY2_W3_MAG_00000016,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,8_0,sphingo
-AmAi06_MAG_00000026,NA,NA,NA,NA,NA,s__Enterobacter hormaechei_A,Apis mellifera,NA,NA,ShiniLabMAGs2022,9_1,entero
-AmAi08_MAG_00000022,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,10_2,entero
-GrY2_W6_MAG_00000008,NA,NA,NA,NA,NA,s__Enterobacter ludwigii,Apis mellifera,NA,NA,ShiniLabMAGs2022,12_0,entero
-AmIu07_MAG_00000013,NA,NA,NA,NA,NA,s__Citrobacter portucalensis,Apis mellifera,NA,NA,ShiniLabMAGs2022,13_0,entero
-GrY2_F5_MAG_00000018,NA,NA,NA,NA,NA,s__Hafnia alvei,Apis mellifera,NA,NA,ShiniLabMAGs2022,14_1,entero
-GrY2_F1_MAG_00000010,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,15_0,entero
-AmAi06_MAG_00000012,NA,NA,NA,NA,NA,s__Gibbsiella quercinecans,Apis mellifera,NA,NA,ShiniLabMAGs2022,16_0,entero
-DrY2_W2_MAG_00000023,NA,NA,NA,NA,NA,s__Serratia marcescens_J,Apis mellifera,NA,NA,ShiniLabMAGs2022,17_0,entero
-GrY2_W6_MAG_00000013,NA,NA,NA,NA,NA,s__Pantoea agglomerans,Apis mellifera,NA,NA,ShiniLabMAGs2022,18_1,entero
-DrY1_F4_MAG_00000017,NA,NA,NA,NA,NA,s__Rahnella variigena,Apis mellifera,NA,NA,ShiniLabMAGs2022,19_0,entero
-DrY1_F5_MAG_00000008,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,20_0,entero
-AmIu01_MAG_00000017,NA,NA,NA,NA,NA,s__Lonsdalea britannica,Apis mellifera,NA,NA,ShiniLabMAGs2022,21_0,entero
-GrY2_W5_MAG_00000018,NA,NA,NA,NA,NA,s__Acidovorax sp001411535,Apis mellifera,NA,NA,ShiniLabMAGs2022,22_1,burkhold
-DrY2_W4_MAG_00000027,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,23_0,rhodocy
-DrY2_W2_MAG_00000019,NA,NA,NA,NA,NA,s__Achromobacter mucicolens,Apis mellifera,NA,NA,ShiniLabMAGs2022,24_0,burkhold
-DrY2_W5_MAG_00000015,NA,NA,NA,NA,NA,s__Pseudomonas aeruginosa,Apis mellifera,NA,NA,ShiniLabMAGs2022,25_0,pseudo
-DrY1_W6_MAG_00000014,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,26_1,bapis
-GrY2_W2_MAG_00000019,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,26_2,bapis
-AmIu03_MAG_00000008,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,27_1,bapis
-GrY2_W6_MAG_00000030,NA,NA,NA,NA,NA,s__Bartonella apis_A,Apis mellifera,NA,NA,ShiniLabMAGs2022,27_2,bapis
-DrY1_W3_MAG_00000017,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,28_1,bapis
-DrY2_W4_MAG_00000011,NA,NA,NA,NA,NA,s__Bartonella apis,Apis mellifera,NA,NA,ShiniLabMAGs2022,28_2,bapis
-DrY1_F6_MAG_00000003,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,29_0,bapis
-DrY1_W5_MAG_00000005,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,30_1,com
-DrY1_F2_MAG_00000006,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,NA,ShiniLabMAGs2022,31_1,com
-AmIu10_MAG_00000015,NA,NA,NA,NA,NA,s__Fructobacillus fructosus,Apis mellifera,NA,NA,ShiniLabMAGs2022,32_1,lacto
-AcCh03_MAG_00000002,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis cerana,NA,NA,ShiniLabMAGs2022,33_1,api
-GrY2_W1_MAG_00000007,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,35_1,pseudo
-AcKn06_MAG_00000004,NA,NA,NA,NA,NA,NA,Apis cerana,NA,NA,ShiniLabMAGs2022,36_1,snod
-DrY2_F1_MAG_00000019,NA,NA,NA,NA,NA,s__Snodgrassella alvi_G,Apis mellifera,NA,NA,ShiniLabMAGs2022,37_1,snod
-AcKn05_MAG_00000001,NA,NA,NA,NA,NA,s__Snodgrassella alvi_E,Apis cerana,NA,NA,ShiniLabMAGs2022,38_1,snod
-GrY2_N4_MAG_00000007,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,NA,ShiniLabMAGs2022,40_1,snod
-DrY2_W2_MAG_00000005,NA,NA,NA,NA,NA,s__Acinetobacter johnsonii,Apis mellifera,NA,NA,ShiniLabMAGs2022,41_1,moraxella
-AcKn02_MAG_00000007,NA,NA,NA,NA,NA,NA,Apis cerana,NA,NA,ShiniLabMAGs2022,42_1,gillif
-AcKn07_MAG_00000004,NA,NA,NA,NA,NA,s__Gilliamella apicola_E,Apis cerana,NA,NA,ShiniLabMAGs2022,43_1,gillif
-AcCh07_MAG_00000008,NA,NA,NA,NA,NA,NA,Apis cerana,NA,NA,ShiniLabMAGs2022,44_1,gillif
-DrY1_N2_MAG_00000003,NA,NA,NA,NA,NA,s__Gilliamella apis,Apis cerana,NA,NA,ShiniLabMAGs2022,47_1,gillif
-GrY2_N6_MAG_00000013,NA,NA,NA,NA,NA,s__Gilliamella apis_A,Apis mellifera,NA,NA,ShiniLabMAGs2022,47_2,gillif
-DrY1_F5_MAG_00000002,NA,NA,NA,NA,NA,s__Gilliamella apicola,Apis mellifera,NA,NA,ShiniLabMAGs2022,48_1,gillif
-GrY2_N3_MAG_00000005,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,NA,ShiniLabMAGs2022,48_2,gillif
-AcCh04_MAG_00000002,NA,NA,NA,NA,NA,NA,Apis cerana,NA,NA,ShiniLabMAGs2022,49_1,lacto
-AmIu01_MAG_00000003,NA,NA,NA,NA,NA,s__Melissococcus plutonius,Apis mellifera,NA,NA,ShiniLabMAGs2022,50_1,enteroc
-AmIu08_MAG_00000018,NA,NA,NA,NA,NA,s__Frischella perrara,Apis mellifera,NA,NA,ShiniLabMAGs2022,52_1,gillif
-AcKn09_MAG_00000003,NA,NA,NA,NA,NA,s__Lactobacillus panisapium,Apis cerana,NA,NA,ShiniLabMAGs2022,53_1,lacto
-AcKn10_MAG_00000004,NA,NA,NA,NA,NA,s__Lactobacillus panisapium,Apis cerana,NA,NA,ShiniLabMAGs2022,53_2,lacto
-DrY1_W2_MAG_00000010,NA,NA,NA,NA,NA,s__Lactobacillus apis,Apis mellifera,NA,NA,ShiniLabMAGs2022,54_1,lacto
-AmIu04_MAG_00000010,NA,NA,NA,NA,NA,s__Lactobacillus helsingborgensis,Apis mellifera,NA,NA,ShiniLabMAGs2022,55_1,lacto
-AcKn03_MAG_00000015,NA,NA,NA,NA,NA,NA,Apis cerana,NA,NA,ShiniLabMAGs2022,56_1,lacto
-AcKn02_MAG_00000001,NA,NA,NA,NA,NA,NA,Apis cerana,NA,NA,ShiniLabMAGs2022,56_2,lacto
-DrY1_N3_MAG_00000006,NA,NA,NA,NA,NA,s__Lactobacillus melliventris,Apis mellifera,NA,NA,ShiniLabMAGs2022,56_3,lacto
-AmIu01_MAG_00000018,NA,NA,NA,NA,NA,s__Lactobacillus sp000760615,Apis mellifera,NA,NA,ShiniLabMAGs2022,57_1,lacto
-GrY2_N5_MAG_00000003,NA,NA,NA,NA,NA,s__Lactobacillus kullabergensis,Apis mellifera,NA,NA,ShiniLabMAGs2022,57_2,lacto
-AmIu09_MAG_00000017,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,57_3,lacto
-GrY2_F2_MAG_00000002,NA,NA,NA,NA,NA,s__Lactobacillus kimbladii_A,Apis mellifera,NA,NA,ShiniLabMAGs2022,57_5,lacto
-DrY1_F5_MAG_00000012,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,NA,ShiniLabMAGs2022,59_1,lacto
-DrY2_N2_MAG_00000004,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,NA,ShiniLabMAGs2022,60_1,lacto
-DrY1_W1_MAG_00000018,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,NA,ShiniLabMAGs2022,61_1,lacto
-AcKn05_MAG_00000016,NA,NA,NA,NA,NA,NA,Apis cerana,NA,NA,ShiniLabMAGs2022,61_2,lacto
-DrY2_W2_MAG_00000025,NA,NA,NA,NA,NA,s__Moraxella_A sp002478835,Apis mellifera,NA,NA,ShiniLabMAGs2022,62_0,moraxella
-DrY2_N4_MAG_00000015,NA,NA,NA,NA,NA,s__Cutibacterium acnes,Apis mellifera,NA,NA,ShiniLabMAGs2022,63_0,cutibac
+ID,Accession,Locus_tag,Strain_name,Phylotype,SDP,Species,Host,Study,Origin,Source_database,Cluster,Group,Genus
+BGI00,NZ_NAHB01000058,BGI00,A-1-12,snod,snod_1,NA,Apis mellifera ,Ludvigsen et al. (2017),USA: Arizona,KE_2021_expandedGBR,snod_1,snod,NA
+B6D08,NZ_NARP00000000,B6D08,A-7-12,gilli,gilli_1,Gilliamella apicola,Apis mellifera ,Ludvigsen et al. (2017),USA: Arizona,KE_2021_expandedGBR,gilli_1,entero,NA
+BGH96,NZ_NAGX01000214,BGH96,A12,snod,snod_1,NA,Apis mellifera ,Ludvigsen et al. (2017),USA: Arizona,KE_2021_expandedGBR,snod_1,snod,NA
+BGI01,NZ_NAHC01000084,BGI01,A2,snod,snod_1,NA,Apis mellifera ,Ludvigsen et al. (2017),USA: Arizona,KE_2021_expandedGBR,snod_1,snod,NA
+B6D18,NASN,B6D18,A7,gilli,gilli_2,Gilliamella apis,Apis mellifera,Ludvigsen et al. (2017),USA: Arizona,KE_2021_expandedGBR,gilli_2,entero,NA
+CIN,AGFR,CIN,A911,com,com_i,NA,Drosophila melagenogaster,"Public, not published?",?,KE_2021_expandedGBR,com_i,com,NA
+B6D21,NZ_NASL00000000,B6D21,AM1,gilli,gilli_2,Gilliamella apis,Apis mellifera ,Ludvigsen et al. (2017),USA: Arizona,KE_2021_expandedGBR,gilli_2,entero,NA
+B6D22,NARY,B6D22,AM4,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Ludvigsen et al. (2017), USA: Arizona,KE_2021_expandedGBR,gilli_1,entero,NA
+A9G23,LZGS,A9G23,App4-10,gilli,NA,NA,Bombus appositus,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+A9G24,LZGT,A9G24,App6-5,gilli,NA,NA,Bombus appositus,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+BGH94,NZ_MVDP01000065,BGH94,Aw-20,snod,snod_1,NA,Apis mellifera ,Ludvigsen et al. (2017),USA: Arizona,KE_2021_expandedGBR,snod_1,snod,NA
+Ga0199088,CP015625.1,Ga0199088,BBC0122,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"Switzerland, Engel apiary",KE_2021_expandedGBR,NA,bapis,NA
+Ga0199074,CP015820.1,Ga0199074,BBC0178,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"Switzerland, Engel apiary",KE_2021_expandedGBR,NA,bapis,NA
+Ga0198795,CP015821.1,Ga0198795,BBC0244,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"Switzerland, Engel apiary",KE_2021_expandedGBR,NA,bapis,NA
+Ga0072395,JWME00000000.1,Ga0072395,Bin2,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,bifido_1,bifido,NA
+Ga0072399,JXJQ00000000.1,Ga0072399,Bin4,firm4,firm4_2,Lactobacillus mellifer,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm4_2,lacto,NA
+Ga0072396,JWMF00000000.1,Ga0072396,Bin7,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,bifido_1,bifido,NA
+Ga0072398,JXBX00000000.1,Ga0072398,Bma6,bifido,bifido_2,Bifidobacterium indicum/coryneforme,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,bifido_2,bifido,NA
+A9G35,LZHH,A9G35,Choc5-1,gilli,NA,NA,Bombus impatiens,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+Ga0056940,ATLK01000001,Ga0056940,DSM 19703,bifido,NA,Bifidobacterium bombi,Bumblebee?,Milani et al. (2014),Unknown,KE_2021_expandedGBR,NA,bifido,NA
+Ga0098206,NZ_CP011786,Ga0098206,DSM 22766,bifido,NA,Bifidobacterium actinocoloniiforme,Bumblebee digestive tract,Chen et al. (2015),Unknown,KE_2021_expandedGBR,NA,bifido,NA
+Ga0057557,JGYP01000001,Ga0057557,DSM 22767,bifido,NA,Bifidobacterium bohemicum,Bumblebee digestive tract,Milani et al. (2014),Unknown,KE_2021_expandedGBR,NA,bifido,NA
+CPT77,NZ_NXEN01000131,CPT77,E1,snod,snod_1,NA,Apis mellifera ,Ludvigsen et al. (2017),"USA: Arizona State University, Tempe Campus",KE_2021_expandedGBR,snod_1,snod,NA
+Ga0372762,CP046394,Ga0372762,ESL_0368,bom,bom_2,NA,Apis mellifera,Bonilla-Rosso et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,bom_2,bom,NA
+Ga0216357,WNIJ00000000,Ga0216357,ESL_0385,bom,bom_3,NA,Apis mellifera,Bonilla-Rosso et al. (20190,"Switzerland, Engel apiary",KE_2021_expandedGBR,bom_3,bom,NA
+Ga0077910,CP009056.1,Ga0077910,ESL0034,fper,fper_1,Frischella perrara,Apis mellifera,Engel et al. (2015),"USA, West Haven",KE_2021_expandedGBR,fper_1,entero,NA
+Ga0133554,QGLM00000000,Ga0133554,ESL0167,fper,fper_1,Frischella perrara,Apis mellifera,Ellegaard_Engel(2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,fper_1,entero,NA
+Ga0133555,QGLN,Ga0133555,ESL0169,gilli,gilli_2,Gilliamella apis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_2,entero,NA
+Ga0133549,QGLH00000000,Ga0133549,ESL0170,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_1,bifido,NA
+Ga0133556,QGLO,Ga0133556,ESL0172,gilli,gilli_2,Gilliamella apis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_2,entero,NA
+Ga0133557,QGLP,Ga0133557,ESL0177,gilli,gilli_3,NA,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_3,entero,NA
+Ga0133559,QGLQ,Ga0133559,ESL0178,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_1,entero,NA
+Ga0133558,QGLR,Ga0133558,ESL0182,gilli,gilli_3,NA,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,gilli_3,entero,NA
+Ga0133561,CP029544/CP029545,Ga0133561,ESL0183,firm5,firm5_2,Lactobacillus helsingborgensis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_2,lacto,NA
+Ga0133562,QGLG00000000,Ga0133562,ESL0184,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_3,lacto,NA
+Ga0133563,CP029476,Ga0133563,ESL0185,firm5,firm5_1,Lactobacillus apis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_1,lacto,NA
+Ga0133564,CP029477,Ga0133564,ESL0186,firm5,firm5_4,Lactobacillus kulllabergensis,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_4,lacto,NA
+Ga0326500,QGLS,Ga0326500,ESL0196,snod,snod_1,NA,Apis mellifera ,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,snod_1,snod,NA
+Ga0133550,QGLI00000000,Ga0133550,ESL0197,bifido,bifido_2,Bifidobacterium indicum/coryneforme,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_2,bifido,NA
+Ga0133551,QGLJ00000000,Ga0133551,ESL0198,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_1,bifido,NA
+Ga0133552,QGLK00000000,Ga0133552,ESL0199,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_1,bifido,NA
+Ga0133553,QGLL00000000,Ga0133553,ESL0200,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,bifido_1,bifido,NA
+Ga0226852,REHJ00000000,Ga0226852,ESL0228,firm5,NA,Lactobacillus bohemicus,Bombus bohemicus,Ellegaard et al. (2019),Switzerland,KE_2021_expandedGBR,NA,lacto,NA
+Ga0226847,REHI00000000,Ga0226847,ESL0230,firm5,NA,Lactobacillus bombicola,Bombus pascuorum,Ellegaard et al. (2019),Switzerland,KE_2021_expandedGBR,NA,lacto,NA
+Ga0227298,2758568604,Ga0227298,ESL0232,gilli,NA,NA,Bombus terrestris,Ellegaard et al. (2020),NA,KE_2021_expandedGBR,NA,entero,NA
+Ga0227301,2758568603,Ga0227301,ESL0250,gilli,NA,NA,Bombus pascuorum,Ellegaard et al. (2020),NA,KE_2021_expandedGBR,NA,entero,NA
+Ga0227310,2758568596,Ga0227310,ESL0253,snod,NA,Bombus pascuorum,NA,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,NA,snod,NA
+Ga0227302,2758568602,Ga0227302,ESL0254,gilli,NA,NA,Bombus pascuorum,Ellegaard et al. (2020),NA,KE_2021_expandedGBR,NA,entero,NA
+Ga0225908,REHP00000000,Ga0225908,ESL0259,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_3,lacto,NA
+Ga0226840,REHO00000000,Ga0226840,ESL0260,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_3,lacto,NA
+Ga0226839,REHN00000000,Ga0226839,ESL0261,firm5,firm5_4,Lactobacillus kullabergensis,Apis mellifera,Ellegaard et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_4,lacto,NA
+Ga0226842,REHL00000000,Ga0226842,ESL0263,firm5,firm5_1,Lactobacillus apis,Apis mellifera,Ellegaard et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_1,lacto,NA
+Ga0216351,QGLT,Ga0216351,ESL0284,com,com_1,NA,Apis mellifera,Ellegaard_Engel (2018),"Switzerland, Engel apiary",KE_2021_expandedGBR,com_1,com,NA
+Ga0227357,2758568560,Ga0227357,ESL0294,firm4,firm4_1,Lactobacillus mellis,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm4_1,lacto,NA
+Ga0227358,2758568559,Ga0227358,ESL0295,firm4,firm4_1,Lactobacillus mellis,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm4_1,lacto,NA
+Ga0227304,2758568600,Ga0227304,ESL0304,snod,snod_1,NA,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,snod_1,snod,NA
+Ga0227305,2758568599,Ga0227305,ESL0323,snod,snod_1,NA,Apis mellifera ,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,snod_1,snod,NA
+Ga0227306,2758568598,Ga0227306,ESL0324,snod,snod_1,NA,Apis mellifera ,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,snod_1,snod,NA
+Ga0072404,JXLI00000000.1,Ga0072404,ESL0350,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm5_3,lacto,NA
+Ga0070887,JXBY00000000.1,Ga0070887,ESL0351,firm5,firm5_4,Lactobacillus kullabergensis,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm5_4,lacto,NA
+Ga0072403,JXLH00000000.1,Ga0072403,ESL0352,firm5,firm5_4,Lactobacillus kimbladii,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm5_4,lacto,NA
+Ga0072402,JXLG00000000.1,Ga0072402,ESL0353,firm5,firm5_1,Lactobacillus apis,Apis mellifera,Ellegaard et al.(2015),"Sweden,Jamtland",KE_2021_expandedGBR,firm5_1,lacto,NA
+Ga0072400,JXJR00000000.1,Ga0072400,ESL0354,firm5,firm5_2,Lactobacillus helsingborgensis,Apis mellifera,Ellegaard et al.(2015),"Sweden, Jamtland",KE_2021_expandedGBR,firm5_2,lacto,NA
+Ga0216349,WNID00000000,Ga0216349,ESL0366,com,com_2,NA,Apis mellifera,Bonilla-Rosso et al. (2019),"Switzerland, Engel apiary",KE_2021_expandedGBR,com_2,com,NA
+Ga0227359,2758568558,Ga0227359,ESL0393,firm5,firm5_3,Lactobacillus melliventris,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm5_3,lacto,NA
+Ga0227360,2758568557,Ga0227360,ESL0394,firm4,firm4_1,Lactobacillus mellis,Apis mellifera,Ellegaard et al. (2020),"Switzerland, Engel apiary",KE_2021_expandedGBR,firm4_1,lacto,NA
+Ga0307799,2785510743,Ga0307799,ESL0404,api,api_1,Apibacter sp.,Apis cerana,Ellegaard et al. (2020),"Yokohama, Japan",KE_2021_expandedGBR,api_1,api,NA
+Ga0307800,2785510744,Ga0307800,ESL0405,gilli,NA,NA,Apis cerana,Ellegaard et al. (2020),"Yokohama, Japan",KE_2021_expandedGBR,NA,entero,NA
+Ga0307804,2785510748,Ga0307804,ESL0409,firm5,firm5_7,Lactobacillus panisapium,Apis cerana,Ellegaard et al. (2020),"Japan, Yokohama",KE_2021_expandedGBR,firm5_7,lacto,NA
+Ga0311394,2799112220,Ga0311394,ESL0411,firm5,Firm5-7,Lactobacillus panisapium,Apis cerana,Ellegaard et al. (2020),"Japan, Yokohama",KE_2021_expandedGBR,Firm5-7,lacto,NA
+Ga0312303,2799112229,Ga0312303,ESL0413,firm5,Firm5-7,Lactobacillus panisapium,Apis cerana,Ellegaard et al. (2020),"Japan, Yokohama",KE_2021_expandedGBR,Firm5-7,lacto,NA
+Ga0312304,2799112230,Ga0312304,ESL0416,firm5,Firm5-7,Lactobacillus panisapium,Apis cerana,Ellegaard et al. (2020),"Japan, Yokohama",KE_2021_expandedGBR,Firm5-7,lacto,NA
+Ga0312307,2799112231,Ga0312307,ESL0432,api,api_1,Apibacter sp.,Apis cerana,Ellegaard et al. (2020),"Tsukuba, Japan",KE_2021_expandedGBR,api_1,api,NA
+Ga0307802,2785510746,Ga0307802,ESL0441,gilli,NA,NA,Apis cerana,Ellegaard et al. (2020),"Tsukuba, Japan",KE_2021_expandedGBR,NA,entero,NA
+Ga0307803,2785510747,Ga0307803,ESL0443,gilli,NA,NA,Apis cerana ,Ellegaard et al. (2020),"Tsukuba, Japan",KE_2021_expandedGBR,NA,entero,NA
+Ga0312305,2808606957,Ga0312305,ESL0447,bifido,bifido_1,Bifidobacterium asteroides,Apis cerana,Ellegaard et al. (2020),"Japan, Tsukuba",KE_2021_expandedGBR,bifido_1,bifido,NA
+Ga0326456,2808606958,Ga0326456,ESL0449,firm4,firm4_1,Lactobacillus mellis,Apis cerana,Ellegaard et al. (2020),"Japan, Tsukuba",KE_2021_expandedGBR,firm4_1,lacto,NA
+Ga0308523,JXCT,Ga0308523,Fhon13,lkun,lkun,NA,Apis mellifera,Tamarit et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,lkun,lacto,NA
+Ga0098617,JXCU,Ga0098617,Fhon2,lkun,lkun,NA,Apis mellifera,Tamarit et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,lkun,lacto,NA
+Ga0418777,2849328148,Ga0418777,Fper_2,fper,fper_2,Fper_2,Frischella spp.,Apis cerana,Unpublished,KE_2021_expandedGBR,fper_2,entero,NA
+A9G31,LZHA,A9G31,Gris1-4,gilli,NA,NA,Bombus griseocollis,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+BHC57,MEIU,BHC57,HK3,snod,NA,Bombus pensylvanicus,NA,Steele et al. (2017),USA,KE_2021_expandedGBR,NA,snod,NA
+Ga0072401,JXJS00000000.1,Ga0072401,Hma3,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland",KE_2021_expandedGBR,bifido_1,bifido,NA
+Ga0070888,JXBZ00000000.1,Ga0070888,Hon2,firm4,firm4_1,Lactobacillus mellis,Apis mellifera,Ellegaard et al. (2015),"Sweden, Jamtland ",KE_2021_expandedGBR,firm4_1,lacto,NA
+BINDI,CP006018.1,BINDI,LMG 11587,bifido,bifido_2,Bifidobacterium indicum,?,Milani et al. (2014),insect,KE_2021_expandedGBR,bifido_2,bifido,NA
+BCOR,CP007287,BCOR,LMG 18911,bifido,bifido_2,Bifidobacterium coryneforme ,Apis mellifera,Milani et al. (2014),honeybee hindgut,KE_2021_expandedGBR,bifido_2,bifido,NA
+Ga0061073,FMAN00000000.1,Ga0061073,LMG 26964,firm5,firm5_1,Lactobacillus apis,Apis mellifera,DOE Joint genome institute,Czech republic (type strain),KE_2021_expandedGBR,firm5_1,lacto,NA
+A9G19,LZGQ,A9G19,M1-2G,gilli,gilli_2,Gilliamella apis,Apis mellifera,Zheng et al. (2016),"USA, Austin",KE_2021_expandedGBR,gilli_2,entero,NA
+BHC52,MEIX,BHC52,MS1-3,snod,snod_1,NA,Apis mellifera ,Steele et al. (2017),"USA: Austin, TX",KE_2021_expandedGBR,snod_1,snod,NA
+Ga0248239,ATSX,Ga0248239,MX01,com,com_p,NA,Monarch butterfly,Servin-Garciduenas et al. (2014),Mexico,KE_2021_expandedGBR,com_p,com,NA
+B6D19,NZ_NASB00000000,B6D19,N-22,gilli,gilli_1,Gilliamella apicola,Apis mellifera ,Ludvigsen et al. (2017),Norway: Aas,KE_2021_expandedGBR,gilli_1,entero,NA
+B6D17,NZ_NASS00000000,B6D17,N-G1,gilli,gilli_2,Gilliamella apis,Apis mellifera ,Ludvigsen et al. (2017),Norway: Aas,KE_2021_expandedGBR,gilli_2,entero,NA
+B6C99,NAST,B6C99,N-G2,gilli,gilli_2,Gilliamella apis,Apis mellifera,Ludvigsen et al. (2017),"Norway, Aas",KE_2021_expandedGBR,gilli_2,entero,NA
+B6D14,NZ_NASV00000000,B6D14,N-G4,gilli,gilli_2,Gilliamella apis,Apis mellifera ,Ludvigsen et al. (2017),Norway: Aas,KE_2021_expandedGBR,gilli_2,entero,NA
+B6D03,NZ_NASA00000000,B6D03,N-G5,gilli,gilli_1,Gilliamella apicola,Apis mellifera ,Ludvigsen et al. (2017),Norway: Aas,KE_2021_expandedGBR,gilli_1,entero,NA
+BGI12,NZ_NAHN01000079,BGI12,N-S3,snod,snod_1,NA,Apis mellifera ,Ludvigsen et al. (2017),Norway: Aas,KE_2021_expandedGBR,snod_1,snod,NA
+BGI13,NZ_NAHO01000038,BGI13,N-S4,snod,snod_1,NA,Apis mellifera ,Ludvigsen et al. (2017),Norway: Aas,KE_2021_expandedGBR,snod_1,snod,NA
+BGI08,NZ_NAHJ01000062,BGI08,N-W7,snod,snod_1,NA,Apis mellifera ,Ludvigsen et al. (2017),Norway: Aas,KE_2021_expandedGBR,snod_1,snod,NA
+BGI09,NZ_NAHK01000129,BGI09,N9,snod,snod_1,NA,Apis mellifera ,Ludvigsen et al. (2017),Norway: Aas,KE_2021_expandedGBR,snod_1,snod,NA
+BHC44,MEIR,BHC44,Nev4-2,snod,NA,Bombus nevadensis,NA,Steele et al. (2017),USA,KE_2021_expandedGBR,NA,snod,NA
+B6C96,NZ_NASJ00000000,B6C96,NO15,gilli,gilli_2,Gilliamella apis,Apis mellifera ,Ludvigsen et al. (2017),Norway: Aas,KE_2021_expandedGBR,gilli_2,entero,NA
+A9G43,LZHQ,A9G43,Occ3-1,gilli,NA,NA,Bombus occidentalis,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+BHC48,MEIQ,BHC48,Occ4-2,snod,NA,Bombus occidentalis,NA,Steele et al. (2017),USA,KE_2021_expandedGBR,NA,snod,NA
+A9G14,LZGJ,A9G14,P54G,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Zheng et al. (2016),"USA, Austin",KE_2021_expandedGBR,gilli_1,entero,NA
+A9G15,LZGI,A9G15,P62G,gilli,gilli_2,Gilliamella apis,Apis mellifera,Zheng et al. (2016),"USA, Austin",KE_2021_expandedGBR,gilli_2,entero,NA
+A9G16,LZGH,A9G16,P83G,gilli,gilli_2,Gilliamella apis,Apis mellifera,Zheng et al. (2016),"USA, Austin",KE_2021_expandedGBR,gilli_2,entero,NA
+PEB0122,LXYU,PEB0122,PEB0122,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"USA, West Haven",KE_2021_expandedGBR,NA,bapis,NA
+PEB0149,LXYT,PEB0149,PEB0149,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"USA, West Haven",KE_2021_expandedGBR,NA,bapis,NA
+PEB0150,LXYS,PEB0150,PEB0150,bapis,NA,Bartonella apis,Apis mellifera,Segers et al. (2017),"USA, West Haven",KE_2021_expandedGBR,NA,bapis,NA
+BHC47,MEIV,BHC47,PEB0171,snod,snod_1,NA,Apis mellifera ,Steele et al. (2017),"USA: New Haven, CT",KE_2021_expandedGBR,snod_1,snod,NA
+BAST,CP003325.1,BAST,PRL2011,bifido,bifido_1,Bifidobacterium asteroides,Apis mellifera,Bottacini et al. (2012),honeybee hindgut,KE_2021_expandedGBR,bifido_1,bifido,NA
+Ga0308518,JATM,Ga0308518,R-52487,bom,bom_i,Bombus lapidarius,NA,Li et al. (2016),Crop of Bombus lapidarius,KE_2021_expandedGBR,bom_i,bom,NA
+Ga0061072,FOMN00000000,Ga0061072,R-53102,firm5,NA,Lactobacillus bombicola,Bombus lapidarius,DOE Joint genome institute,"Belgium, Ghent",KE_2021_expandedGBR,NA,lacto,NA
+Ga0061080,2617270738,Ga0061080,R-53144,gilli,NA,Gilliamella intestini,soil?,JGI/Praet et al. (2017),NA,KE_2021_expandedGBR,NA,entero,NA
+Ga0061079,LIVM,Ga0061079,R-53146,api,NA,Apibacter mensalis,Bombus lapidarius,Kwong et al. (2018),"Ghent, Belgium",KE_2021_expandedGBR,NA,api,NA
+A9G47,LZGW,A9G47,WF3-4,gilli,NA,NA,Bombus pensylvanicus ,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+GAPWK,CP007445.1,GAPWK,wkB1,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Kwong et al. (2014b),"USA, West Haven",KE_2021_expandedGBR,gilli_1,entero,NA
+LACWKB10,JRJB00000000,LACWKB10,wkB10,firm5,firm5_4,Lactobacillus kullabergensis,Apis mellifera,Kwong et al.(2014a),"USA, West Haven",KE_2021_expandedGBR,firm5_4,lacto,NA
+A9G11,LZGM,A9G11,wkB108,gilli,NA,NA,Apis dorsata ,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+Ga0055041,JFON,Ga0055041,wkB11,gilli,NA,NA,Bombus bimaculatus,Kwong et al. (2014b),"USA, West Haven",KE_2021_expandedGBR,NA,entero,NA
+A9G12,LZGL,A9G12,wkB112,gilli,NA,NA,Apis dorsata ,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+SALWKB12,JFZW,SALWKB12,wkB12,snod,NA,Bombus bimaculatus,NA,Kwong et al. (2014b),"USA, West Haven",KE_2021_expandedGBR,NA,snod,NA
+A9G13,LZGK,A9G13,wkB178,gilli,NA,NA,Apis dorsata ,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+C4S76,PSZN,C4S76,wkB180,api,NA,Apibacter adventoris,Apis dorsata,Kwong et al. (2018),Singapore,KE_2021_expandedGBR,NA,api,NA
+A9G08,LZGP,A9G08,wkB195,gilli,NA,NA,Apis cerana ,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+SALWKB2,CP007446.1,SALWKB2,wkB2,snod,snod_1,NA,Apis mellifera ,Kwong et al. (2014b),"USA, West Haven",KE_2021_expandedGBR,snod_1,snod,NA
+BHC53,MEIM,BHC53,wkB237,snod,snod_2,NA,Apis andreiformis,Steele et al. (2017),Singapore: Hort Park,KE_2021_expandedGBR,snod_2,snod,NA
+BHC54,MEIL,BHC54,wkB273,snod,snod_2,NA,Apis florea,Steele et al. (2017),Singapore: Clementi Park,KE_2021_expandedGBR,snod_2,snod,NA
+A9G09,LZGO,A9G09,wkB292,gilli,NA,NA,Apis cerana ,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+BHC43,MEIK,BHC43,wkB298,snod,snod_2,NA,Apis cerana,Steele et al. (2017),Singapore: Hort Park,KE_2021_expandedGBR,snod_2,snod,NA
+A9G10,LZGN,A9G10,wkB308,gilli,NA,NA,Apis cerana ,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+C4S75,PSZL,C4S75,wkB309,api,api_1,Apibacter sp.,Apis cerana,Kwong et al. (2018),"Genting, Malaysia",KE_2021_expandedGBR,api_1,api,NA
+BHC50,MEII,BHC50,wkB339,snod,snod_1,NA,Apis mellifera ,Steele et al. (2017),Malaysia: Genting,KE_2021_expandedGBR,snod_1,snod,NA
+A9G17,CM004509.1,A9G17,wkB7,gilli,gilli_1,Gilliamella apicola,Apis mellifera,Zheng et al. (2016),"USA, Austin",KE_2021_expandedGBR,gilli_1,entero,NA
+A9G07,LZEI,A9G07,wkB72,gilli,NA,NA,Apis cerana ,Zheng et al. (2016),USA: Austin,KE_2021_expandedGBR,NA,entero,NA
+LACWKB8,CP009531,LACWKB8,wkB8,firm5,firm5_2,Lactobacillus helsingborgensis,Apis mellifera,Kwong et al.(2014a),"USA, West Haven",KE_2021_expandedGBR,firm5_2,lacto,NA
+DrY1_F2_MAG_00000018,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,3_1,com,g__Bifidobacterium
+DrY1_F4_MAG_00000010,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,3_1,com,g__Bifidobacterium
+DrY1_F5_MAG_00000018,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,3_1,com,g__Bifidobacterium
+DrY1_W1_MAG_00000015,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,3_1,com,g__Bifidobacterium
+DrY1_W2_MAG_00000016,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,3_1,com,g__Bifidobacterium
+DrY1_W4_MAG_00000013,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,3_1,com,g__Bifidobacterium
+DrY1_W5_MAG_00000005,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,3_1,com,g__Bifidobacterium
+DrY1_W6_MAG_00000019,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,4_1,com,g__Bifidobacterium
+GrY2_F6_MAG_00000007,NA,NA,NA,NA,NA,NA,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+AmAi03_MAG_00000012,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+AmAi04_MAG_00000017,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+AmIu01_MAG_00000002,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+AmIu04_MAG_00000014,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+AmIu07_MAG_00000009,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+AmIu08_MAG_00000011,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+AmIu09_MAG_00000019,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+DrY1_F2_MAG_00000006,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+DrY1_F3_MAG_00000013,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+DrY1_F4_MAG_00000002,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis cerana,NA,Japan,Shinilab_MAGs_2022,5_3,com,g__Bifidobacterium
+DrY1_F6_MAG_00000007,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,5_5,com,g__Bifidobacterium
+DrY1_W1_MAG_00000020,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,5_7,com,g__Bifidobacterium
+DrY1_W2_MAG_00000011,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,5_7,com,g__Bifidobacterium
+DrY1_W3_MAG_00000002,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,5_8,com,g__Bifidobacterium
+DrY1_W4_MAG_00000009,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,6_1,com,g__Sphingomonas
+DrY2_W1_MAG_00000001,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,6_1,com,g__Sphingomonas
+DrY2_W2_MAG_00000002,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,7_1,com,g__Sphingomonas
+DrY2_W4_MAG_00000007,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,7_1,com,g__Sphingomonas
+DrY2_W5_MAG_00000014,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,7_1,com,g__Sphingomonas
+DrY2_W6_MAG_00000016,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,8_0,com,g__Sphingomonas
+GrY2_F2_MAG_00000023,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,14_1,com,g__Hafnia
+GrY2_F3_MAG_00000018,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,14_1,com,g__Hafnia
+GrY2_F4_MAG_00000013,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,21_0,com,g__Lonsdalea
+GrY2_F5_MAG_00000016,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,22_1,com,g__Acidovorax
+GrY2_F6_MAG_00000010,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,22_1,com,g__Acidovorax
+GrY2_N3_MAG_00000009,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,24_0,com,g__Achromobacter
+GrY2_N6_MAG_00000012,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,25_0,com,g__Pseudomonas
+GrY2_W2_MAG_00000004,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,26_1,com,g__Bartonella
+GrY2_W3_MAG_00000012,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,26_1,com,g__Bartonella
+GrY2_W5_MAG_00000014,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,26_1,com,g__Bartonella
+GrY2_W6_MAG_00000006,NA,NA,NA,NA,NA,s__Commensalibacter sp003202795,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,26_1,com,g__Bartonella
+AmIu08_MAG_00000017,NA,NA,NA,NA,NA,s__Bifidobacterium indicum,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,26_1,bifido,g__Bartonella
+DrY1_F2_MAG_00000001,NA,NA,NA,NA,NA,s__Bifidobacterium indicum,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,26_1,bifido,g__Bartonella
+DrY1_W4_MAG_00000002,NA,NA,NA,NA,NA,s__Bifidobacterium indicum,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,26_1,bifido,g__Bartonella
+DrY1_W6_MAG_00000002,NA,NA,NA,NA,NA,s__Bifidobacterium indicum,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,26_2,bifido,g__Bartonella
+DrY2_N3_MAG_00000010,NA,NA,NA,NA,NA,s__Bifidobacterium indicum,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,26_2,bifido,g__Bartonella
+DrY2_W4_MAG_00000013,NA,NA,NA,NA,NA,s__Bifidobacterium indicum,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,26_2,bifido,g__Bartonella
+GrY2_F1_MAG_00000012,NA,NA,NA,NA,NA,s__Bifidobacterium indicum,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,27_1,bifido,g__Bartonella
+AmIu08_MAG_00000016,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_G,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,27_1,bifido,g__Bartonella
+AcCh02_MAG_00000004,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,27_1,bifido,g__Bartonella
+AcCh03_MAG_00000006,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,27_2,bifido,g__Bartonella
+AcCh04_MAG_00000011,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,27_2,bifido,g__Bartonella
+AcCh07_MAG_00000009,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,28_1,bifido,g__Bartonella
+AcCh08_MAG_00000005,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,28_2,bifido,g__Bartonella
+AcCh09_MAG_00000005,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,28_2,bifido,g__Bartonella
+AcCh10_MAG_00000009,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,28_2,bifido,g__Bartonella
+AcKn03_MAG_00000003,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,28_2,bifido,g__Bartonella
+AcKn05_MAG_00000007,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,28_2,bifido,g__Bartonella
+AcKn07_MAG_00000008,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,30_1,bifido,g__Commensalibacter
+AcKn10_MAG_00000002,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,30_1,bifido,g__Commensalibacter
+AmIu02_MAG_00000011,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_B,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,30_1,bifido,g__Commensalibacter
+DrY1_N1_MAG_00000002,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_A,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,30_1,bifido,g__Commensalibacter
+DrY2_N1_MAG_00000009,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_A,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,30_1,bifido,g__Commensalibacter
+GrY2_N2_MAG_00000011,NA,NA,NA,NA,NA,s__Bifidobacterium asteroides_A,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,30_1,bifido,g__Commensalibacter
+DrY2_W4_MAG_00000004,NA,NA,NA,NA,NA,s__Acidovorax sp001411535,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,30_1,snod,g__Commensalibacter
+GrY2_W5_MAG_00000018,NA,NA,NA,NA,NA,s__Acidovorax sp001411535,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,30_1,snod,g__Commensalibacter
+DrY2_W2_MAG_00000019,NA,NA,NA,NA,NA,s__Achromobacter mucicolens,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,30_1,snod,g__Commensalibacter
+AcKn06_MAG_00000004,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AcKn05_MAG_00000001,NA,NA,NA,NA,NA,s__Snodgrassella alvi_E,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmAi01_MAG_00000020,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmAi02_MAG_00000018,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmAi04_MAG_00000002,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmAi05_MAG_00000010,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmAi06_MAG_00000008,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmAi10_MAG_00000009,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmIu01_MAG_00000015,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmIu02_MAG_00000007,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmIu03_MAG_00000002,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmIu04_MAG_00000008,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmIu06_MAG_00000007,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+AmIu07_MAG_00000016,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY1_F2_MAG_00000016,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY1_F5_MAG_00000007,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY1_F6_MAG_00000009,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY1_N1_MAG_00000010,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY1_N6_MAG_00000007,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY1_W1_MAG_00000011,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY1_W2_MAG_00000001,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY1_W4_MAG_00000014,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY1_W5_MAG_00000004,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY2_F1_MAG_00000018,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY2_F3_MAG_00000002,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY2_N1_MAG_00000007,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY2_N5_MAG_00000003,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY2_N6_MAG_00000006,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY2_W3_MAG_00000016,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+DrY2_W6_MAG_00000015,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+GrY2_F1_MAG_00000021,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,31_1,snod,g__Commensalibacter
+GrY2_F2_MAG_00000007,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,32_1,snod,g__Fructobacillus
+GrY2_F3_MAG_00000009,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,32_1,snod,g__Fructobacillus
+GrY2_F4_MAG_00000014,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_F5_MAG_00000011,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_F6_MAG_00000002,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_N1_MAG_00000012,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_N2_MAG_00000016,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_N4_MAG_00000007,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_N5_MAG_00000013,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_N6_MAG_00000004,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_W3_MAG_00000021,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_W4_MAG_00000013,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_W6_MAG_00000016,NA,NA,NA,NA,NA,s__Snodgrassella alvi,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,snod,g__Apibacter
+GrY2_F3_MAG_00000016,NA,NA,NA,NA,NA,s__Hafnia alvei,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,entero,g__Apibacter
+GrY2_F5_MAG_00000018,NA,NA,NA,NA,NA,s__Hafnia alvei,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,entero,g__Apibacter
+AmIu01_MAG_00000017,NA,NA,NA,NA,NA,s__Lonsdalea britannica,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,entero,g__Apibacter
+AcKn07_MAG_00000004,NA,NA,NA,NA,NA,s__Gilliamella apicola_E,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,entero,g__Apibacter
+AcCh07_MAG_00000008,NA,NA,NA,NA,NA,NA,Apis cerana,NA,Japan,Shinilab_MAGs_2022,33_1,entero,g__Apibacter
+AcCh10_MAG_00000003,NA,NA,NA,NA,NA,NA,Apis cerana,NA,Japan,Shinilab_MAGs_2022,36_1,entero,g__Snodgrassella
+AmAi02_MAG_00000011,NA,NA,NA,NA,NA,s__Gilliamella apicola,Apis cerana,NA,Japan,Shinilab_MAGs_2022,38_1,entero,g__Snodgrassella
+AmIu06_MAG_00000011,NA,NA,NA,NA,NA,s__Gilliamella apicola,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+AmIu10_MAG_00000007,NA,NA,NA,NA,NA,s__Gilliamella apicola,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY1_F5_MAG_00000002,NA,NA,NA,NA,NA,s__Gilliamella apicola,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY2_F3_MAG_00000009,NA,NA,NA,NA,NA,s__Gilliamella apicola,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY2_F5_MAG_00000013,NA,NA,NA,NA,NA,s__Gilliamella apicola,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+AmIu04_MAG_00000006,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY1_F1_MAG_00000006,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY1_N5_MAG_00000017,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY1_W2_MAG_00000014,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY1_W6_MAG_00000005,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY2_N2_MAG_00000005,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY2_N3_MAG_00000008,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY2_N6_MAG_00000014,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+DrY2_W5_MAG_00000007,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+GrY2_F5_MAG_00000013,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+GrY2_N1_MAG_00000001,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+GrY2_N3_MAG_00000005,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+GrY2_N4_MAG_00000004,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+GrY2_N5_MAG_00000005,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+GrY2_W4_MAG_00000008,NA,NA,NA,NA,NA,s__Gilliamella apicola_N,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+AmIu01_MAG_00000005,NA,NA,NA,NA,NA,s__Frischella perrara,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+AmIu06_MAG_00000002,NA,NA,NA,NA,NA,s__Frischella perrara,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+AmIu08_MAG_00000018,NA,NA,NA,NA,NA,s__Frischella perrara,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,entero,g__Snodgrassella
+AcCh01_MAG_00000002,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcCh02_MAG_00000009,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcCh03_MAG_00000002,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcCh04_MAG_00000003,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcCh05_MAG_00000018,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcCh06_MAG_00000005,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcCh07_MAG_00000001,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcCh09_MAG_00000010,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcCh10_MAG_00000001,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcKn02_MAG_00000002,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcKn03_MAG_00000012,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcKn05_MAG_00000017,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcKn06_MAG_00000003,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcKn07_MAG_00000003,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcKn08_MAG_00000004,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AcKn09_MAG_00000004,NA,NA,NA,NA,NA,s__Apibacter sp002964915,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,api,g__Snodgrassella
+AmIu01_MAG_00000008,NA,NA,NA,NA,NA,s__Fructobacillus fructosus,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,lacto,g__Snodgrassella
+AmIu10_MAG_00000015,NA,NA,NA,NA,NA,s__Fructobacillus fructosus,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,lacto,g__Snodgrassella
+AcCh03_MAG_00000007,NA,NA,NA,NA,NA,s__Apilactobacillus kunkeei_C,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,40_1,lacto,g__Snodgrassella
+AcCh04_MAG_00000002,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,41_1,lacto,g__Acinetobacter
+AmIu01_MAG_00000003,NA,NA,NA,NA,NA,s__Melissococcus plutonius,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,41_1,lacto,g__Acinetobacter
+AmIu06_MAG_00000005,NA,NA,NA,NA,NA,s__Melissococcus plutonius,Apis cerana,NA,Japan,Shinilab_MAGs_2022,43_1,lacto,g__Gilliamella
+AmIu08_MAG_00000015,NA,NA,NA,NA,NA,s__Melissococcus plutonius,Apis cerana,NA,Japan,Shinilab_MAGs_2022,44_1,lacto,g__Gilliamella
+AmIu10_MAG_00000010,NA,NA,NA,NA,NA,s__Melissococcus plutonius,Apis cerana,NA,Japan,Shinilab_MAGs_2022,44_1,lacto,g__Gilliamella
+AmIu02_MAG_00000018,NA,NA,NA,NA,NA,s__Lactobacillus apis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,48_1,lacto,g__Gilliamella
+AmIu07_MAG_00000011,NA,NA,NA,NA,NA,s__Lactobacillus apis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,48_1,lacto,g__Gilliamella
+DrY1_W2_MAG_00000010,NA,NA,NA,NA,NA,s__Lactobacillus apis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,48_1,lacto,g__Gilliamella
+DrY1_W6_MAG_00000017,NA,NA,NA,NA,NA,s__Lactobacillus apis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_1,lacto,g__Gilliamella
+DrY2_F6_MAG_00000017,NA,NA,NA,NA,NA,s__Lactobacillus apis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_1,lacto,g__Gilliamella
+GrY2_F6_MAG_00000005,NA,NA,NA,NA,NA,s__Lactobacillus apis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_1,lacto,g__Gilliamella
+GrY2_W3_MAG_00000018,NA,NA,NA,NA,NA,s__Lactobacillus apis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+GrY2_W5_MAG_00000017,NA,NA,NA,NA,NA,s__Lactobacillus apis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+AmIu04_MAG_00000010,NA,NA,NA,NA,NA,s__Lactobacillus helsingborgensis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+AmIu07_MAG_00000018,NA,NA,NA,NA,NA,s__Lactobacillus helsingborgensis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+AmIu09_MAG_00000016,NA,NA,NA,NA,NA,s__Lactobacillus helsingborgensis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+DrY1_N5_MAG_00000012,NA,NA,NA,NA,NA,s__Lactobacillus helsingborgensis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+DrY2_F5_MAG_00000014,NA,NA,NA,NA,NA,s__Lactobacillus helsingborgensis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+GrY2_F2_MAG_00000018,NA,NA,NA,NA,NA,s__Lactobacillus helsingborgensis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+GrY2_W5_MAG_00000012,NA,NA,NA,NA,NA,s__Lactobacillus helsingborgensis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+AmAi04_MAG_00000007,NA,NA,NA,NA,NA,s__Lactobacillus melliventris,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+DrY1_N3_MAG_00000006,NA,NA,NA,NA,NA,s__Lactobacillus melliventris,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+GrY2_N3_MAG_00000003,NA,NA,NA,NA,NA,s__Lactobacillus melliventris,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+GrY2_W3_MAG_00000001,NA,NA,NA,NA,NA,s__Lactobacillus melliventris,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+AmIu09_MAG_00000017,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+AmAi01_MAG_00000017,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,48_2,lacto,g__Gilliamella
+AmAi02_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis cerana,NA,Japan,Shinilab_MAGs_2022,49_1,lacto,g__Apilactobacillus
+AmAi03_MAG_00000014,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis cerana,NA,Japan,Shinilab_MAGs_2022,49_1,lacto,g__Apilactobacillus
+AmAi04_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,50_1,lacto,g__Melissococcus
+AmAi05_MAG_00000002,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,50_1,lacto,g__Melissococcus
+AmAi07_MAG_00000022,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,50_1,lacto,g__Melissococcus
+AmAi08_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,50_1,lacto,g__Melissococcus
+AmIu01_MAG_00000014,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,52_1,lacto,g__Frischella
+AmIu02_MAG_00000009,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,52_1,lacto,g__Frischella
+AmIu03_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,52_1,lacto,g__Frischella
+AmIu04_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,54_1,lacto,g__Lactobacillus
+AmIu07_MAG_00000015,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,54_1,lacto,g__Lactobacillus
+AmIu08_MAG_00000001,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,54_1,lacto,g__Lactobacillus
+AmIu10_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,54_1,lacto,g__Lactobacillus
+DrY1_F1_MAG_00000016,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,54_1,lacto,g__Lactobacillus
+DrY1_F2_MAG_00000017,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,54_1,lacto,g__Lactobacillus
+DrY1_F3_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,54_1,lacto,g__Lactobacillus
+DrY1_F4_MAG_00000009,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,54_1,lacto,g__Lactobacillus
+DrY1_F5_MAG_00000012,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,55_1,lacto,g__Lactobacillus
+DrY1_F6_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,55_1,lacto,g__Lactobacillus
+DrY1_N2_MAG_00000015,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,55_1,lacto,g__Lactobacillus
+DrY1_N5_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,55_1,lacto,g__Lactobacillus
+DrY1_N6_MAG_00000013,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,55_1,lacto,g__Lactobacillus
+DrY1_W1_MAG_00000023,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,55_1,lacto,g__Lactobacillus
+DrY1_W2_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,55_1,lacto,g__Lactobacillus
+DrY1_W4_MAG_00000003,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,56_3,lacto,g__Lactobacillus
+DrY1_W5_MAG_00000013,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,56_3,lacto,g__Lactobacillus
+DrY1_W6_MAG_00000015,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,56_3,lacto,g__Lactobacillus
+DrY2_F1_MAG_00000014,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,56_3,lacto,g__Lactobacillus
+DrY2_F2_MAG_00000003,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,57_3,lacto,g__Lactobacillus
+DrY2_F3_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_F5_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_N1_MAG_00000014,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_N3_MAG_00000013,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_N4_MAG_00000018,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_N5_MAG_00000002,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_W1_MAG_00000015,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_W2_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_W4_MAG_00000005,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_W5_MAG_00000004,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+DrY2_W6_MAG_00000014,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_F2_MAG_00000015,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_F3_MAG_00000001,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_F4_MAG_00000017,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_F5_MAG_00000003,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_F6_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_N1_MAG_00000016,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_N2_MAG_00000009,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_N3_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_N4_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_N5_MAG_00000017,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_N6_MAG_00000014,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_W2_MAG_00000009,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_W5_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+GrY2_W6_MAG_00000034,NA,NA,NA,NA,NA,s__Bombilactobacillus mellifer,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcCh01_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcCh02_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcCh03_MAG_00000001,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcCh04_MAG_00000005,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcCh05_MAG_00000016,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcCh06_MAG_00000007,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcCh07_MAG_00000004,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcCh09_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcCh10_MAG_00000002,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcKn01_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcKn02_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcKn03_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcKn04_MAG_00000002,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcKn05_MAG_00000002,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcKn07_MAG_00000005,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcKn08_MAG_00000005,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AcKn09_MAG_00000007,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmAi02_MAG_00000002,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmAi04_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmAi05_MAG_00000004,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmAi06_MAG_00000024,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmAi08_MAG_00000007,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmAi09_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmAi10_MAG_00000013,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmIu01_MAG_00000007,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmIu03_MAG_00000001,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmIu04_MAG_00000003,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmIu05_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmIu06_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmIu07_MAG_00000005,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,59_1,lacto,g__Bombilactobacillus
+AmIu08_MAG_00000019,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+AmIu09_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+AmIu10_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_F1_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_F2_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_F3_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_F4_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_F5_MAG_00000019,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_F6_MAG_00000015,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_N3_MAG_00000004,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_N4_MAG_00000012,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_N5_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_N6_MAG_00000005,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_W1_MAG_00000007,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_W3_MAG_00000016,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_W4_MAG_00000020,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_W5_MAG_00000017,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis cerana,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY1_W6_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_F1_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_F2_MAG_00000019,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_F3_MAG_00000004,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_F5_MAG_00000012,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_N1_MAG_00000006,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_N2_MAG_00000004,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_N4_MAG_00000008,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_N5_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_N6_MAG_00000013,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_W1_MAG_00000002,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_W3_MAG_00000013,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_W4_MAG_00000002,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_F2_MAG_00000011,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_F3_MAG_00000021,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_F4_MAG_00000004,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Japan,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_F6_MAG_00000012,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_N1_MAG_00000009,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_N2_MAG_00000017,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_N3_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_N4_MAG_00000017,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_N5_MAG_00000001,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_N6_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_W1_MAG_00000010,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_W3_MAG_00000024,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_W4_MAG_00000012,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+GrY2_W5_MAG_00000004,NA,NA,NA,NA,NA,s__Bombilactobacillus mellis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,lacto,g__Bombilactobacillus
+DrY2_W5_MAG_00000015,NA,NA,NA,NA,NA,s__Pseudomonas aeruginosa,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,pseudo,g__Bombilactobacillus
+DrY2_W2_MAG_00000005,NA,NA,NA,NA,NA,s__Acinetobacter johnsonii,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,pseudo,g__Bombilactobacillus
+DrY2_W4_MAG_00000016,NA,NA,NA,NA,NA,s__Acinetobacter johnsonii,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,pseudo,g__Bombilactobacillus
+AmAi10_MAG_00000011,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+AmIu02_MAG_00000014,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+DrY1_F3_MAG_00000004,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+DrY1_F5_MAG_00000010,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+DrY1_W6_MAG_00000014,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_F4_MAG_00000008,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_W3_MAG_00000004,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_W1_MAG_00000001,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_W2_MAG_00000019,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_W4_MAG_00000002,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+AmIu03_MAG_00000008,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+AmIu04_MAG_00000013,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_N5_MAG_00000014,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_F3_MAG_00000015,NA,NA,NA,NA,NA,s__Bartonella apis_A,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_W6_MAG_00000030,NA,NA,NA,NA,NA,s__Bartonella apis_A,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+DrY1_W3_MAG_00000017,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+AmIu02_MAG_00000002,NA,NA,NA,NA,NA,s__Bartonella apis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+DrY1_W1_MAG_00000021,NA,NA,NA,NA,NA,s__Bartonella apis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+DrY2_W4_MAG_00000011,NA,NA,NA,NA,NA,s__Bartonella apis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_F5_MAG_00000014,NA,NA,NA,NA,NA,s__Bartonella apis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+GrY2_F6_MAG_00000014,NA,NA,NA,NA,NA,s__Bartonella apis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,bapis,g__Bombilactobacillus
+DrY2_W4_MAG_00000019,NA,NA,NA,NA,NA,s__Sphingomonas yantingensis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,sphingo,g__Bombilactobacillus
+GrY2_W5_MAG_00000007,NA,NA,NA,NA,NA,s__Sphingomonas yantingensis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,sphingo,g__Bombilactobacillus
+DrY2_W2_MAG_00000015,NA,NA,NA,NA,NA,s__Sphingomonas paucimobilis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,sphingo,g__Bombilactobacillus
+DrY2_W4_MAG_00000012,NA,NA,NA,NA,NA,s__Sphingomonas paucimobilis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,sphingo,g__Bombilactobacillus
+DrY2_W5_MAG_00000001,NA,NA,NA,NA,NA,s__Sphingomonas paucimobilis,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,sphingo,g__Bombilactobacillus
+GrY2_W3_MAG_00000016,NA,NA,NA,NA,NA,NA,Apis mellifera,NA,Switzerland,Shinilab_MAGs_2022,60_1,sphingo,g__Bombilactobacillus

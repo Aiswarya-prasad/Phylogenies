@@ -23,13 +23,36 @@ def get_genomes(path):
         for line in info_fh:
             if line.startswith("ID"):
                 continue
-            genome = line.split(",")[0]
+            genome = line.split("\t")[0]
             genome = genome.strip()
             # exclude the unpublished genome!
             if genome == "Ga0418777":
+                # unpublished genome
                 continue
             genomeList.append(genome)
     return(genomeList)
+
+def get_g_list_by_group(path, group_name):
+    """
+    Returns list of genomes in given group based on the Genome info file (path)
+    """
+    g_list = []
+    if os.path.isfile(path):
+        pass
+    else:
+        print(f"Could not find file at {path}")
+    with open(path, "r") as info_fh:
+        for line in info_fh:
+            if line.startswith("ID"):
+                continue
+            genome = line.split("\t")[0]
+            if genome == "Ga0418777":
+                # unpublished genome
+                continue
+            group = line.split("\t")[12]
+            if group == group_name:
+                g_list.append(genome)
+
 
 def convertToMb(string):
     """
@@ -206,18 +229,18 @@ scripts by Garance to refer to:
 rule all:
     input:
         prokka_faa = expand("01_prokka/{genome}/{genome}.faa", genome=get_genomes(GenomeInfo)),
+        out_dir = expand("03_aligned_orthogroups/{group}/", group=Groups),
 
 rule download_genome:
-    # input:
-    #     info = "GenomeInfo.csv",
+    input:
+        info = GenomeInfo,
     output:
-        genome = "Genomes_path/{genome}.fa",
-        genome_gz = temp("Genomes_path/{genome}.fa.gz"),
+        genome = "00_genomes/{genome}.fa",
+        genome_gz = temp("00_genomes/{genome}.fa.gz"),
     threads: 1
     params:
         ftp_summary = "https://ftp.ncbi.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_genbank.txt",
         assembly_summary_genbank = "assembly_summary_genbank.txt",
-        info = "GenomeInfo.csv",
     log: "logs/{genome}_download.log"
     shell:
         """
@@ -227,7 +250,7 @@ rule download_genome:
         else
             echo "cannot find {output.genome}. Going to try to download!" 2>&1 | tee -a {log}
             wget -N "{params.ftp_summary}" 2>&1 | tee -a {log}
-            strain=$(cat {params.info} | grep {wildcards.genome} | cut -f4 -d",")
+            strain=$(cat {input.info} | grep {wildcards.genome} | cut -f4)
             echo "The strain is ${{strain}}" 2>&1 | tee -a {log}
             genbank_path=$(cat {params.assembly_summary_genbank} | grep "strain="${{strain}} | cut -f15,20 | sort -k1 -r | head -1 | cut -f2)
             echo "${{genbank_path}}_here" 2>&1 | tee -a {log}
@@ -249,9 +272,9 @@ rule download_genome:
 
 rule annotate:
     input:
-        genome = "Genomes_path/{genome}.fa"
+        genome = "00_genomes/{genome}.fa"
     output:
-        faa = "01_prokka/{genome}/{genome}.faa",
+        faa = temp("01_prokka/{genome}/{genome}.faa"),
     params:
         outdir = "01_prokka/{genome}/"
     #     mailto="aiswarya.prasad@unil.ch",
@@ -273,80 +296,61 @@ rule annotate:
             #? --proteins proteins.faa \
         """
 
-# rule run_orthofinder:
-#     input:
-#         faa_files = expand("database/faa_files/{{phylotype}}/{genome}.faa", genome=get_g_list_by_phylo(DBs["microbiome"], "{phylotype}")),
-#         faa_dir = "database/faa_files/{phylotype}"
-#     output:
-#         ortho_file = "database/faa_files/{phylotype}/OrthoFinder/Results_dir/Orthogroups/Orthogroups.txt"
-#     conda: "envs/core-cov-env.yaml"
+rule prepare_faa:
+    input:
+        faa_files = expand("01_prokka/{genome}/{genome}.faa", genome=get_genomes(GenomeInfo)),
+        info = GenomeInfo
+    output:
+        faa_files = expand("02_orthofinder/{{group}}/{genome}.faa", genome=get_g_list_by_group(GenomeInfo, "{group}")),
+        ortho_dir = "02_orthofinder/{group}/"
+    log: "logs/{group}_prepare_faa"
+    shell:
+        """
+        for file in {input.faa_files}
+        do
+            cp ${{file}} {output.ortho_dir}  2>&1 | tee -a {log}
+        done
+        """
+
+rule run_orthofinder:
+    input:
+        faa_dir = "02_orthofinder/{group}/",
+        faa_files = expand("02_orthofinder/{{group}}/{genome}.faa", genome=get_g_list_by_group(GenomeInfo, "{group}")),
+    output:
+        ortho_file = "02_orthofinder/{group}/OrthoFinder/Results_{group}/Orthogroups/Orthogroups.txt",
+    conda: "envs/phylogenies-env.yaml"
 #     params:
 #         mailto="aiswarya.prasad@unil.ch",
 #         account="pengel_spirit",
 #         runtime_s=convertToSec("0-2:10:00"),
 #     resources:
 #         mem_mb = 8000
-#     threads: 5
-#     log: "logs/{phylotype}_run_orthofinder.log"
-#     shell:
-#         """
-#         # so that nothing created in advance messes up the name
-#         rm -rf "database/faa_files/{wildcards.phylotype}/OrthoFinder"
-#         orthofinder -og -t {threads} -n dir -f {input.faa_dir}
-#         """
-#
-# rule get_single_ortho:
-#     input:
-#         ortho_file = "database/faa_files/{phylotype}/OrthoFinder/Results_dir/Orthogroups/Orthogroups.txt"
-#     output:
-#         ortho_single = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_single_ortho.txt"
+    threads: 4
+    log: "logs/{group}_run_orthofinder.log"
+    shell:
+        """
+        orthofinder -og -t {threads} -n {wildcards.group} -f {input.faa_dir}  2>&1 | tee -a {log}
+        """
+
+rule align_orthologs:
+    input:
+        ortho_dir = "02_orthofinder/{group}/OrthoFinder/Results_{group}/Single_Copy_Orthologue_Sequences/"
+    output:
+        out_dir = directory("03_aligned_orthogroups/{group}/"),
+    conda: "envs/phylogenies-env.yaml"
 #     params:
 #         mailto="aiswarya.prasad@unil.ch",
 #         account="pengel_spirit",
 #         runtime_s=convertToSec("0-2:10:00"),
 #     resources:
 #         mem_mb = 8000
-#     log: "logs/{phylotype}_get_single_ortho.log"
-#     threads: 5
-#     script:
-#         "scripts/get_single_ortho.py"
-#
-# rule extract_orthologs:
-#     input:
-#         ortho_single = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_single_ortho.txt",
-#     output:
-#         ortho_seq_dir = directory("database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_ortho_sequences/")
-#     params:
-#         ffn_dir = "database/ffn_files",
-#         faa_dir = "database/faa_files/{phylotype}",
-#         mailto="aiswarya.prasad@unil.ch",
-#         account="pengel_spirit",
-#         runtime_s=convertToSec("0-2:10:00"),
-#     resources:
-#         mem_mb = 8000
-#     log: "logs/{phylotype}_extract_orthologs.log"
-#     threads: 5
-#     script:
-#         "scripts/extract_orthologs.py"
-#
-# rule calc_perc_id:
-#     input:
-#         ortho_seq_dir = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_ortho_sequences/"
-#     output:
-#         perc_id = "database/OrthoFiles_"+DBs["microbiome"]+"/{phylotype}_perc_id.txt"
-#     params:
-#         scripts_dir = os.path.join(os.getcwd(), "scripts"),
-#         meta = os.path.join(os.getcwd(), "database/"+DBs["microbiome"]+"_metafile.txt"),
-#         mailto="aiswarya.prasad@unil.ch",
-#         account="pengel_spirit",
-#         runtime_s=convertToSec("0-3:10:00"),
-#     resources:
-#         mem_mb = 8000
-#     conda: "envs/core-cov-env.yaml"
-#     log: "logs/{phylotype}_calc_perc_id.log"
-#     threads: 5
-#     shell:
-#         """
-#         cd {input.ortho_seq_dir}
-#         bash {params.scripts_dir}/aln_calc.sh {params.scripts_dir} {params.meta} ../{wildcards.phylotype}_perc_id.txt
-#         """
+    threads: 4
+    log: "logs/{group}_run_orthofinder.log"
+    shell:
+        """
+        for OG in $(ls {input.ortho_dir})
+        do
+            echo "starting alignment for ${{OG}}" 2>&1 | tee -a {log}
+            mafft --amino --inputorder --localpair --maxiterate 1000 {input.ortho_dir}/${{OG}} > {output.out_dir}/${{OG/.fa/_aligned.fa}} 2>&1 | tee -a {log}
+        done
+        """
