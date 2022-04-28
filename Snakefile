@@ -25,9 +25,8 @@ def get_genomes(path):
                 continue
             genome = line.split("\t")[0]
             genome = genome.strip()
-            # exclude the unpublished genome!
+            # unpublished genome
             if genome == "Ga0418777":
-                # unpublished genome
                 continue
             genomeList.append(genome)
     return(genomeList)
@@ -37,6 +36,7 @@ def get_g_list_by_group(path, group_name):
     Returns list of genomes in given group based on the Genome info file (path)
     """
     g_list = []
+    print(f"getting genome list for {group_name}")
     if os.path.isfile(path):
         pass
     else:
@@ -46,12 +46,43 @@ def get_g_list_by_group(path, group_name):
             if line.startswith("ID"):
                 continue
             genome = line.split("\t")[0]
+            # unpublished genome
             if genome == "Ga0418777":
-                # unpublished genome
                 continue
             group = line.split("\t")[12]
+            # only include groups of interest!
+            if group not in Groups:
+                continue
             if group == group_name:
                 g_list.append(genome)
+        return(g_list)
+
+def get_g_dict_for_groups(path):
+    """
+    Returns dictionary of genomes and groups with each value being a list of
+    genomes corresponding to a given group
+    """
+    g_list_dict = {}
+    for group in Groups:
+        g_list_dict[group] = []
+    if os.path.isfile(path):
+        pass
+    else:
+        print(f"Could not find file at {path}")
+    with open(path, "r") as info_fh:
+        for line in info_fh:
+            if line.startswith("ID"):
+                continue
+            genome = line.split("\t")[0]
+            # unpublished genome
+            if genome == "Ga0418777":
+                continue
+            group = line.split("\t")[12]
+            # only include groups of interest!
+            if group not in Groups:
+                continue
+            g_list_dict[group].append(genome)
+    return(g_list_dict)
 
 
 def convertToMb(string):
@@ -86,150 +117,9 @@ def convertToSec(string):
     total = total + 24*60*60*int(days)
     return(total)
 
-"""
-rule all:
-    needs just the final trees!
-
-Start with genome nucleotide sequences
-groups for Shinilab MAGs is based on family
-(and lower lowest non-ambiguous choice picked) assigned by GTDBtk
-the group columns are arbitrarily based on the gtdbtk results.
-    - lacto - firm5 firm4 lkun and all the f__Lactobacillaceae
-    - gillif - gilliamella and fper
-    - bapis, bifido, bom, com, api, snod
-    for now ignore:
-    sphingo, syntro, moraxella,
-    cutibac, burkhold, pseudo, entero, rhodocy, enteroc
-
-rule prep for Orthofinder
-    organise faa files by phylotype
-
-rule Orthofinder
-    run for each group (phylotype)
-    check Garance's OrthoFinder.sh
-    ├─ OrthoFinder :
-	│	└─ Results_${Genus}
-	│		├─ Single_Copy_Orthologue_Sequences : directory of interest
-
-rule multiple sequence alignement on Orthogroups
-    check Garances's AlignOG.sh
-
-rule pruned alignments
-    check Garance's ../scripts/SAGE_FetchAndConcat2.py or execPythonScript.sh
-    it makes
-    │	├─ CoreGeneAlignment.fasta : concatenated OG per species -> to use for phylogeny
-    │	└─ OGxx_aligned_prined.fasta files : single OG aligned and pruned
-
-rule execIQTREE
-
-    check Garance's execIQTREE.sh
-    └─ phylogeny :
-		│  cmd ```sbatch execIQTREE.sh ```
-		│
-		├─ WGP_${Familiy}.contree : consensus tree with renamed samples.
-		│  not only locus but complete species name + strain
-		│
-		└─ .contree ; .treefile .log ...
-    #!/bin/bash
-    ## $1 path to OG alignments
-
-    for OG in $(ls $1) ; do
-    	iqtree -s $1$OG -st AA -alrt 1000 -b 500 -seed 1234 -m GTR20 -redo -ntmax 20 -o Swig_F0424.faa,Psui_DSM24744.faa,Aaes_DSM22365.faa
-    done
-
-scripts by Garance to refer to:
-+ scripts
-│
-├── AlignOG.sh : to align sequences
-│	│
-│	└─ parameters :
-│		--amino : use amino-acids
-│		--inputorder
-│		--localpair
-│		--maxiterate 1000
-│
-├── doAnnotation_${Genus}.sh
-│	│
-│	├─ arrays :
-│	│	- array SAMPLE : .fna file names
-│	│	- array LocusTag : locus tag associated to .fna files (thy have to be in the same order as .fna file names)
-│	│
-│	└─ parameters :
-│
-│		--compliant
-│		--proteins proteins.faa
-│		--evalue 0.01
-│
-├── execIQTREE.sh :
-│	│
-│	├─ array :
-│	│	- Genus : Genus names corresponding to the ${Genus} directory name
-│	│
-│	└─ parameters :
-│		-st AA
-│		-nt 16
-│		-bb 16
-│		-seed 1234
-│		-m TEST (to find the best model for tge data)
-│		-pre ${Genus}_Phylogeny
-│
-├── execPythonScript.sh :
-│	│
-│	│  For this script to work, we assume that the headers have a structure :
-│	│  ${LocusTag}_000xx or ${LocusTag}_000xx|strain_name
-│	│
-│	│
-│	├─ array :
-│	│	- Genus : Genus names corresponding to the ${Genus} directory name
-│	└── parameters :
-│		- arg1 : script
-│		- arg2 : input directory -> path to 04_Aligned_OG
-│		- arg3 : output directory -> path to 05_Whole_Alignments (scripts creates the outdir)
-│		- arg4 : pipeNames -> set to TRUE if headers contains a pipe.
-│
-├── OrthoFinder.sh :
-│	│
-│	├─ array :
-│	│	- Genus : Genus names corresponding to the ${Genus} directory name
-│	│
-│	└─ parameters :
-│		-f ${FilesLocation} : input files location, path to 03_GenesFaa
-│		-t 16 : threads
-│		-n ${Genus} : name for the output diresctory -> ${Genus}_Results
-│
-├── SAGE_FetchAndConcat2.py :
-│	│  python script to prune the OG alignments.
-│	│  Positions in the alignments with >50% gaps "-" are removed.
-│	│  Writes all the pruned OGs
-│	│  Writes the concatenated alignment
-│	└── parameters : (in the execPythonScript)
-│		- arg1 : script
-│		- arg2 : input directory -> path to 04_Aligned_OG
-│		- arg3 : output directory -> path to 05_Whole_Alignments (scripts creates the outdir)
-│		- arg4 : pipeNames -> set to TRUE if headers contains a pipe.
-│
-└── pySED.py :
-	│
-	│  Sed python function do change a SINGLE string in a file OR
-	│  to replace multiple patterns by others with a correspondance file.
-	│
-	│  Desinged for phylogenetic trees, column name of the old patter : 'Locus_Tag'
-	│  New pattern is the concatenation of 'Specie' + 'Strain_name' columns
-	│
-	└─ parameters :
-		- arg1 : True if multiple patterns and correspondance file
-				 False if a single pattern to replace
-		- arg2 : File path : where to change pattern
-		- arg3 : output file name : path will be the same as the input file
-		- arg4 : Table with patterns correspondance if TRUE
-				 Replacement string if FALSE
-
-"""
-
 rule all:
     input:
-        prokka_faa = expand("01_prokka/{genome}/{genome}.faa", genome=get_genomes(GenomeInfo)),
-        out_dir = expand("03_aligned_orthogroups/{group}/", group=Groups),
+        out_dir = expand("04_pruned_and_concat_alignments/{group}/", group=Groups),
 
 rule download_genome:
     input:
@@ -274,7 +164,7 @@ rule annotate:
     input:
         genome = "00_genomes/{genome}.fa"
     output:
-        faa = temp("01_prokka/{genome}/{genome}.faa"),
+        faa = "01_prokka/{genome}/{genome}.faa",
     params:
         outdir = "01_prokka/{genome}/"
     #     mailto="aiswarya.prasad@unil.ch",
@@ -299,58 +189,84 @@ rule annotate:
 rule prepare_faa:
     input:
         faa_files = expand("01_prokka/{genome}/{genome}.faa", genome=get_genomes(GenomeInfo)),
-        info = GenomeInfo
+        info = GenomeInfo,
     output:
-        faa_files = expand("02_orthofinder/{{group}}/{genome}.faa", genome=get_g_list_by_group(GenomeInfo, "{group}")),
-        ortho_dir = "02_orthofinder/{group}/"
-    log: "logs/{group}_prepare_faa"
+        # faa_files = expand("02_orthofinder/{{group}}/{genome}.faa", genome=get_g_dict_for_groups(GenomeInfo)["{group}"]),
+        faa_files = [expand("02_orthofinder/"+group+"/{genome}.faa", genome=get_g_dict_for_groups(GenomeInfo)[group]) for group in Groups]
+    log: "logs/prepare_faa.log"
     shell:
         """
-        for file in {input.faa_files}
+        for file in {output.faa_files}
         do
-            cp ${{file}} {output.ortho_dir}  2>&1 | tee -a {log}
+            genome_name=$(basename ${{file}})
+            if [ ! -f ${{file}} ]; then
+                cp 01_prokka/${{genome_name/.faa/}}/${{genome_name}} ${{file}} 2>&1 | tee -a {log}
+            fi
         done
         """
 
 rule run_orthofinder:
     input:
-        faa_dir = "02_orthofinder/{group}/",
-        faa_files = expand("02_orthofinder/{{group}}/{genome}.faa", genome=get_g_list_by_group(GenomeInfo, "{group}")),
+        faa_files = lambda wildcards: expand("02_orthofinder/{{group}}/{genome}.faa", genome=get_g_dict_for_groups(GenomeInfo)[wildcards.group]),
     output:
-        ortho_file = "02_orthofinder/{group}/OrthoFinder/Results_{group}/Orthogroups/Orthogroups.txt",
+        orthogroups_dir = directory("02_orthofinder/{group}/OrthoFinder/Results_{group}/Single_Copy_Orthologue_Sequences/"),
+        orthofinder_dir = directory("02_orthofinder/{group}/OrthoFinder/Results_{group}/"),
     conda: "envs/phylogenies-env.yaml"
-#     params:
-#         mailto="aiswarya.prasad@unil.ch",
-#         account="pengel_spirit",
-#         runtime_s=convertToSec("0-2:10:00"),
-#     resources:
-#         mem_mb = 8000
+    # params:
+    #     mailto="aiswarya.prasad@unil.ch",
+    #     account="pengel_spirit",
+    #     runtime_s=convertToSec("0-2:10:00"),
+    #  resources:
+    #      mem_mb = 8000
     threads: 4
     log: "logs/{group}_run_orthofinder.log"
     shell:
         """
-        orthofinder -og -t {threads} -n {wildcards.group} -f {input.faa_dir}  2>&1 | tee -a {log}
+        rm -rf {output.orthofinder_dir}*
+        orthofinder -og -t {threads} -n {wildcards.group} -f $(dirname {input.faa_files[0]})  2>&1 | tee -a {log}
         """
 
 rule align_orthologs:
     input:
-        ortho_dir = "02_orthofinder/{group}/OrthoFinder/Results_{group}/Single_Copy_Orthologue_Sequences/"
+        orthogroups_dir = "02_orthofinder/{group}/OrthoFinder/Results_{group}/Single_Copy_Orthologue_Sequences/"
     output:
         out_dir = directory("03_aligned_orthogroups/{group}/"),
     conda: "envs/phylogenies-env.yaml"
-#     params:
-#         mailto="aiswarya.prasad@unil.ch",
-#         account="pengel_spirit",
-#         runtime_s=convertToSec("0-2:10:00"),
-#     resources:
-#         mem_mb = 8000
+    # params:
+    #     mailto="aiswarya.prasad@unil.ch",
+    #     account="pengel_spirit",
+    #     runtime_s=convertToSec("0-2:10:00"),
+    # resources:
+    #     mem_mb = 8000
     threads: 4
     log: "logs/{group}_run_orthofinder.log"
     shell:
         """
-        for OG in $(ls {input.ortho_dir})
+        mkdir -p {output.out_dir}
+        for OG in $(ls {input.orthogroups_dir})
         do
             echo "starting alignment for ${{OG}}" 2>&1 | tee -a {log}
-            mafft --amino --inputorder --localpair --maxiterate 1000 {input.ortho_dir}/${{OG}} > {output.out_dir}/${{OG/.fa/_aligned.fa}} 2>&1 | tee -a {log}
+            mafft --amino --inputorder --localpair --maxiterate 1000 {input.orthogroups_dir}/${{OG}} > {output.out_dir}/${{OG/.fa/_aligned.fa}} 2>&1 | tee -a {log}
         done
         """
+
+# rule orthologs_summary:
+# summarise how may orthogroups across groups to make sure we have enough
+# we want ~ 500? or so
+
+rule prune_and_concat:
+    input:
+        aligned_dir = "03_aligned_orthogroups/{group}/"
+    output:
+        pruned_dir = "04_pruned_and_concat_alignments/{group}/"
+    params:
+        pruned_dir = False
+    #     mailto="aiswarya.prasad@unil.ch",
+    #     account="pengel_spirit",
+    #     runtime_s=convertToSec("0-2:10:00"),
+    # resources:
+    #     mem_mb = 8000
+    threads: 4
+    log: "logs/{group}_prune_and_concat.log"
+    script:
+        "scripts/prune_and_concat_alns.py"

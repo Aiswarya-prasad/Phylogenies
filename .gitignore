@@ -21,5 +21,10 @@ logs/*
 
 00_genomes/*
 01_prokka/*
+02_orthofinder/*
+03_aligned_orthogroups/*
+04_pruned_and_concat_alignments/*
+
+*/OrthoFinder/*
 
 assembly_summary_genbank.txt

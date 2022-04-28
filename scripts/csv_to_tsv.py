@@ -7,6 +7,8 @@ Converts it into a tsv file with the same name but different extension
 USAGE: python3 path/to/script/csv_to_tsv.py path/to/file.csv
 
 expected output - path/to/file.tsv
+
+!!! rewrite using argparse instead of sys!!!
 """
 
 import sys
