@@ -62,7 +62,8 @@ pipeNames=snakemake.params["pruned_dir"]
 if not os.path.exists(OutDir):
     os.makedirs(OutDir)
 
-AlignedFiles=[OG for OG in os.listdir(PathAlignedOG) if os.path.isfile(PathAlignedOG+'/'+OG)]
+OGList = [item for item in os.listdir(PathAlignedOG) if not item.startswith(".")]
+AlignedFiles=[OG for OG in OGList if os.path.isfile(PathAlignedOG+'/'+OG)]
 MainDictionary={}
 for OG in AlignedFiles :
     OGDictionary = fasta_to_dict(OG, PathAlignedOG, pipeNames)
