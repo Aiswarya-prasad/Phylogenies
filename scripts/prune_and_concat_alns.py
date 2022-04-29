@@ -57,7 +57,7 @@ def insert_newlines(string, every=64) :
 PathAlignedOG=snakemake.input["aligned_dir"]
 OutDir=snakemake.output["pruned_dir"]
 WriteAll=True
-pipeNames=snakemake.params["pruned_dir"]
+pipeNames=snakemake.params["pipe_names"]
 
 if not os.path.exists(OutDir):
     os.makedirs(OutDir)

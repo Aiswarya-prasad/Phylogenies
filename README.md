@@ -87,87 +87,26 @@ use force because snakemake creates output dirs and this confuses it
 
 ### Orthofinder
 
+*Describe rule here*
 
+### Align orthogroups
+
+*Describe rule here*
+
+### Prune and concatenate
+
+*Describe rule here*
+
+### Make tree
+
+*Describe rule here*
+
+The option `-m TEST` Perform standard model selection like jModelTest (for DNA) and ProtTest (for protein). Moreover, IQ-TREE also works for codon, binary and morphogical data.. Immediately followed by tree reconstruction using the best-fit model found. So this performs both model selection and tree inference within a single run.
+
+Also, see [IQTree github](https://github.com/Cibiv/IQ-TREE) page and [documentation](http://www.iqtree.org/doc/Command-Reference) for more information.
 
 ## Scripts
 
 Putting together scripts borrowed from Garance into individual scripts or `Snakemake` rules.
 
-
-# From Garance's README
-
-├── doAnnotation_${Genus}.sh
-│	│
-│	├─ arrays :
-│	│	- array SAMPLE : .fna file names
-│	│	- array LocusTag : locus tag associated to .fna files (thy have to be in the same order as .fna file names)
-│	│
-│	└─ parameters :
-│
-│		--compliant
-│		--proteins proteins.faa
-│		--evalue 0.01
-│
-├── execIQTREE.sh :
-│	│
-│	├─ array :
-│	│	- Genus : Genus names corresponding to the ${Genus} directory name
-│	│
-│	└─ parameters :
-│		-st AA
-│		-nt 16
-│		-bb 16
-│		-seed 1234
-│		-m TEST (to find the best model for tge data)
-│		-pre ${Genus}_Phylogeny
-│
-├── execPythonScript.sh :
-│	│
-│	│  For this script to work, we assume that the headers have a structure :
-│	│  ${LocusTag}_000xx or ${LocusTag}_000xx|strain_name
-│	│
-│	│
-│	├─ array :
-│	│	- Genus : Genus names corresponding to the ${Genus} directory name
-│	└── parameters :
-│		- arg1 : script
-│		- arg2 : input directory -> path to 04_Aligned_OG
-│		- arg3 : output directory -> path to 05_Whole_Alignments (scripts creates the outdir)
-│		- arg4 : pipeNames -> set to TRUE if headers contains a pipe.
-│
-├── OrthoFinder.sh :
-│	│
-│	├─ array :
-│	│	- Genus : Genus names corresponding to the ${Genus} directory name
-│	│
-│	└─ parameters :
-│		-f ${FilesLocation} : input files location, path to 03_GenesFaa
-│		-t 16 : threads
-│		-n ${Genus} : name for the output diresctory -> ${Genus}_Results
-│
-├── SAGE_FetchAndConcat2.py :
-│	│  python script to prune the OG alignments.
-│	│  Positions in the alignments with >50% gaps "-" are removed.
-│	│  Writes all the pruned OGs
-│	│  Writes the concatenated alignment
-│	└── parameters : (in the execPythonScript)
-│		- arg1 : script
-│		- arg2 : input directory -> path to 04_Aligned_OG
-│		- arg3 : output directory -> path to 05_Whole_Alignments (scripts creates the outdir)
-│		- arg4 : pipeNames -> set to TRUE if headers contains a pipe.
-│
-└── pySED.py :
-	│
-	│  Sed python function do change a SINGLE string in a file OR
-	│  to replace multiple patterns by others with a correspondance file.
-	│
-	│  Desinged for phylogenetic trees, column name of the old patter : 'Locus_Tag'
-	│  New pattern is the concatenation of 'Specie' + 'Strain_name' columns
-	│
-	└─ parameters :
-		- arg1 : True if multiple patterns and correspondance file
-				 False if a single pattern to replace
-		- arg2 : File path : where to change pattern
-		- arg3 : output file name : path will be the same as the input file
-		- arg4 : Table with patterns correspondance if TRUE
-				 Replacement string if FALSE
+*Describe scripts here*

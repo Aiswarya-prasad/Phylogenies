@@ -193,7 +193,6 @@ rule annotate:
             --prefix {wildcards.genome} \
             --evalue 0.001 \
             {input.genome} 2>&1 | tee -a {log}
-            #? --proteins proteins.faa \
         """
 
 rule prepare_faa:
@@ -270,15 +269,36 @@ rule prune_and_concat:
         aligned_dir = "03_aligned_orthogroups/{group}/",
         done = "03_aligned_orthogroups/{group}/mafft.done",
     output:
-        pruned_dir = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta"
+        pruned_dir = directory("04_pruned_and_concat_alignments/{group}/")
+        pruned_cat = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta",
     params:
-        pruned_dir = False
+        pipe_names = False
     #     mailto="aiswarya.prasad@unil.ch",
     #     account="pengel_spirit",
     #     runtime_s=convertToSec("0-2:10:00"),
     # resources:
     #     mem_mb = 8000
-    threads: 4
+    threads: 2
     log: "logs/{group}_prune_and_concat.log"
     script:
         "scripts/prune_and_concat_alns.py"
+
+rule make_tree:
+    input:
+        pruned_cat = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta"
+    output:
+        pdf =
+    # params:
+    #     mailto="aiswarya.prasad@unil.ch",
+    #     account="pengel_spirit",
+    #     runtime_s=convertToSec("0-2:10:00"),
+    # resources:
+    #     mem_mb = 8000
+    threads: 8
+    log: "logs/{group}_make_tree.log"
+    shell:
+        """
+        iqtree -s {input.pruned_cat} \
+                -st AA -nt {threads} -bb 1000 -seed 12345 -m TEST \
+                -pre ${genus}_Phylogeny
+        """
