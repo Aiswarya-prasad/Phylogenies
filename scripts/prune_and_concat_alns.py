@@ -64,8 +64,6 @@ if not os.path.exists(OutDir):
     os.makedirs(OutDir)
 
 OGList = [item for item in os.listdir(PathAlignedOG) if not item.startswith(".")]
-print(f"considering the following: {os.listdir(PathAlignedOG)}")
-print(f"considering the following: {OGList}")
 AlignedFiles=[OG for OG in OGList if os.path.isfile(PathAlignedOG+'/'+OG)]
 MainDictionary={}
 for OG in AlignedFiles :
