@@ -129,7 +129,7 @@ def convertToSec(string):
 
 rule all:
     input:
-        out_dir = expand("04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta", group=Groups),
+        tree = "05_IQTree/{group}/{group}_Phylogeny.treefile"
 
 rule download_genome:
     input:
@@ -269,7 +269,7 @@ rule prune_and_concat:
         aligned_dir = "03_aligned_orthogroups/{group}/",
         done = "03_aligned_orthogroups/{group}/mafft.done",
     output:
-        pruned_dir = directory("04_pruned_and_concat_alignments/{group}/")
+        pruned_dir = directory("04_pruned_and_concat_alignments/{group}/"),
         pruned_cat = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta",
     params:
         pipe_names = False
@@ -287,8 +287,9 @@ rule make_tree:
     input:
         pruned_cat = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta"
     output:
-        pdf =
-    # params:
+        pdf = "05_IQTree/{group}/{group}_Phylogeny.treefile"
+    params:
+        outdir = "05_IQTree/{group}/"
     #     mailto="aiswarya.prasad@unil.ch",
     #     account="pengel_spirit",
     #     runtime_s=convertToSec("0-2:10:00"),
@@ -298,7 +299,9 @@ rule make_tree:
     log: "logs/{group}_make_tree.log"
     shell:
         """
+        rm -rf {params.outdir}
+        mkdir -p {params.outdir}
         iqtree -s {input.pruned_cat} \
                 -st AA -nt {threads} -bb 1000 -seed 12345 -m TEST \
-                -pre ${genus}_Phylogeny
+                -pre {params.outdir}{wildcards.group}_Phylogeny
         """

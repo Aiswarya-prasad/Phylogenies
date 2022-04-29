@@ -46,10 +46,6 @@ def LongName(string, pipeNames='False') :
         OG_ID=string.rstrip().split('|')[0].split('_')[0]
         print(OG_ID)
         return(OG_ID)
-    elif underscoreNames == 'True':
-        OG_ID=string.rstrip().split('|')[0].split('_')[0]
-        print(OG_ID)
-        return(OG_ID)
     else :
         OG_ID = string.rstrip().split('_')[0]
         return(OG_ID)
