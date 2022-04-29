@@ -129,7 +129,8 @@ def convertToSec(string):
 
 rule all:
     input:
-        tree = "05_IQTree/{group}/{group}_Phylogeny.treefile"
+        out_dir = expand("04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta", group=Groups),
+        # tree = expand("05_IQTree/{group}/{group}_Phylogeny.treefile", group=Groups),
 
 rule download_genome:
     input:

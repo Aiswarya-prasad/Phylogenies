@@ -37,14 +37,12 @@ def fasta_to_dict(fasta, Path, pipeNames) :
     return(dict_OG)
 
 def LongName(string, pipeNames='False') :
-    string = "GrY2_F2_MAG_00000011_01168"
-    if len(string.rstrip().split('_'))>2 and pipeNames=='False' :
+    if len(string.rstrip().split('_'))>2 and pipeNames==False :
         OG_ID = "_".join(string.rstrip().split('_')[0:-1])
-        # OG_ID = "_".join(string.rstrip().split('_')[0:2])
         return(OG_ID)
     elif pipeNames=='True' :
         OG_ID=string.rstrip().split('|')[0].split('_')[0]
-        print(OG_ID)
+        # print(OG_ID)
         return(OG_ID)
     else :
         OG_ID = string.rstrip().split('_')[0]
@@ -59,6 +57,8 @@ PathAlignedOG=snakemake.input["aligned_dir"]
 OutDir=snakemake.output["pruned_dir"]
 WriteAll=True
 pipeNames=snakemake.params["pipe_names"]
+if pipeNames == 'False':
+    pipeNames = False
 
 if not os.path.exists(OutDir):
     os.makedirs(OutDir)
@@ -99,12 +99,12 @@ for alnOG in sorted(MainDictionary.keys()) :
 
 
     for key, value in pruned_seq.items() :
-        print(key)
+        # print(key)
         if FIRST=='True' :
             allPrunedSequences[key] = (insert_newlines(value) + '\n')
 
         else :
-            print('else')
+            # print('else')
             allPrunedSequences[key] += insert_newlines(value) + '\n'
     FIRST='False'
 #%%

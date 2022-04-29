@@ -6,6 +6,16 @@ To get started there needs to be a config file and some metadata files with thei
 
 The pipeline is currently being tested on one of the Engel lab workstations. However, since the conda environment is available, it can also be run in the cluster with minimal setting up (lines to provide slurm parameters must be uncommented and paths in config file should be changed).
 
+## TO DO
+
+- TO DO list to be updated!
+- make log useful files
+- summary of orthologs
+- convenient/quick way to add genomes to recompute when adding new genome
+- option to use dna and/or aa sequences for tree
+
+
+
 ## Choosing MAGs
 
 The quality of MAGs mentioned below are according to this [paper](https://doi.org/10.1038/s41586-019-0965-1), mentioned in this [review](https://doi.org/10.1016/j.csbj.2021.11.028)
