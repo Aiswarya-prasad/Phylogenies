@@ -37,11 +37,16 @@ def fasta_to_dict(fasta, Path, pipeNames) :
     return(dict_OG)
 
 def LongName(string, pipeNames='False') :
-
+    string = "GrY2_F2_MAG_00000011_01168"
     if len(string.rstrip().split('_'))>2 and pipeNames=='False' :
-        OG_ID = "_".join(string.rstrip().split('_')[0:2])
+        OG_ID = "_".join(string.rstrip().split('_')[0:-1])
+        # OG_ID = "_".join(string.rstrip().split('_')[0:2])
         return(OG_ID)
     elif pipeNames=='True' :
+        OG_ID=string.rstrip().split('|')[0].split('_')[0]
+        print(OG_ID)
+        return(OG_ID)
+    elif underscoreNames == 'True':
         OG_ID=string.rstrip().split('|')[0].split('_')[0]
         print(OG_ID)
         return(OG_ID)
