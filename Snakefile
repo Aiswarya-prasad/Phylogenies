@@ -1,3 +1,13 @@
+"""
+Run using
+
+snakemake -p -r --use-conda --conda-prefix /home/aiswarya/anaconda3/phylogenies-environment --cores 8
+
+or
+
+snakemake -p -r --use-conda --conda-prefix /home/aiswarya/anaconda3/phylogenies-environment --cores 8  --rerun-incomplete --keep-going
+"""
+
 import os
 
 configfile: "config.yaml"
@@ -119,7 +129,7 @@ def convertToSec(string):
 
 rule all:
     input:
-        out_dir = expand("04_pruned_and_concat_alignments/{group}/", group=Groups),
+        out_dir = expand("04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta", group=Groups),
 
 rule download_genome:
     input:
@@ -200,7 +210,7 @@ rule prepare_faa:
         do
             genome_name=$(basename ${{file}})
             if [ ! -f ${{file}} ]; then
-                cp 01_prokka/${{genome_name/.faa/}}/${{genome_name}} ${{file}} 2>&1 | tee -a {log}
+                cp 01_prokka/${{genome_name/.faa/}}/${{genome_name}} ${{file}}
             fi
         done
         """
@@ -231,6 +241,7 @@ rule align_orthologs:
         orthogroups_dir = "02_orthofinder/{group}/OrthoFinder/Results_{group}/Single_Copy_Orthologue_Sequences/"
     output:
         out_dir = directory("03_aligned_orthogroups/{group}/"),
+        done = touch("03_aligned_orthogroups/{group}/mafft.done"),
     conda: "envs/phylogenies-env.yaml"
     # params:
     #     mailto="aiswarya.prasad@unil.ch",
@@ -239,14 +250,14 @@ rule align_orthologs:
     # resources:
     #     mem_mb = 8000
     threads: 4
-    log: "logs/{group}_run_orthofinder.log"
+    log: "logs/{group}_align_orthologs.log"
     shell:
         """
         mkdir -p {output.out_dir}
         for OG in $(ls {input.orthogroups_dir})
         do
             echo "starting alignment for ${{OG}}" 2>&1 | tee -a {log}
-            mafft --amino --inputorder --localpair --maxiterate 1000 {input.orthogroups_dir}/${{OG}} > {output.out_dir}/${{OG/.fa/_aligned.fa}} 2>&1 | tee -a {log}
+            mafft --amino --inputorder --localpair --maxiterate 1000 {input.orthogroups_dir}/${{OG}} > {output.out_dir}/${{OG/.fa/_aligned.fa}}
         done
         """
 
@@ -256,9 +267,10 @@ rule align_orthologs:
 
 rule prune_and_concat:
     input:
-        aligned_dir = "03_aligned_orthogroups/{group}/"
+        aligned_dir = "03_aligned_orthogroups/{group}/",
+        done = "03_aligned_orthogroups/{group}/mafft.done",
     output:
-        pruned_dir = "04_pruned_and_concat_alignments/{group}/"
+        pruned_dir = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta"
     params:
         pruned_dir = False
     #     mailto="aiswarya.prasad@unil.ch",
