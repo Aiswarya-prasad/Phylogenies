@@ -1,0 +1,480 @@
+ID	Accession	Locus_tag	Strain_name	Phylotype	SDP	Species	Host	Study	Origin	Source_database	Cluster	Group	Genus	Family	Order	Class
+SALWKB2	NA	SALWKB2	wkB2	snod	snod_1		Apis mellifera	Kwong et al. (2014b)	USA, West Haven	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+SALWKB12	NA	SALWKB12	wkB12	snod	NA		Bombus bimaculatus	Kwong et al. (2014b)	USA, West Haven	KE_2021_expandedGBR	NA	snod	NA	NA	NA	NA
+PEB0150	NA	PEB0150	PEB0150	bapis	NA	Bartonella apis	Apis mellifera	Segers et al. (2017)	USA, West Haven	KE_2021_expandedGBR	NA	bapis	NA	NA	NA	NA
+PEB0149	NA	PEB0149	PEB0149	bapis	NA	Bartonella apis	Apis mellifera	Segers et al. (2017)	USA, West Haven	KE_2021_expandedGBR	NA	bapis	NA	NA	NA	NA
+PEB0122	NA	PEB0122	PEB0122	bapis	NA	Bartonella apis	Apis mellifera	Segers et al. (2017)	USA, West Haven	KE_2021_expandedGBR	NA	bapis	NA	NA	NA	NA
+LACWKB8	NA	LACWKB8	wkB8	firm5	firm5_2	Lactobacillus helsingborgensis	Apis mellifera	Kwong et al.(2014a)	USA, West Haven	KE_2021_expandedGBR	firm5_2	lacto	NA	NA	NA	NA
+LACWKB10	NA	LACWKB10	wkB10	firm5	firm5_4	Lactobacillus kullabergensis	Apis mellifera	Kwong et al.(2014a)	USA, West Haven	KE_2021_expandedGBR	firm5_4	lacto	NA	NA	NA	NA
+GAPWK	NA	GAPWK	wkB1	gilli	gilli_1	Gilliamella apicola	Apis mellifera	Kwong et al. (2014b)	USA, West Haven	KE_2021_expandedGBR	gilli_1	entero	NA	NA	NA	NA
+Ga0418777	NA	Ga0418777	Fper_2	fper	fper_2	Fper_2	Frischella spp.	Apis cerana	Unpublished	KE_2021_expandedGBR	fper_2	entero	NA	NA	NA	NA
+Ga0372762	NA	Ga0372762	ESL_0368	bom	bom_2		Apis mellifera	Bonilla-Rosso et al. (2019)	Switzerland, Engel apiary	KE_2021_expandedGBR	bom_2	bom	NA	NA	NA	NA
+Ga0326500	NA	Ga0326500	ESL0196	snod	snod_1		Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+Ga0326456	NA	Ga0326456	ESL0449	firm4	firm4_1	Lactobacillus mellis	Apis cerana	Ellegaard et al. (2020)	Japan, Tsukuba	KE_2021_expandedGBR	firm4_1	lacto	NA	NA	NA	NA
+Ga0312307	NA	Ga0312307	ESL0432	api	api_1	Apibacter sp.	Apis cerana	Ellegaard et al. (2020)	Tsukuba, Japan	KE_2021_expandedGBR	api_1	api	NA	NA	NA	NA
+Ga0312305	NA	Ga0312305	ESL0447	bifido	bifido_1	Bifidobacterium asteroides	Apis cerana	Ellegaard et al. (2020)	Japan, Tsukuba	KE_2021_expandedGBR	bifido_1	bifido	NA	NA	NA	NA
+Ga0312304	NA	Ga0312304	ESL0416	firm5	Firm5-7	Lactobacillus panisapium	Apis cerana	Ellegaard et al. (2020)	Japan, Yokohama	KE_2021_expandedGBR	Firm5-7	lacto	NA	NA	NA	NA
+Ga0312303	NA	Ga0312303	ESL0413	firm5	Firm5-7	Lactobacillus panisapium	Apis cerana	Ellegaard et al. (2020)	Japan, Yokohama	KE_2021_expandedGBR	Firm5-7	lacto	NA	NA	NA	NA
+Ga0311394	NA	Ga0311394	ESL0411	firm5	Firm5-7	Lactobacillus panisapium	Apis cerana	Ellegaard et al. (2020)	Japan, Yokohama	KE_2021_expandedGBR	Firm5-7	lacto	NA	NA	NA	NA
+Ga0308523	NA	Ga0308523	Fhon13	lkun	lkun		Apis mellifera	Tamarit et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	lkun	lacto	NA	NA	NA	NA
+Ga0308518	NA	Ga0308518	R-52487	bom	bom_i		Bombus lapidarius	Li et al. (2016)	Crop of Bombus lapidarius	KE_2021_expandedGBR	bom_i	bom	NA	NA	NA	NA
+Ga0307804	NA	Ga0307804	ESL0409	firm5	firm5_7	Lactobacillus panisapium	Apis cerana	Ellegaard et al. (2020)	Japan, Yokohama	KE_2021_expandedGBR	firm5_7	lacto	NA	NA	NA	NA
+Ga0307803	NA	Ga0307803	ESL0443	gilli	NA	NA	Apis cerana	Ellegaard et al. (2020)	Tsukuba, Japan	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+Ga0307802	NA	Ga0307802	ESL0441	gilli	NA	NA	Apis cerana	Ellegaard et al. (2020)	Tsukuba, Japan	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+Ga0307800	NA	Ga0307800	ESL0405	gilli	NA	NA	Apis cerana	Ellegaard et al. (2020)	Yokohama, Japan	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+Ga0307799	NA	Ga0307799	ESL0404	api	api_1	Apibacter sp.	Apis cerana	Ellegaard et al. (2020)	Yokohama, Japan	KE_2021_expandedGBR	api_1	api	NA	NA	NA	NA
+Ga0248239	NA	Ga0248239	MX01	com	com_p		Monarch butterfly	Servin-Garciduenas et al. (2014)	Mexico	KE_2021_expandedGBR	com_p	com	NA	NA	NA	NA
+Ga0227360	NA	Ga0227360	ESL0394	firm4	firm4_1	Lactobacillus mellis	Apis mellifera	Ellegaard et al. (2020)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm4_1	lacto	NA	NA	NA	NA
+Ga0227359	NA	Ga0227359	ESL0393	firm5	firm5_3	Lactobacillus melliventris	Apis mellifera	Ellegaard et al. (2020)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm5_3	lacto	NA	NA	NA	NA
+Ga0227358	NA	Ga0227358	ESL0295	firm4	firm4_1	Lactobacillus mellis	Apis mellifera	Ellegaard et al. (2020)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm4_1	lacto	NA	NA	NA	NA
+Ga0227357	NA	Ga0227357	ESL0294	firm4	firm4_1	Lactobacillus mellis	Apis mellifera	Ellegaard et al. (2020)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm4_1	lacto	NA	NA	NA	NA
+Ga0227310	NA	Ga0227310	ESL0253	snod	NA		Bombus pascuorum	Ellegaard et al. (2020)	Switzerland, Engel apiary	KE_2021_expandedGBR	NA	snod	NA	NA	NA	NA
+Ga0227306	NA	Ga0227306	ESL0324	snod	snod_1		Apis mellifera	Ellegaard et al. (2020)	Switzerland, Engel apiary	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+Ga0227305	NA	Ga0227305	ESL0323	snod	snod_1		Apis mellifera	Ellegaard et al. (2020)	Switzerland, Engel apiary	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+Ga0227304	NA	Ga0227304	ESL0304	snod	snod_1		Apis mellifera	Ellegaard et al. (2020)	Switzerland, Engel apiary	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+Ga0227302	NA	Ga0227302	ESL0254	gilli	NA	NA	Bombus pascuorum	Ellegaard et al. (2020)		KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+Ga0227301	NA	Ga0227301	ESL0250	gilli	NA	NA	Bombus pascuorum	Ellegaard et al. (2020)		KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+Ga0227298	NA	Ga0227298	ESL0232	gilli	NA	NA	Bombus terrestris	Ellegaard et al. (2020)		KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+Ga0226852	NA	Ga0226852	ESL0228	firm5	NA	Lactobacillus bohemicus	Bombus bohemicus	Ellegaard et al. (2019)	Switzerland	KE_2021_expandedGBR	NA	lacto	NA	NA	NA	NA
+Ga0226847	NA	Ga0226847	ESL0230	firm5	NA	Lactobacillus bombicola	Bombus pascuorum	Ellegaard et al. (2019)	Switzerland	KE_2021_expandedGBR	NA	lacto	NA	NA	NA	NA
+Ga0226842	NA	Ga0226842	ESL0263	firm5	firm5_1	Lactobacillus apis	Apis mellifera	Ellegaard et al. (2019)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm5_1	lacto	NA	NA	NA	NA
+Ga0226840	NA	Ga0226840	ESL0260	firm5	firm5_3	Lactobacillus melliventris	Apis mellifera	Ellegaard et al. (2019)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm5_3	lacto	NA	NA	NA	NA
+Ga0226839	NA	Ga0226839	ESL0261	firm5	firm5_4	Lactobacillus kullabergensis	Apis mellifera	Ellegaard et al. (2019)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm5_4	lacto	NA	NA	NA	NA
+Ga0225908	NA	Ga0225908	ESL0259	firm5	firm5_3	Lactobacillus melliventris	Apis mellifera	Ellegaard et al. (2019)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm5_3	lacto	NA	NA	NA	NA
+Ga0216357	NA	Ga0216357	ESL_0385	bom	bom_3		Apis mellifera	Bonilla-Rosso et al. (20190	Switzerland, Engel apiary	KE_2021_expandedGBR	bom_3	bom	NA	NA	NA	NA
+Ga0216351	NA	Ga0216351	ESL0284	com	com_1		Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	com_1	com	NA	NA	NA	NA
+Ga0216349	NA	Ga0216349	ESL0366	com	com_2		Apis mellifera	Bonilla-Rosso et al. (2019)	Switzerland, Engel apiary	KE_2021_expandedGBR	com_2	com	NA	NA	NA	NA
+Ga0199088	NA	Ga0199088	BBC0122	bapis	NA	Bartonella apis	Apis mellifera	Segers et al. (2017)	Switzerland, Engel apiary	KE_2021_expandedGBR	NA	bapis	NA	NA	NA	NA
+Ga0199074	NA	Ga0199074	BBC0178	bapis	NA	Bartonella apis	Apis mellifera	Segers et al. (2017)	Switzerland, Engel apiary	KE_2021_expandedGBR	NA	bapis	NA	NA	NA	NA
+Ga0198795	NA	Ga0198795	BBC0244	bapis	NA	Bartonella apis	Apis mellifera	Segers et al. (2017)	Switzerland, Engel apiary	KE_2021_expandedGBR	NA	b	NA	NA	NA	NA
+Ga0133564	NA	Ga0133564	ESL0186	firm5	firm5_4	Lactobacillus kulllabergensis	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm5_4	lacto	NA	NA	NA	NA
+Ga0133563	NA	Ga0133563	ESL0185	firm5	firm5_1	Lactobacillus apis	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm5_1	lacto	NA	NA	NA	NA
+Ga0133562	NA	Ga0133562	ESL0184	firm5	firm5_3	Lactobacillus melliventris	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm5_3	lacto	NA	NA	NA	NA
+Ga0133561	NA	Ga0133561	ESL0183	firm5	firm5_2	Lactobacillus helsingborgensis	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	firm5_2	lacto	NA	NA	NA	NA
+Ga0133559	NA	Ga0133559	ESL0178	gilli	gilli_1	Gilliamella apicola	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	gilli_1	entero	NA	NA	NA	NA
+Ga0133558	NA	Ga0133558	ESL0182	gilli	gilli_3	NA	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	gilli_3	entero	NA	NA	NA	NA
+Ga0133557	NA	Ga0133557	ESL0177	gilli	gilli_3	NA	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	gilli_3	entero	NA	NA	NA	NA
+Ga0133556	NA	Ga0133556	ESL0172	gilli	gilli_2	Gilliamella apis	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+Ga0133555	NA	Ga0133555	ESL0169	gilli	gilli_2	Gilliamella apis	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+Ga0133554	NA	Ga0133554	ESL0167	fper	fper_1	Frischella perrara	Apis mellifera	Ellegaard_Engel(2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	fper_1	entero	NA	NA	NA	NA
+Ga0133553	NA	Ga0133553	ESL0200	bifido	bifido_1	Bifidobacterium asteroides	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	bifido_1	bifido	NA	NA	NA	NA
+Ga0133552	NA	Ga0133552	ESL0199	bifido	bifido_1	Bifidobacterium asteroides	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	bifido_1	bifido	NA	NA	NA	NA
+Ga0133551	NA	Ga0133551	ESL0198	bifido	bifido_1	Bifidobacterium asteroides	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	bifido_1	bifido	NA	NA	NA	NA
+Ga0133550	NA	Ga0133550	ESL0197	bifido	bifido_2	Bifidobacterium indicum/coryneforme	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	bifido_2	bifido	NA	NA	NA	NA
+Ga0133549	NA	Ga0133549	ESL0170	bifido	bifido_1	Bifidobacterium asteroides	Apis mellifera	Ellegaard_Engel (2018)	Switzerland, Engel apiary	KE_2021_expandedGBR	bifido_1	bifido	NA	NA	NA	NA
+Ga0098617	NA	Ga0098617	Fhon2	lkun	lkun		Apis mellifera	Tamarit et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	lkun	lacto	NA	NA	NA	NA
+Ga0098206	NA	Ga0098206	DSM 22766	bifido	NA	Bifidobacterium actinocoloniiforme	Bumblebee digestive tract	Chen et al. (2015)	Unknown	KE_2021_expandedGBR	NA	bifido	NA	NA	NA	NA
+Ga0077910	NA	Ga0077910	ESL0034	fper	fper_1	Frischella perrara	Apis mellifera	Engel et al. (2015)	USA, West Haven	KE_2021_expandedGBR	fper_1	entero	NA	NA	NA	NA
+Ga0072404	NA	Ga0072404	ESL0350	firm5	firm5_3	Lactobacillus melliventris	Apis mellifera	Ellegaard et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	firm5_3	lacto	NA	NA	NA	NA
+Ga0072403	NA	Ga0072403	ESL0352	firm5	firm5_4	Lactobacillus kimbladii	Apis mellifera	Ellegaard et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	firm5_4	lacto	NA	NA	NA	NA
+Ga0072402	NA	Ga0072402	ESL0353	firm5	firm5_1	Lactobacillus apis	Apis mellifera	Ellegaard et al.(2015)	Sweden,Jamtland	KE_2021_expandedGBR	firm5_1	lacto	NA	NA	NA	NA
+Ga0072401	NA	Ga0072401	Hma3	bifido	bifido_1	Bifidobacterium asteroides	Apis mellifera	Ellegaard et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	bifido_1	bifido	NA	NA	NA	NA
+Ga0072400	NA	Ga0072400	ESL0354	firm5	firm5_2	Lactobacillus helsingborgensis	Apis mellifera	Ellegaard et al.(2015)	Sweden, Jamtland	KE_2021_expandedGBR	firm5_2	lacto	NA	NA	NA	NA
+Ga0072399	NA	Ga0072399	Bin4	firm4	firm4_2	Lactobacillus mellifer	Apis mellifera	Ellegaard et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	firm4_2	lacto	NA	NA	NA	NA
+Ga0072398	NA	Ga0072398	Bma6	bifido	bifido_2	Bifidobacterium indicum/coryneforme	Apis mellifera	Ellegaard et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	bifido_2	bifido	NA	NA	NA	NA
+Ga0072396	NA	Ga0072396	Bin7	bifido	bifido_1	Bifidobacterium asteroides	Apis mellifera	Ellegaard et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	bifido_1	bifido	NA	NA	NA	NA
+Ga0072395	NA	Ga0072395	Bin2	bifido	bifido_1	Bifidobacterium asteroides	Apis mellifera	Ellegaard et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	bifido_1	bifido	NA	NA	NA	NA
+Ga0070888	NA	Ga0070888	Hon2	firm4	firm4_1	Lactobacillus mellis	Apis mellifera	Ellegaard et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	firm4_1	lacto	NA	NA	NA	NA
+Ga0070887	NA	Ga0070887	ESL0351	firm5	firm5_4	Lactobacillus kullabergensis	Apis mellifera	Ellegaard et al. (2015)	Sweden, Jamtland	KE_2021_expandedGBR	firm5_4	lacto	NA	NA	NA	NA
+Ga0061080	NA	Ga0061080	R-53144	gilli	NA	Gilliamella intestini	soil?	JGI/Praet et al. (2017)		KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+Ga0061079	NA	Ga0061079	R-53146	api	NA	Apibacter mensalis	Bombus lapidarius	Kwong et al. (2018)	Ghent, Belgium	KE_2021_expandedGBR	NA	api	NA	NA	NA	NA
+Ga0061073	NA	Ga0061073	LMG 26964	firm5	firm5_1	Lactobacillus apis	Apis mellifera	DOE Joint genome institute	Czech republic (type strain)	KE_2021_expandedGBR	firm5_1	lacto	NA	NA	NA	NA
+Ga0061072	NA	Ga0061072	R-53102	firm5	NA	Lactobacillus bombicola	Bombus lapidarius	DOE Joint genome institute	Belgium, Ghent	KE_2021_expandedGBR	NA	lacto	NA	NA	NA	NA
+Ga0057557	NA	Ga0057557	DSM 22767	bifido	NA	Bifidobacterium bohemicum	Bumblebee digestive tract	Milani et al. (2014)	Unknown	KE_2021_expandedGBR	NA	bifido	NA	NA	NA	NA
+Ga0056940	NA	Ga0056940	DSM 19703	bifido	NA	Bifidobacterium bombi	Bumblebee?	Milani et al. (2014)	Unknown	KE_2021_expandedGBR	NA	bifido	NA	NA	NA	NA
+Ga0055041	NA	Ga0055041	wkB11	gilli	NA	NA	Bombus bimaculatus	Kwong et al. (2014b)	USA, West Haven	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+CPT77	NA	CPT77	E1	snod	snod_1		Apis mellifera	Ludvigsen et al. (2017)	"USA: Arizona State University, Tempe Campus"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+CIN	NA	CIN	A911	com	com_i		Drosophila melagenogaster	Public, not published?	?	KE_2021_expandedGBR	com_i	com	NA	NA	NA	NA
+C4S76	NA	C4S76	wkB180	api	NA	Apibacter adventoris	Apis dorsata	Kwong et al. (2018)	Singapore	KE_2021_expandedGBR	NA	api	NA	NA	NA	NA
+C4S75	NA	C4S75	wkB309	api	api_1	Apibacter sp.	Apis cerana	Kwong et al. (2018)	Genting, Malaysia	KE_2021_expandedGBR	api_1	api	NA	NA	NA	NA
+BINDI	NA	BINDI	LMG 11587	bifido	bifido_2	Bifidobacterium indicum	?	Milani et al. (2014)	"insect"	KE_2021_expandedGBR	bifido_2	bifido	NA	NA	NA	NA
+BHC57	NA	BHC57	HK3	snod	NA		Bombus pensylvanicus	Steele et al. (2017)	"USA"	KE_2021_expandedGBR	NA	snod	NA	NA	NA	NA
+BHC54	NA	BHC54	wkB273	snod	snod_2		Apis florea	Steele et al. (2017)	"Singapore: Clementi Park"	KE_2021_expandedGBR	snod_2	snod	NA	NA	NA	NA
+BHC53	NA	BHC53	wkB237	snod	snod_2		Apis andreiformis	Steele et al. (2017)	"Singapore: Hort Park"	KE_2021_expandedGBR	snod_2	snod	NA	NA	NA	NA
+BHC52	NA	BHC52	MS1-3	snod	snod_1		Apis mellifera	Steele et al. (2017)	"USA: Austin, TX"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BHC50	NA	BHC50	wkB339	snod	snod_1		Apis mellifera	Steele et al. (2017)	"Malaysia: Genting"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BHC48	NA	BHC48	Occ4-2	snod	NA		Bombus occidentalis	Steele et al. (2017)	"USA"	KE_2021_expandedGBR	NA	snod	NA	NA	NA	NA
+BHC47	NA	BHC47	PEB0171	snod	snod_1		Apis mellifera	Steele et al. (2017)	"USA: New Haven, CT"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BHC44	NA	BHC44	Nev4-2	snod	NA		Bombus nevadensis	Steele et al. (2017)	"USA"	KE_2021_expandedGBR	NA	snod	NA	NA	NA	NA
+BHC43	NA	BHC43	wkB298	snod	snod_2		Apis cerana	Steele et al. (2017)	"Singapore: Hort Park"	KE_2021_expandedGBR	snod_2	snod	NA	NA	NA	NA
+BGI13	NA	BGI13	N-S4	snod	snod_1		Apis mellifera	Ludvigsen et al. (2017)	"Norway: Aas"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BGI12	NA	BGI12	N-S3	snod	snod_1		Apis mellifera	Ludvigsen et al. (2017)	"Norway: Aas"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BGI09	NA	BGI09	N9	snod	snod_1		Apis mellifera	Ludvigsen et al. (2017)	"Norway: Aas"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BGI08	NA	BGI08	N-W7	snod	snod_1		Apis mellifera	Ludvigsen et al. (2017)	"Norway: Aas"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BGI01	NA	BGI01	A2	snod	snod_1		Apis mellifera	Ludvigsen et al. (2017)	"USA: Arizona"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BGI00	NA	BGI00	A-1-12	snod	snod_1		Apis mellifera	Ludvigsen et al. (2017)	"USA: Arizona"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BGH96	NA	BGH96	A12	snod	snod_1		Apis mellifera	Ludvigsen et al. (2017)	"USA: Arizona"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BGH94	NA	BGH94	Aw-20	snod	snod_1		Apis mellifera	Ludvigsen et al. (2017)	"USA: Arizona"	KE_2021_expandedGBR	snod_1	snod	NA	NA	NA	NA
+BCOR	NA	BCOR	LMG 18911	bifido	bifido_2	Bifidobacterium coryneforme	Apis mellifera	Milani et al. (2014)	"honeybee hindgut"	KE_2021_expandedGBR	bifido_2	bifido	NA	NA	NA	NA
+BAST	NA	BAST	PRL2011	bifido	bifido_1	Bifidobacterium asteroides	Apis mellifera	Bottacini et al. (2012)	"honeybee hindgut"	KE_2021_expandedGBR	bifido_1	bifido	NA	NA	NA	NA
+B6D22	NA	B6D22	AM4	gilli	gilli_1	Gilliamella apicola	Apis mellifera	Ludvigsen et al. (2017)	USA, Arizona	KE_2021_expandedGBR	gilli_1	entero	NA	NA	NA	NA
+B6D21	NA	B6D21	AM1	gilli	gilli_2	Gilliamella apis	Apis mellifera	Ludvigsen et al. (2017)	"USA: Arizona"	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+B6D19	NA	B6D19	N-22	gilli	gilli_1	Gilliamella apicola	Apis mellifera	Ludvigsen et al. (2017)	"Norway: Aas"	KE_2021_expandedGBR	gilli_1	entero	NA	NA	NA	NA
+B6D18	NA	B6D18	A7	gilli	gilli_2	Gilliamella apis	Apis mellifera	Ludvigsen et al. (2017)	USA, Arizona	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+B6D17	NA	B6D17	N-G1	gilli	gilli_2	Gilliamella apis	Apis mellifera	Ludvigsen et al. (2017)	"Norway: Aas"	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+B6D14	NA	B6D14	N-G4	gilli	gilli_2	Gilliamella apis	Apis mellifera	Ludvigsen et al. (2017)	"Norway: Aas"	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+B6D08	NA	B6D08	A-7-12	gilli	gilli_1	Gilliamella apicola	Apis mellifera	Ludvigsen et al. (2017)	"USA: Arizona"	KE_2021_expandedGBR	gilli_1	entero	NA	NA	NA	NA
+B6D03	NA	B6D03	N-G5	gilli	gilli_1	Gilliamella apicola	Apis mellifera	Ludvigsen et al. (2017)	"Norway: Aas"	KE_2021_expandedGBR	gilli_1	entero	NA	NA	NA	NA
+B6C99	NA	B6C99	N-G2	gilli	gilli_2	Gilliamella apis	Apis mellifera	Ludvigsen et al. (2017)	Norway, Aas	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+B6C96	NA	B6C96	NO15	gilli	gilli_2	Gilliamella apis	Apis mellifera	Ludvigsen et al. (2017)	"Norway: Aas"	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+A9G47	NA	A9G47	WF3-4	gilli	NA	NA	Bombus pensylvanicus	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G43	NA	A9G43	Occ3-1	gilli	NA	NA	Bombus occidentalis	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G35	NA	A9G35	Choc5-1	gilli	NA	NA	Bombus impatiens	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G31	NA	A9G31	Gris1-4	gilli	NA	NA	Bombus griseocollis	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G24	NA	A9G24	App6-5	gilli	NA	NA	Bombus appositus	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G23	NA	A9G23	App4-10	gilli	NA	NA	Bombus appositus	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G19	NA	A9G19	M1-2G	gilli	gilli_2	Gilliamella apis	Apis mellifera	Zheng et al. (2016)	USA, Austin	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+A9G17	NA	A9G17	wkB7	gilli	gilli_1	Gilliamella apicola	Apis mellifera	Zheng et al. (2016)	USA, Austin	KE_2021_expandedGBR	gilli_1	entero	NA	NA	NA	NA
+A9G16	NA	A9G16	P83G	gilli	gilli_2	Gilliamella apis	Apis mellifera	Zheng et al. (2016)	USA, Austin	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+A9G15	NA	A9G15	P62G	gilli	gilli_2	Gilliamella apis	Apis mellifera	Zheng et al. (2016)	USA, Austin	KE_2021_expandedGBR	gilli_2	entero	NA	NA	NA	NA
+A9G14	NA	A9G14	P54G	gilli	gilli_1	Gilliamella apicola	Apis mellifera	Zheng et al. (2016)	USA, Austin	KE_2021_expandedGBR	gilli_1	entero	NA	NA	NA	NA
+A9G13	NA	A9G13	wkB178	gilli	NA	NA	Apis dorsata	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G12	NA	A9G12	wkB112	gilli	NA	NA	Apis dorsata	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G11	NA	A9G11	wkB108	gilli	NA	NA	Apis dorsata	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G10	NA	A9G10	wkB308	gilli	NA	NA	Apis cerana	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G09	NA	A9G09	wkB292	gilli	NA	NA	Apis cerana	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G08	NA	A9G08	wkB195	gilli	NA	NA	Apis cerana	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+A9G07	NA	A9G07	wkB72	gilli	NA	NA	Apis cerana	Zheng et al. (2016)	"USA: Austin"	KE_2021_expandedGBR	NA	entero	NA	NA	NA	NA
+DrY1_W1_MAG_00000011	NA	NA	DrY1_W1_MAG_00000011	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY1_W1_MAG_00000015	NA	NA	DrY1_W1_MAG_00000015	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	30_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_W1_MAG_00000020	NA	NA	DrY1_W1_MAG_00000020	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_W1_MAG_00000021	NA	NA	DrY1_W1_MAG_00000021	NA	NA	s__Bartonella apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	28_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+DrY1_W1_MAG_00000023	NA	NA	DrY1_W1_MAG_00000023	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W1_MAG_00000007	NA	NA	DrY1_W1_MAG_00000007	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W6_MAG_00000014	NA	NA	DrY1_W6_MAG_00000014	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+DrY1_W6_MAG_00000015	NA	NA	DrY1_W6_MAG_00000015	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W6_MAG_00000017	NA	NA	DrY1_W6_MAG_00000017	NA	NA	s__Lactobacillus apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	54_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W6_MAG_00000019	NA	NA	DrY1_W6_MAG_00000019	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	30_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_W6_MAG_00000002	NA	NA	DrY1_W6_MAG_00000002	NA	NA	s__Bifidobacterium indicum	EMPTY	NA	EMPTY	Shini_lab_MAGs	3_1	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+DrY1_W6_MAG_00000005	NA	NA	DrY1_W6_MAG_00000005	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+DrY1_W6_MAG_00000006	NA	NA	DrY1_W6_MAG_00000006	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W4_MAG_00000011	NA	NA	DrY2_W4_MAG_00000011	NA	NA	s__Bartonella apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	28_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+DrY2_W4_MAG_00000012	NA	NA	DrY2_W4_MAG_00000012	NA	NA	s__Sphingomonas paucimobilis	EMPTY	NA	EMPTY	Shini_lab_MAGs	7_1	sphingo	g__Sphingomonas	f__Sphingomonadaceae	o__Sphingomonadales	c__Alphaproteobacteria
+DrY2_W4_MAG_00000013	NA	NA	DrY2_W4_MAG_00000013	NA	NA	s__Bifidobacterium indicum	EMPTY	NA	EMPTY	Shini_lab_MAGs	3_1	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+DrY2_W4_MAG_00000016	NA	NA	DrY2_W4_MAG_00000016	NA	NA	s__Acinetobacter johnsonii	EMPTY	NA	EMPTY	Shini_lab_MAGs	41_1	pseudo	g__Acinetobacter	f__Moraxellaceae	o__Pseudomonadales	c__Gammaproteobacteria
+DrY2_W4_MAG_00000019	NA	NA	DrY2_W4_MAG_00000019	NA	NA	s__Sphingomonas yantingensis	EMPTY	NA	EMPTY	Shini_lab_MAGs	6_1	sphingo	g__Sphingomonas	f__Sphingomonadaceae	o__Sphingomonadales	c__Alphaproteobacteria
+DrY2_W4_MAG_00000002	NA	NA	DrY2_W4_MAG_00000002	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W4_MAG_00000004	NA	NA	DrY2_W4_MAG_00000004	NA	NA	s__Acidovorax sp001411535	EMPTY	NA	EMPTY	Shini_lab_MAGs	22_1	snod	g__Acidovorax	f__Burkholderiaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_W4_MAG_00000005	NA	NA	DrY2_W4_MAG_00000005	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W4_MAG_00000007	NA	NA	DrY2_W4_MAG_00000007	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_F3_MAG_00000010	NA	NA	DrY1_F3_MAG_00000010	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F3_MAG_00000013	NA	NA	DrY1_F3_MAG_00000013	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_F3_MAG_00000004	NA	NA	DrY1_F3_MAG_00000004	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+DrY1_F3_MAG_00000006	NA	NA	DrY1_F3_MAG_00000006	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W3_MAG_00000016	NA	NA	DrY1_W3_MAG_00000016	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W3_MAG_00000017	NA	NA	DrY1_W3_MAG_00000017	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	28_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+DrY1_W3_MAG_00000002	NA	NA	DrY1_W3_MAG_00000002	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_F4_MAG_00000013	NA	NA	GrY2_F4_MAG_00000013	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_F4_MAG_00000014	NA	NA	GrY2_F4_MAG_00000014	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_F4_MAG_00000017	NA	NA	GrY2_F4_MAG_00000017	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F4_MAG_00000004	NA	NA	GrY2_F4_MAG_00000004	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F4_MAG_00000008	NA	NA	GrY2_F4_MAG_00000008	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+DrY1_W2_MAG_00000001	NA	NA	DrY1_W2_MAG_00000001	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY1_W2_MAG_00000010	NA	NA	DrY1_W2_MAG_00000010	NA	NA	s__Lactobacillus apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	54_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W2_MAG_00000011	NA	NA	DrY1_W2_MAG_00000011	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_W2_MAG_00000014	NA	NA	DrY1_W2_MAG_00000014	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+DrY1_W2_MAG_00000016	NA	NA	DrY1_W2_MAG_00000016	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	30_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_W2_MAG_00000008	NA	NA	DrY1_W2_MAG_00000008	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F5_MAG_00000011	NA	NA	GrY2_F5_MAG_00000011	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_F5_MAG_00000013	NA	NA	GrY2_F5_MAG_00000013	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+GrY2_F5_MAG_00000014	NA	NA	GrY2_F5_MAG_00000014	NA	NA	s__Bartonella apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	28_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+GrY2_F5_MAG_00000016	NA	NA	GrY2_F5_MAG_00000016	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_F5_MAG_00000018	NA	NA	GrY2_F5_MAG_00000018	NA	NA	s__Hafnia alvei	EMPTY	NA	EMPTY	Shini_lab_MAGs	14_1	entero	g__Hafnia	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+GrY2_F5_MAG_00000003	NA	NA	GrY2_F5_MAG_00000003	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W6_MAG_00000014	NA	NA	DrY2_W6_MAG_00000014	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W6_MAG_00000015	NA	NA	DrY2_W6_MAG_00000015	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_W6_MAG_00000016	NA	NA	DrY2_W6_MAG_00000016	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY2_F1_MAG_00000014	NA	NA	DrY2_F1_MAG_00000014	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_F1_MAG_00000018	NA	NA	DrY2_F1_MAG_00000018	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_F1_MAG_00000006	NA	NA	DrY2_F1_MAG_00000006	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F6_MAG_00000010	NA	NA	GrY2_F6_MAG_00000010	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_F6_MAG_00000012	NA	NA	GrY2_F6_MAG_00000012	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F6_MAG_00000014	NA	NA	GrY2_F6_MAG_00000014	NA	NA	s__Bartonella apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	28_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+GrY2_F6_MAG_00000002	NA	NA	GrY2_F6_MAG_00000002	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_F6_MAG_00000005	NA	NA	GrY2_F6_MAG_00000005	NA	NA	s__Lactobacillus apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	54_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F6_MAG_00000007	NA	NA	GrY2_F6_MAG_00000007	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	30_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_F6_MAG_00000008	NA	NA	GrY2_F6_MAG_00000008	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F5_MAG_00000010	NA	NA	DrY1_F5_MAG_00000010	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+DrY1_F5_MAG_00000012	NA	NA	DrY1_F5_MAG_00000012	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F5_MAG_00000018	NA	NA	DrY1_F5_MAG_00000018	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	30_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_F5_MAG_00000019	NA	NA	DrY1_F5_MAG_00000019	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F5_MAG_00000002	NA	NA	DrY1_F5_MAG_00000002	NA	NA	s__Gilliamella apicola	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_1	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+DrY1_F5_MAG_00000007	NA	NA	DrY1_F5_MAG_00000007	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY1_F1_MAG_00000010	NA	NA	DrY1_F1_MAG_00000010	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F1_MAG_00000016	NA	NA	DrY1_F1_MAG_00000016	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F1_MAG_00000006	NA	NA	DrY1_F1_MAG_00000006	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+GrY2_W2_MAG_00000019	NA	NA	GrY2_W2_MAG_00000019	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+GrY2_W2_MAG_00000004	NA	NA	GrY2_W2_MAG_00000004	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_W2_MAG_00000009	NA	NA	GrY2_W2_MAG_00000009	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N1_MAG_00000014	NA	NA	DrY2_N1_MAG_00000014	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N1_MAG_00000006	NA	NA	DrY2_N1_MAG_00000006	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N1_MAG_00000007	NA	NA	DrY2_N1_MAG_00000007	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_N1_MAG_00000009	NA	NA	DrY2_N1_MAG_00000009	NA	NA	s__Bifidobacterium asteroides_A	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_7	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+DrY1_W4_MAG_00000013	NA	NA	DrY1_W4_MAG_00000013	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	30_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_W4_MAG_00000014	NA	NA	DrY1_W4_MAG_00000014	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY1_W4_MAG_00000002	NA	NA	DrY1_W4_MAG_00000002	NA	NA	s__Bifidobacterium indicum	EMPTY	NA	EMPTY	Shini_lab_MAGs	3_1	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+DrY1_W4_MAG_00000020	NA	NA	DrY1_W4_MAG_00000020	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W4_MAG_00000003	NA	NA	DrY1_W4_MAG_00000003	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W4_MAG_00000009	NA	NA	DrY1_W4_MAG_00000009	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_W6_MAG_00000016	NA	NA	GrY2_W6_MAG_00000016	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_W6_MAG_00000030	NA	NA	GrY2_W6_MAG_00000030	NA	NA	s__Bartonella apis_A	EMPTY	NA	EMPTY	Shini_lab_MAGs	27_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+GrY2_W6_MAG_00000034	NA	NA	GrY2_W6_MAG_00000034	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W6_MAG_00000006	NA	NA	GrY2_W6_MAG_00000006	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_N6_MAG_00000010	NA	NA	GrY2_N6_MAG_00000010	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N6_MAG_00000012	NA	NA	GrY2_N6_MAG_00000012	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_N6_MAG_00000014	NA	NA	GrY2_N6_MAG_00000014	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N6_MAG_00000004	NA	NA	GrY2_N6_MAG_00000004	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_F3_MAG_00000001	NA	NA	GrY2_F3_MAG_00000001	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F3_MAG_00000015	NA	NA	GrY2_F3_MAG_00000015	NA	NA	s__Bartonella apis_A	EMPTY	NA	EMPTY	Shini_lab_MAGs	27_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+GrY2_F3_MAG_00000016	NA	NA	GrY2_F3_MAG_00000016	NA	NA	s__Hafnia alvei	EMPTY	NA	EMPTY	Shini_lab_MAGs	14_1	entero	g__Hafnia	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+GrY2_F3_MAG_00000018	NA	NA	GrY2_F3_MAG_00000018	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_F3_MAG_00000021	NA	NA	GrY2_F3_MAG_00000021	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F3_MAG_00000009	NA	NA	GrY2_F3_MAG_00000009	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_W5_MAG_00000001	NA	NA	DrY2_W5_MAG_00000001	NA	NA	s__Sphingomonas paucimobilis	EMPTY	NA	EMPTY	Shini_lab_MAGs	7_1	sphingo	g__Sphingomonas	f__Sphingomonadaceae	o__Sphingomonadales	c__Alphaproteobacteria
+DrY2_W5_MAG_00000014	NA	NA	DrY2_W5_MAG_00000014	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY2_W5_MAG_00000015	NA	NA	DrY2_W5_MAG_00000015	NA	NA	s__Pseudomonas aeruginosa	EMPTY	NA	EMPTY	Shini_lab_MAGs	25_0	pseudo	g__Pseudomonas	f__Pseudomonadaceae	o__Pseudomonadales	c__Gammaproteobacteria
+DrY2_W5_MAG_00000004	NA	NA	DrY2_W5_MAG_00000004	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W5_MAG_00000007	NA	NA	DrY2_W5_MAG_00000007	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+GrY2_N2_MAG_00000011	NA	NA	GrY2_N2_MAG_00000011	NA	NA	s__Bifidobacterium asteroides_A	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_8	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+GrY2_N2_MAG_00000016	NA	NA	GrY2_N2_MAG_00000016	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_N2_MAG_00000017	NA	NA	GrY2_N2_MAG_00000017	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N2_MAG_00000009	NA	NA	GrY2_N2_MAG_00000009	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W2_MAG_00000011	NA	NA	DrY2_W2_MAG_00000011	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W2_MAG_00000015	NA	NA	DrY2_W2_MAG_00000015	NA	NA	s__Sphingomonas paucimobilis	EMPTY	NA	EMPTY	Shini_lab_MAGs	7_1	sphingo	g__Sphingomonas	f__Sphingomonadaceae	o__Sphingomonadales	c__Alphaproteobacteria
+DrY2_W2_MAG_00000019	NA	NA	DrY2_W2_MAG_00000019	NA	NA	s__Achromobacter mucicolens	EMPTY	NA	EMPTY	Shini_lab_MAGs	24_0	snod	g__Achromobacter	f__Burkholderiaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_W2_MAG_00000002	NA	NA	DrY2_W2_MAG_00000002	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY2_W2_MAG_00000005	NA	NA	DrY2_W2_MAG_00000005	NA	NA	s__Acinetobacter johnsonii	EMPTY	NA	EMPTY	Shini_lab_MAGs	41_1	pseudo	g__Acinetobacter	f__Moraxellaceae	o__Pseudomonadales	c__Gammaproteobacteria
+GrY2_W1_MAG_00000001	NA	NA	GrY2_W1_MAG_00000001	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+GrY2_W1_MAG_00000010	NA	NA	GrY2_W1_MAG_00000010	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N1_MAG_00000001	NA	NA	GrY2_N1_MAG_00000001	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+GrY2_N1_MAG_00000012	NA	NA	GrY2_N1_MAG_00000012	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_N1_MAG_00000016	NA	NA	GrY2_N1_MAG_00000016	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N1_MAG_00000009	NA	NA	GrY2_N1_MAG_00000009	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_F6_MAG_00000017	NA	NA	DrY2_F6_MAG_00000017	NA	NA	s__Lactobacillus apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	54_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F2_MAG_00000011	NA	NA	GrY2_F2_MAG_00000011	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F2_MAG_00000015	NA	NA	GrY2_F2_MAG_00000015	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F2_MAG_00000018	NA	NA	GrY2_F2_MAG_00000018	NA	NA	s__Lactobacillus helsingborgensis	EMPTY	NA	EMPTY	Shini_lab_MAGs	55_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F2_MAG_00000023	NA	NA	GrY2_F2_MAG_00000023	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_F2_MAG_00000007	NA	NA	GrY2_F2_MAG_00000007	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AcCh03_MAG_00000001	NA	NA	AcCh03_MAG_00000001	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh03_MAG_00000002	NA	NA	AcCh03_MAG_00000002	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcCh03_MAG_00000006	NA	NA	AcCh03_MAG_00000006	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcCh03_MAG_00000007	NA	NA	AcCh03_MAG_00000007	NA	NA	s__Apilactobacillus kunkeei_C	EMPTY	NA	EMPTY	Shini_lab_MAGs	49_1	lacto	g__Apilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W5_MAG_00000012	NA	NA	GrY2_W5_MAG_00000012	NA	NA	s__Lactobacillus helsingborgensis	EMPTY	NA	EMPTY	Shini_lab_MAGs	55_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W5_MAG_00000014	NA	NA	GrY2_W5_MAG_00000014	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_W5_MAG_00000017	NA	NA	GrY2_W5_MAG_00000017	NA	NA	s__Lactobacillus apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	54_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W5_MAG_00000018	NA	NA	GrY2_W5_MAG_00000018	NA	NA	s__Acidovorax sp001411535	EMPTY	NA	EMPTY	Shini_lab_MAGs	22_1	snod	g__Acidovorax	f__Burkholderiaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_W5_MAG_00000004	NA	NA	GrY2_W5_MAG_00000004	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W5_MAG_00000007	NA	NA	GrY2_W5_MAG_00000007	NA	NA	s__Sphingomonas yantingensis	EMPTY	NA	EMPTY	Shini_lab_MAGs	6_1	sphingo	g__Sphingomonas	f__Sphingomonadaceae	o__Sphingomonadales	c__Alphaproteobacteria
+GrY2_W5_MAG_00000008	NA	NA	GrY2_W5_MAG_00000008	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_F2_MAG_00000019	NA	NA	DrY2_F2_MAG_00000019	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_F2_MAG_00000003	NA	NA	DrY2_F2_MAG_00000003	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N3_MAG_00000010	NA	NA	GrY2_N3_MAG_00000010	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N3_MAG_00000011	NA	NA	GrY2_N3_MAG_00000011	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N3_MAG_00000003	NA	NA	GrY2_N3_MAG_00000003	NA	NA	s__Lactobacillus melliventris	EMPTY	NA	EMPTY	Shini_lab_MAGs	56_3	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N3_MAG_00000005	NA	NA	GrY2_N3_MAG_00000005	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+GrY2_N3_MAG_00000009	NA	NA	GrY2_N3_MAG_00000009	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_N5_MAG_00000011	NA	NA	DrY1_N5_MAG_00000011	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_N5_MAG_00000012	NA	NA	DrY1_N5_MAG_00000012	NA	NA	s__Lactobacillus helsingborgensis	EMPTY	NA	EMPTY	Shini_lab_MAGs	55_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_N5_MAG_00000017	NA	NA	DrY1_N5_MAG_00000017	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+DrY1_N5_MAG_00000006	NA	NA	DrY1_N5_MAG_00000006	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W5_MAG_00000013	NA	NA	DrY1_W5_MAG_00000013	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W5_MAG_00000017	NA	NA	DrY1_W5_MAG_00000017	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_W5_MAG_00000004	NA	NA	DrY1_W5_MAG_00000004	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY1_W5_MAG_00000005	NA	NA	DrY1_W5_MAG_00000005	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	30_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY2_W1_MAG_00000001	NA	NA	DrY2_W1_MAG_00000001	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY2_W1_MAG_00000015	NA	NA	DrY2_W1_MAG_00000015	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W1_MAG_00000002	NA	NA	DrY2_W1_MAG_00000002	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F6_MAG_00000011	NA	NA	DrY1_F6_MAG_00000011	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F6_MAG_00000015	NA	NA	DrY1_F6_MAG_00000015	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F6_MAG_00000007	NA	NA	DrY1_F6_MAG_00000007	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_F6_MAG_00000009	NA	NA	DrY1_F6_MAG_00000009	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmAi06_MAG_00000024	NA	NA	AmAi06_MAG_00000024	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi06_MAG_00000008	NA	NA	AmAi06_MAG_00000008	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_W4_MAG_00000012	NA	NA	GrY2_W4_MAG_00000012	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W4_MAG_00000013	NA	NA	GrY2_W4_MAG_00000013	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_W4_MAG_00000002	NA	NA	GrY2_W4_MAG_00000002	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+GrY2_W4_MAG_00000008	NA	NA	GrY2_W4_MAG_00000008	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+DrY1_F4_MAG_00000010	NA	NA	DrY1_F4_MAG_00000010	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	30_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_F4_MAG_00000011	NA	NA	DrY1_F4_MAG_00000011	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F4_MAG_00000002	NA	NA	DrY1_F4_MAG_00000002	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_F4_MAG_00000009	NA	NA	DrY1_F4_MAG_00000009	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi08_MAG_00000010	NA	NA	AmAi08_MAG_00000010	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi08_MAG_00000007	NA	NA	AmAi08_MAG_00000007	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W3_MAG_00000001	NA	NA	GrY2_W3_MAG_00000001	NA	NA	s__Lactobacillus melliventris	EMPTY	NA	EMPTY	Shini_lab_MAGs	56_3	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W3_MAG_00000012	NA	NA	GrY2_W3_MAG_00000012	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_W3_MAG_00000016	NA	NA	GrY2_W3_MAG_00000016	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	8_0	sphingo	g__Sphingomonas	f__Sphingomonadaceae	o__Sphingomonadales	c__Alphaproteobacteria
+GrY2_W3_MAG_00000018	NA	NA	GrY2_W3_MAG_00000018	NA	NA	s__Lactobacillus apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	54_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W3_MAG_00000021	NA	NA	GrY2_W3_MAG_00000021	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_W3_MAG_00000024	NA	NA	GrY2_W3_MAG_00000024	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_W3_MAG_00000004	NA	NA	GrY2_W3_MAG_00000004	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+AmAi03_MAG_00000012	NA	NA	AmAi03_MAG_00000012	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+AmAi03_MAG_00000014	NA	NA	AmAi03_MAG_00000014	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F2_MAG_00000001	NA	NA	DrY1_F2_MAG_00000001	NA	NA	s__Bifidobacterium indicum	EMPTY	NA	EMPTY	Shini_lab_MAGs	3_1	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+DrY1_F2_MAG_00000011	NA	NA	DrY1_F2_MAG_00000011	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F2_MAG_00000016	NA	NA	DrY1_F2_MAG_00000016	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY1_F2_MAG_00000017	NA	NA	DrY1_F2_MAG_00000017	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_F2_MAG_00000018	NA	NA	DrY1_F2_MAG_00000018	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	30_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY1_F2_MAG_00000006	NA	NA	DrY1_F2_MAG_00000006	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+GrY2_N4_MAG_00000017	NA	NA	GrY2_N4_MAG_00000017	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N4_MAG_00000004	NA	NA	GrY2_N4_MAG_00000004	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+GrY2_N4_MAG_00000007	NA	NA	GrY2_N4_MAG_00000007	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_N4_MAG_00000008	NA	NA	GrY2_N4_MAG_00000008	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh10_MAG_00000001	NA	NA	AcCh10_MAG_00000001	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcCh10_MAG_00000002	NA	NA	AcCh10_MAG_00000002	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh10_MAG_00000003	NA	NA	AcCh10_MAG_00000003	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	44_1	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AcCh10_MAG_00000009	NA	NA	AcCh10_MAG_00000009	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcCh02_MAG_00000004	NA	NA	AcCh02_MAG_00000004	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcCh02_MAG_00000008	NA	NA	AcCh02_MAG_00000008	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh02_MAG_00000009	NA	NA	AcCh02_MAG_00000009	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+DrY2_W3_MAG_00000013	NA	NA	DrY2_W3_MAG_00000013	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_W3_MAG_00000016	NA	NA	DrY2_W3_MAG_00000016	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_N3_MAG_00000010	NA	NA	DrY2_N3_MAG_00000010	NA	NA	s__Bifidobacterium indicum	EMPTY	NA	EMPTY	Shini_lab_MAGs	3_1	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+DrY2_N3_MAG_00000013	NA	NA	DrY2_N3_MAG_00000013	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N3_MAG_00000008	NA	NA	DrY2_N3_MAG_00000008	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AcKn03_MAG_00000012	NA	NA	AcKn03_MAG_00000012	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcKn03_MAG_00000003	NA	NA	AcKn03_MAG_00000003	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcKn03_MAG_00000006	NA	NA	AcKn03_MAG_00000006	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu01_MAG_00000014	NA	NA	AmIu01_MAG_00000014	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu01_MAG_00000015	NA	NA	AmIu01_MAG_00000015	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmIu01_MAG_00000017	NA	NA	AmIu01_MAG_00000017	NA	NA	s__Lonsdalea britannica	EMPTY	NA	EMPTY	Shini_lab_MAGs	21_0	entero	g__Lonsdalea	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmIu01_MAG_00000002	NA	NA	AmIu01_MAG_00000002	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+AmIu01_MAG_00000003	NA	NA	AmIu01_MAG_00000003	NA	NA	s__Melissococcus plutonius	EMPTY	NA	EMPTY	Shini_lab_MAGs	50_1	lacto	g__Melissococcus	f__Enterococcaceae	o__Lactobacillales	c__Bacilli
+AmIu01_MAG_00000005	NA	NA	AmIu01_MAG_00000005	NA	NA	s__Frischella perrara	EMPTY	NA	EMPTY	Shini_lab_MAGs	52_1	entero	g__Frischella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmIu01_MAG_00000007	NA	NA	AmIu01_MAG_00000007	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu01_MAG_00000008	NA	NA	AmIu01_MAG_00000008	NA	NA	s__Fructobacillus fructosus	EMPTY	NA	EMPTY	Shini_lab_MAGs	32_1	lacto	g__Fructobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi02_MAG_00000011	NA	NA	AmAi02_MAG_00000011	NA	NA	s__Gilliamella apicola	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_1	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmAi02_MAG_00000018	NA	NA	AmAi02_MAG_00000018	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmAi02_MAG_00000002	NA	NA	AmAi02_MAG_00000002	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi02_MAG_00000008	NA	NA	AmAi02_MAG_00000008	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_F1_MAG_00000012	NA	NA	GrY2_F1_MAG_00000012	NA	NA	s__Bifidobacterium indicum	EMPTY	NA	EMPTY	Shini_lab_MAGs	3_1	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+GrY2_F1_MAG_00000021	NA	NA	GrY2_F1_MAG_00000021	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmIu02_MAG_00000011	NA	NA	AmIu02_MAG_00000011	NA	NA	s__Bifidobacterium asteroides_B	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_5	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AmIu02_MAG_00000014	NA	NA	AmIu02_MAG_00000014	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+AmIu02_MAG_00000018	NA	NA	AmIu02_MAG_00000018	NA	NA	s__Lactobacillus apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	54_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu02_MAG_00000002	NA	NA	AmIu02_MAG_00000002	NA	NA	s__Bartonella apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	28_2	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+AmIu02_MAG_00000007	NA	NA	AmIu02_MAG_00000007	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmIu02_MAG_00000009	NA	NA	AmIu02_MAG_00000009	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi01_MAG_00000017	NA	NA	AmAi01_MAG_00000017	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi01_MAG_00000020	NA	NA	AmAi01_MAG_00000020	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmAi07_MAG_00000022	NA	NA	AmAi07_MAG_00000022	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi04_MAG_00000010	NA	NA	AmAi04_MAG_00000010	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi04_MAG_00000011	NA	NA	AmAi04_MAG_00000011	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi04_MAG_00000017	NA	NA	AmAi04_MAG_00000017	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+AmAi04_MAG_00000002	NA	NA	AmAi04_MAG_00000002	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmAi04_MAG_00000007	NA	NA	AmAi04_MAG_00000007	NA	NA	s__Lactobacillus melliventris	EMPTY	NA	EMPTY	Shini_lab_MAGs	56_3	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu07_MAG_00000011	NA	NA	AmIu07_MAG_00000011	NA	NA	s__Lactobacillus apis	EMPTY	NA	EMPTY	Shini_lab_MAGs	54_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu07_MAG_00000015	NA	NA	AmIu07_MAG_00000015	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu07_MAG_00000016	NA	NA	AmIu07_MAG_00000016	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmIu07_MAG_00000018	NA	NA	AmIu07_MAG_00000018	NA	NA	s__Lactobacillus helsingborgensis	EMPTY	NA	EMPTY	Shini_lab_MAGs	55_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu07_MAG_00000005	NA	NA	AmIu07_MAG_00000005	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu07_MAG_00000009	NA	NA	AmIu07_MAG_00000009	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+AcCh04_MAG_00000011	NA	NA	AcCh04_MAG_00000011	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcCh04_MAG_00000002	NA	NA	AcCh04_MAG_00000002	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	49_1	lacto	g__Apilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh04_MAG_00000003	NA	NA	AcCh04_MAG_00000003	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcCh04_MAG_00000005	NA	NA	AcCh04_MAG_00000005	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi09_MAG_00000011	NA	NA	AmAi09_MAG_00000011	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_N2_MAG_00000015	NA	NA	DrY1_N2_MAG_00000015	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_F3_MAG_00000002	NA	NA	DrY2_F3_MAG_00000002	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_F3_MAG_00000004	NA	NA	DrY2_F3_MAG_00000004	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_F3_MAG_00000008	NA	NA	DrY2_F3_MAG_00000008	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_F3_MAG_00000009	NA	NA	DrY2_F3_MAG_00000009	NA	NA	s__Gilliamella apicola	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_1	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+GrY2_N5_MAG_00000001	NA	NA	GrY2_N5_MAG_00000001	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N5_MAG_00000013	NA	NA	GrY2_N5_MAG_00000013	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+GrY2_N5_MAG_00000014	NA	NA	GrY2_N5_MAG_00000014	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	27_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+GrY2_N5_MAG_00000017	NA	NA	GrY2_N5_MAG_00000017	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+GrY2_N5_MAG_00000005	NA	NA	GrY2_N5_MAG_00000005	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmIu03_MAG_00000001	NA	NA	AmIu03_MAG_00000001	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu03_MAG_00000002	NA	NA	AmIu03_MAG_00000002	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmIu03_MAG_00000006	NA	NA	AmIu03_MAG_00000006	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu03_MAG_00000008	NA	NA	AmIu03_MAG_00000008	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	27_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+AmIu08_MAG_00000001	NA	NA	AmIu08_MAG_00000001	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu08_MAG_00000011	NA	NA	AmIu08_MAG_00000011	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+AmIu08_MAG_00000015	NA	NA	AmIu08_MAG_00000015	NA	NA	s__Melissococcus plutonius	EMPTY	NA	EMPTY	Shini_lab_MAGs	50_1	lacto	g__Melissococcus	f__Enterococcaceae	o__Lactobacillales	c__Bacilli
+AmIu08_MAG_00000016	NA	NA	AmIu08_MAG_00000016	NA	NA	s__Bifidobacterium asteroides_G	EMPTY	NA	EMPTY	Shini_lab_MAGs	4_1	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AmIu08_MAG_00000017	NA	NA	AmIu08_MAG_00000017	NA	NA	s__Bifidobacterium indicum	EMPTY	NA	EMPTY	Shini_lab_MAGs	3_1	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AmIu08_MAG_00000018	NA	NA	AmIu08_MAG_00000018	NA	NA	s__Frischella perrara	EMPTY	NA	EMPTY	Shini_lab_MAGs	52_1	entero	g__Frischella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmIu08_MAG_00000019	NA	NA	AmIu08_MAG_00000019	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_N1_MAG_00000010	NA	NA	DrY1_N1_MAG_00000010	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY1_N1_MAG_00000002	NA	NA	DrY1_N1_MAG_00000002	NA	NA	s__Bifidobacterium asteroides_A	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_7	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+DrY1_N6_MAG_00000013	NA	NA	DrY1_N6_MAG_00000013	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_N6_MAG_00000005	NA	NA	DrY1_N6_MAG_00000005	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_N6_MAG_00000007	NA	NA	DrY1_N6_MAG_00000007	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_N4_MAG_00000018	NA	NA	DrY2_N4_MAG_00000018	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N4_MAG_00000008	NA	NA	DrY2_N4_MAG_00000008	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi10_MAG_00000011	NA	NA	AmAi10_MAG_00000011	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	26_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+AmAi10_MAG_00000013	NA	NA	AmAi10_MAG_00000013	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi10_MAG_00000009	NA	NA	AmAi10_MAG_00000009	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AcCh07_MAG_00000001	NA	NA	AcCh07_MAG_00000001	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcCh07_MAG_00000004	NA	NA	AcCh07_MAG_00000004	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh07_MAG_00000008	NA	NA	AcCh07_MAG_00000008	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	44_1	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AcCh07_MAG_00000009	NA	NA	AcCh07_MAG_00000009	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AmAi05_MAG_00000010	NA	NA	AmAi05_MAG_00000010	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmAi05_MAG_00000002	NA	NA	AmAi05_MAG_00000002	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmAi05_MAG_00000004	NA	NA	AmAi05_MAG_00000004	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_N4_MAG_00000012	NA	NA	DrY1_N4_MAG_00000012	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu04_MAG_00000010	NA	NA	AmIu04_MAG_00000010	NA	NA	s__Lactobacillus helsingborgensis	EMPTY	NA	EMPTY	Shini_lab_MAGs	55_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu04_MAG_00000011	NA	NA	AmIu04_MAG_00000011	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu04_MAG_00000013	NA	NA	AmIu04_MAG_00000013	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	27_1	bapis	g__Bartonella	f__Rhizobiaceae_A	o__Rhizobiales_A	c__Alphaproteobacteria
+AmIu04_MAG_00000014	NA	NA	AmIu04_MAG_00000014	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+AmIu04_MAG_00000003	NA	NA	AmIu04_MAG_00000003	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu04_MAG_00000006	NA	NA	AmIu04_MAG_00000006	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmIu04_MAG_00000008	NA	NA	AmIu04_MAG_00000008	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmIu06_MAG_00000010	NA	NA	AmIu06_MAG_00000010	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu06_MAG_00000011	NA	NA	AmIu06_MAG_00000011	NA	NA	s__Gilliamella apicola	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_1	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmIu06_MAG_00000002	NA	NA	AmIu06_MAG_00000002	NA	NA	s__Frischella perrara	EMPTY	NA	EMPTY	Shini_lab_MAGs	52_1	entero	g__Frischella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmIu06_MAG_00000005	NA	NA	AmIu06_MAG_00000005	NA	NA	s__Melissococcus plutonius	EMPTY	NA	EMPTY	Shini_lab_MAGs	50_1	lacto	g__Melissococcus	f__Enterococcaceae	o__Lactobacillales	c__Bacilli
+AmIu06_MAG_00000007	NA	NA	AmIu06_MAG_00000007	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_N6_MAG_00000013	NA	NA	DrY2_N6_MAG_00000013	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N6_MAG_00000014	NA	NA	DrY2_N6_MAG_00000014	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+DrY2_N6_MAG_00000006	NA	NA	DrY2_N6_MAG_00000006	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AmIu09_MAG_00000011	NA	NA	AmIu09_MAG_00000011	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu09_MAG_00000016	NA	NA	AmIu09_MAG_00000016	NA	NA	s__Lactobacillus helsingborgensis	EMPTY	NA	EMPTY	Shini_lab_MAGs	55_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu09_MAG_00000017	NA	NA	AmIu09_MAG_00000017	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	57_3	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu09_MAG_00000019	NA	NA	AmIu09_MAG_00000019	NA	NA	s__Commensalibacter sp003202795	EMPTY	NA	EMPTY	Shini_lab_MAGs	31_1	com	g__Commensalibacter	f__Acetobacteraceae	o__Acetobacterales	c__Alphaproteobacteria
+DrY2_N2_MAG_00000004	NA	NA	DrY2_N2_MAG_00000004	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N2_MAG_00000005	NA	NA	DrY2_N2_MAG_00000005	NA	NA	s__Gilliamella apicola_N	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_2	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmIu05_MAG_00000006	NA	NA	AmIu05_MAG_00000006	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_N3_MAG_00000004	NA	NA	DrY1_N3_MAG_00000004	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY1_N3_MAG_00000006	NA	NA	DrY1_N3_MAG_00000006	NA	NA	s__Lactobacillus melliventris	EMPTY	NA	EMPTY	Shini_lab_MAGs	56_3	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu10_MAG_00000010	NA	NA	AmIu10_MAG_00000010	NA	NA	s__Melissococcus plutonius	EMPTY	NA	EMPTY	Shini_lab_MAGs	50_1	lacto	g__Melissococcus	f__Enterococcaceae	o__Lactobacillales	c__Bacilli
+AmIu10_MAG_00000015	NA	NA	AmIu10_MAG_00000015	NA	NA	s__Fructobacillus fructosus	EMPTY	NA	EMPTY	Shini_lab_MAGs	32_1	lacto	g__Fructobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu10_MAG_00000006	NA	NA	AmIu10_MAG_00000006	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AmIu10_MAG_00000007	NA	NA	AmIu10_MAG_00000007	NA	NA	s__Gilliamella apicola	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_1	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AmIu10_MAG_00000008	NA	NA	AmIu10_MAG_00000008	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N5_MAG_00000010	NA	NA	DrY2_N5_MAG_00000010	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N5_MAG_00000002	NA	NA	DrY2_N5_MAG_00000002	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_N5_MAG_00000003	NA	NA	DrY2_N5_MAG_00000003	NA	NA	s__Snodgrassella alvi	EMPTY	NA	EMPTY	Shini_lab_MAGs	40_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+DrY2_F5_MAG_00000012	NA	NA	DrY2_F5_MAG_00000012	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_F5_MAG_00000013	NA	NA	DrY2_F5_MAG_00000013	NA	NA	s__Gilliamella apicola	EMPTY	NA	EMPTY	Shini_lab_MAGs	48_1	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+DrY2_F5_MAG_00000014	NA	NA	DrY2_F5_MAG_00000014	NA	NA	s__Lactobacillus helsingborgensis	EMPTY	NA	EMPTY	Shini_lab_MAGs	55_1	lacto	g__Lactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+DrY2_F5_MAG_00000008	NA	NA	DrY2_F5_MAG_00000008	NA	NA	s__Bombilactobacillus mellifer	EMPTY	NA	EMPTY	Shini_lab_MAGs	59_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcKn02_MAG_00000002	NA	NA	AcKn02_MAG_00000002	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcKn02_MAG_00000008	NA	NA	AcKn02_MAG_00000008	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcKn05_MAG_00000001	NA	NA	AcKn05_MAG_00000001	NA	NA	s__Snodgrassella alvi_E	EMPTY	NA	EMPTY	Shini_lab_MAGs	38_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AcKn05_MAG_00000017	NA	NA	AcKn05_MAG_00000017	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcKn05_MAG_00000002	NA	NA	AcKn05_MAG_00000002	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcKn05_MAG_00000007	NA	NA	AcKn05_MAG_00000007	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcKn10_MAG_00000002	NA	NA	AcKn10_MAG_00000002	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcCh08_MAG_00000005	NA	NA	AcCh08_MAG_00000005	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcCh05_MAG_00000016	NA	NA	AcCh05_MAG_00000016	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh05_MAG_00000018	NA	NA	AcCh05_MAG_00000018	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcCh06_MAG_00000005	NA	NA	AcCh06_MAG_00000005	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcCh06_MAG_00000007	NA	NA	AcCh06_MAG_00000007	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcKn01_MAG_00000006	NA	NA	AcKn01_MAG_00000006	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh09_MAG_00000010	NA	NA	AcCh09_MAG_00000010	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcCh09_MAG_00000011	NA	NA	AcCh09_MAG_00000011	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh09_MAG_00000005	NA	NA	AcCh09_MAG_00000005	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcCh01_MAG_00000010	NA	NA	AcCh01_MAG_00000010	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcCh01_MAG_00000002	NA	NA	AcCh01_MAG_00000002	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcKn08_MAG_00000004	NA	NA	AcKn08_MAG_00000004	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcKn08_MAG_00000005	NA	NA	AcKn08_MAG_00000005	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcKn07_MAG_00000003	NA	NA	AcKn07_MAG_00000003	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcKn07_MAG_00000004	NA	NA	AcKn07_MAG_00000004	NA	NA	s__Gilliamella apicola_E	EMPTY	NA	EMPTY	Shini_lab_MAGs	43_1	entero	g__Gilliamella	f__Enterobacteriaceae	o__Enterobacterales	c__Gammaproteobacteria
+AcKn07_MAG_00000005	NA	NA	AcKn07_MAG_00000005	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcKn07_MAG_00000008	NA	NA	AcKn07_MAG_00000008	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	5_3	bifido	g__Bifidobacterium	f__Bifidobacteriaceae	o__Actinomycetales	c__Actinomycetia
+AcKn09_MAG_00000004	NA	NA	AcKn09_MAG_00000004	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcKn09_MAG_00000007	NA	NA	AcKn09_MAG_00000007	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli
+AcKn06_MAG_00000003	NA	NA	AcKn06_MAG_00000003	NA	NA	s__Apibacter sp002964915	EMPTY	NA	EMPTY	Shini_lab_MAGs	33_1	api	g__Apibacter	f__Weeksellaceae	o__Flavobacteriales	c__Bacteroidia
+AcKn06_MAG_00000004	NA	NA	AcKn06_MAG_00000004	NA	NA	s__	EMPTY	NA	EMPTY	Shini_lab_MAGs	36_1	snod	g__Snodgrassella	f__Neisseriaceae	o__Burkholderiales	c__Gammaproteobacteria
+AcKn04_MAG_00000002	NA	NA	AcKn04_MAG_00000002	NA	NA	s__Bombilactobacillus mellis	EMPTY	NA	EMPTY	Shini_lab_MAGs	60_1	lacto	g__Bombilactobacillus	f__Lactobacillaceae	o__Lactobacillales	c__Bacilli

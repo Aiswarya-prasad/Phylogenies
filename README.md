@@ -14,8 +14,6 @@ The pipeline is currently being tested on one of the Engel lab workstations. How
 - convenient/quick way to add genomes to recompute when adding new genome
 - option to use dna and/or aa sequences for tree
 
-
-
 ## Choosing MAGs
 
 The quality of MAGs mentioned below are according to this [paper](https://doi.org/10.1038/s41586-019-0965-1), mentioned in this [review](https://doi.org/10.1016/j.csbj.2021.11.028)
@@ -76,8 +74,16 @@ It is a `.tsv` file. In order to avoid parsing issues, export your metadata as a
 The other MAGs belonged to familes not mentioned above. They are not included for now.
 **pseudo**: includes the following families : o__Pseudomonadales includes f__Pseudomonadaceae and f__Moraxellaceae (acinetobacter) just a few MAGs. For now, leaving them out.
 **sphingo** includes about 6 MAGs. Can be combined with bapis or com as they all belong to the same class c__Alphaproteobacteria. For now, leaving them out.
+**bom**
 
+It is highly recommended that the metadata file be made consistently by using a script and parsing information from relevant tables and not by hand. For MAGs especially. For my current dataset, I am using `Make_metadata.R` to make the file for the isolate genomes and for MAGs from the files:
 
+* ELLEGARD_2018_2020-gtdbtk.bac120.summary.tsv - from gtdbtk annotation
+* ELLEGARD_2018_2020-evaluate_summary.tsv - from the MAGs pipeline of Shini lab
+* all_combined.csv - from gr_Engel/aprasad/SPIRIT_Project/Data/ (using everything in the database "KE_2021_expandedGBR")
+* Cdb.csv - one of the dRep outputs
+
+This script is not meant to be generally usable but only kept here for the sake of consistency. The columns Host, Origin and Group were filled in manually and exported as csv and then converted to tsv using the script `scripts/csv_to_tsv.py`!
 
 
 ## Rules

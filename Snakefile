@@ -297,11 +297,14 @@ rule make_tree:
     #     mem_mb = 8000
     threads: 8
     log: "logs/{group}_make_tree.log"
+    conda: "envs/phylogenies-env.yaml"
     shell:
         """
         rm -rf {params.outdir}
         mkdir -p {params.outdir}
         iqtree -s {input.pruned_cat} \
                 -st AA -nt {threads} -bb 1000 -seed 12345 -m TEST \
-                -pre {params.outdir}{wildcards.group}_Phylogeny
+                -pre {params.outdir}{wildcards.group}_Phylogeny \
+                -mem 8G
+                # -mem {resources.mem_mb}
         """

@@ -24,6 +24,8 @@ logs/*
 02_orthofinder/*
 03_aligned_orthogroups/*
 04_pruned_and_concat_alignments/*
+05_IQTree/*
+06_anvio_tree/*
 
 */OrthoFinder/*
 
