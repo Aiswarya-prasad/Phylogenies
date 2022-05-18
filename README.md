@@ -6,6 +6,8 @@ To get started there needs to be a config file and some metadata files with thei
 
 The pipeline is currently being tested on one of the Engel lab workstations. However, since the conda environment is available, it can also be run in the cluster with minimal setting up (lines to provide slurm parameters must be uncommented and paths in config file should be changed).
 
+NOTE: The last rule )make tree) has not been properly tested because it is very computationally intensive especially for the number of genomes that I have been testing with. As of now, this pipeline has not been run on curnagl but if this works then all good.
+
 ## TO DO
 
 - TO DO list to be updated!

@@ -129,7 +129,7 @@ def convertToSec(string):
 
 rule all:
     input:
-        tree = expand("05_IQTree/{group}/{group}_Phylogeny.treefile", group=Groups),
+        tree = expand("05_IQTree/{group}/{group}_Phylogeny.iqtree", group=Groups),
 
 rule download_genome:
     input:
@@ -287,7 +287,8 @@ rule make_tree:
     input:
         pruned_cat = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta"
     output:
-        pdf = "05_IQTree/{group}/{group}_Phylogeny.treefile"
+        pdf = "05_IQTree/{group}/{group}_Phylogeny.iqtree",
+        iqlog = "05_IQTree/{group}/{group}_Phylogeny.log"
     params:
         outdir = "05_IQTree/{group}/"
     #     mailto="aiswarya.prasad@unil.ch",
@@ -295,16 +296,15 @@ rule make_tree:
     #     runtime_s=convertToSec("0-2:10:00"),
     # resources:
     #     mem_mb = 8000
-    threads: 8
+    threads: 16
     log: "logs/{group}_make_tree.log"
     conda: "envs/phylogenies-env.yaml"
     shell:
         """
-        rm -rf {params.outdir}
+        mkdir -p 05_IQTree
         mkdir -p {params.outdir}
         iqtree -s {input.pruned_cat} \
-                -st AA -nt {threads} -bb 1000 -seed 12345 -m TEST \
-                -pre {params.outdir}{wildcards.group}_Phylogeny \
-                -mem 8G
-                # -mem {resources.mem_mb}
+                -st AA -nt {threads} \
+                -bb 1000 -seed 12345 -m TEST \
+                -pre {params.outdir}{wildcards.group}_Phylogeny
         """
