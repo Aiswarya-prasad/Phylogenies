@@ -35,7 +35,8 @@ def get_genomes(path):
                 continue
             genome = line.split("\t")[0]
             genome = genome.strip()
-            genomeList.append(genome)
+            if genome != "ID":
+                genomeList.append(genome)
     return(genomeList)
 
 def get_g_list_by_group(path, group_name):
@@ -58,7 +59,8 @@ def get_g_list_by_group(path, group_name):
             if group not in Groups:
                 continue
             if group == group_name:
-                g_list.append(genome)
+                if genome != "ID":
+                    g_list.append(genome)
         return(g_list)
 
 def get_g_dict_for_groups(path):
@@ -82,7 +84,8 @@ def get_g_dict_for_groups(path):
             # only include groups of interest!
             if group not in Groups:
                 continue
-            g_list_dict[group].append(genome)
+            if genome != "ID":
+                g_list_dict[group].append(genome)
     return(g_list_dict)
 
 
