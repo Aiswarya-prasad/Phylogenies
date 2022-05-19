@@ -11,6 +11,7 @@ NOTE: The last rule )make tree) has not been properly tested because it is very 
 ## TO DO
 
 - TO DO list to be updated!
+- fix need for encoding='utf-8-sig'
 - make log useful files
 - summary of orthologs
 - convenient/quick way to add genomes to recompute when adding new genome
