@@ -171,7 +171,7 @@ rule annotate:
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
         runtime_s=convertToSec("0-4:10:00"),
-        jobname="annotate"
+        jobname="annotate_{genome}"
     resources:
         mem_mb = 8000
     threads: 8
@@ -218,7 +218,7 @@ rule run_orthofinder:
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
         runtime_s=convertToSec("0-10:10:00"),
-        jobname="run_orthofinder"
+        jobname="run_orthofinder_{group}"
     resources:
          mem_mb = convertToMb("20G")
     threads: 8
@@ -241,7 +241,7 @@ rule align_orthologs:
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
         runtime_s=convertToSec("0-6:10:00"),
-        jobname="align_orthologs"
+        jobname="align_orthologs_{group}"
     resources:
         mem_mb = convertToMb("20G")
     threads: 8
@@ -269,7 +269,7 @@ rule prune_and_concat:
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
         runtime_s=convertToSec("0-2:10:00"),
-        jobname="prune_and_concat"
+        jobname="prune_and_concat_{group}"
     resources:
         mem_mb = 8000
     threads: 4
@@ -289,7 +289,7 @@ rule make_tree:
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
         runtime_s=convertToSec("0-2:10:00"),
-        jobname="make_tree"
+        jobname="make_tree_{group}"
     resources:
         mem_mb = convertToMb("25G")
     threads: 16
