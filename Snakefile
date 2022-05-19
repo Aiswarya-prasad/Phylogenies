@@ -53,9 +53,6 @@ def get_g_list_by_group(path, group_name):
             if line.startswith("ID"):
                 continue
             genome = line.split("\t")[0]
-            # unpublished genome
-            if genome == "Ga0418777":
-                continue
             group = line.split("\t")[12]
             # only include groups of interest!
             if group not in Groups:
@@ -80,10 +77,7 @@ def get_g_dict_for_groups(path):
         for line in info_fh:
             if line.startswith("ID"):
                 continue
-            genome = line.split("\t")[0]
-            # unpublished genome
-            if genome == "Ga0418777":
-                continue
+            genome = line.split("\t")[0]inue
             group = line.split("\t")[12]
             # only include groups of interest!
             if group not in Groups:
@@ -126,7 +120,7 @@ def convertToSec(string):
 
 rule all:
     input:
-        alignment = expand("04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta", group=Groups),
+        tree = expand("04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta", group=Groups),
 
 rule download_genome:
     output:
