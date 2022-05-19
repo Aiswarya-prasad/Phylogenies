@@ -126,7 +126,7 @@ def convertToSec(string):
 
 rule all:
     input:
-        tree = expand("04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta", group=Groups),
+        alignment = expand("04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta", group=Groups),
 
 rule download_genome:
     output:
