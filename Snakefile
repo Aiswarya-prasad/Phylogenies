@@ -35,9 +35,6 @@ def get_genomes(path):
                 continue
             genome = line.split("\t")[0]
             genome = genome.strip()
-            # unpublished genome
-            if genome == "Ga0418777":
-                continue
             genomeList.append(genome)
     return(genomeList)
 
@@ -56,9 +53,6 @@ def get_g_list_by_group(path, group_name):
             if line.startswith("ID"):
                 continue
             genome = line.split("\t")[0]
-            # unpublished genome
-            if genome == "Ga0418777":
-                continue
             group = line.split("\t")[12]
             # only include groups of interest!
             if group not in Groups:
@@ -84,9 +78,6 @@ def get_g_dict_for_groups(path):
             if line.startswith("ID"):
                 continue
             genome = line.split("\t")[0]
-            # unpublished genome
-            if genome == "Ga0418777":
-                continue
             group = line.split("\t")[12]
             # only include groups of interest!
             if group not in Groups:
@@ -135,7 +126,7 @@ rule download_genome:
     output:
         genome = "00_genomes/{genome}.fa",
         genome_gz = temp("00_genomes/{genome}.fa.gz"),
-    threads: 1
+    threads: 4
     params:
         info = GenomeInfo,
         ftp_summary = "https://ftp.ncbi.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_genbank.txt",
@@ -179,10 +170,11 @@ rule annotate:
         mailto="aiswarya.prasad@unil.ch",
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
-        runtime_s=convertToSec("0-2:10:00"),
+        runtime_s=convertToSec("0-4:10:00"),
+        jobname="annotate"
     resources:
         mem_mb = 8000
-    threads: 4
+    threads: 8
     log: "logs/{genome}_annotate.log"
     conda: "envs/phylogenies-env.yaml"
     shell:
@@ -225,10 +217,11 @@ rule run_orthofinder:
         mailto="aiswarya.prasad@unil.ch",
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
-        runtime_s=convertToSec("0-2:10:00"),
+        runtime_s=convertToSec("0-10:10:00"),
+        jobname="run_orthofinder"
     resources:
-         mem_mb = 8000
-    threads: 4
+         mem_mb = convertToMb("20G")
+    threads: 8
     log: "logs/{group}_run_orthofinder.log"
     shell:
         """
@@ -247,10 +240,11 @@ rule align_orthologs:
         mailto="aiswarya.prasad@unil.ch",
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
-        runtime_s=convertToSec("0-2:10:00"),
+        runtime_s=convertToSec("0-6:10:00"),
+        jobname="align_orthologs"
     resources:
-        mem_mb = 8000
-    threads: 4
+        mem_mb = convertToMb("20G")
+    threads: 8
     log: "logs/{group}_align_orthologs.log"
     shell:
         """
@@ -261,10 +255,6 @@ rule align_orthologs:
             mafft --amino --inputorder --localpair --maxiterate 1000 {input.orthogroups_dir}/${{OG}} > {output.out_dir}/${{OG/.fa/_aligned.fa}}
         done
         """
-
-# rule orthologs_summary:
-# summarise how may orthogroups across groups to make sure we have enough
-# we want ~ 500? or so
 
 rule prune_and_concat:
     input:
@@ -279,9 +269,10 @@ rule prune_and_concat:
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
         runtime_s=convertToSec("0-2:10:00"),
+        jobname="prune_and_concat"
     resources:
         mem_mb = 8000
-    threads: 2
+    threads: 4
     log: "logs/{group}_prune_and_concat.log"
     script:
         "scripts/prune_and_concat_alns.py"
@@ -298,8 +289,9 @@ rule make_tree:
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
         runtime_s=convertToSec("0-2:10:00"),
+        jobname="make_tree"
     resources:
-        mem_mb = 8000
+        mem_mb = convertToMb("25G")
     threads: 16
     log: "logs/{group}_make_tree.log"
     conda: "envs/phylogenies-env.yaml"
