@@ -35,9 +35,6 @@ def get_genomes(path):
                 continue
             genome = line.split("\t")[0]
             genome = genome.strip()
-            # unpublished genome
-            if genome == "Ga0418777":
-                continue
             genomeList.append(genome)
     return(genomeList)
 
