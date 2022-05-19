@@ -129,7 +129,7 @@ def convertToSec(string):
 
 rule all:
     input:
-        tree = expand("04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta", group=Groups),
+        tree = expand("05_IQTree/{group}/{group}_Phylogeny.treefile", group=Groups),
 
 rule download_genome:
     output:
@@ -176,12 +176,12 @@ rule annotate:
         faa = "01_prokka/{genome}/{genome}.faa",
     params:
         outdir = "01_prokka/{genome}/"
-    #     mailto="aiswarya.prasad@unil.ch",
-    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
-    #     account="pengel_spirit",
-    #     runtime_s=convertToSec("0-2:10:00"),
-    # resources:
-    #     mem_mb = 8000
+        mailto="aiswarya.prasad@unil.ch",
+        mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
+        account="pengel_spirit",
+        runtime_s=convertToSec("0-2:10:00"),
+    resources:
+        mem_mb = 8000
     threads: 4
     log: "logs/{genome}_annotate.log"
     conda: "envs/phylogenies-env.yaml"
@@ -244,12 +244,12 @@ rule align_orthologs:
         done = touch("03_aligned_orthogroups/{group}/mafft.done"),
     conda: "envs/phylogenies-env.yaml"
     # params:
-    #     mailto="aiswarya.prasad@unil.ch",
-    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
-    #     account="pengel_spirit",
-    #     runtime_s=convertToSec("0-2:10:00"),
-    # resources:
-    #     mem_mb = 8000
+        mailto="aiswarya.prasad@unil.ch",
+        mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
+        account="pengel_spirit",
+        runtime_s=convertToSec("0-2:10:00"),
+    resources:
+        mem_mb = 8000
     threads: 4
     log: "logs/{group}_align_orthologs.log"
     shell:
@@ -275,12 +275,12 @@ rule prune_and_concat:
         pruned_cat = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta",
     params:
         pipe_names = False
-    #     mailto="aiswarya.prasad@unil.ch",
-    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
-    #     account="pengel_spirit",
-    #     runtime_s=convertToSec("0-2:10:00"),
-    # resources:
-    #     mem_mb = 8000
+        mailto="aiswarya.prasad@unil.ch",
+        mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
+        account="pengel_spirit",
+        runtime_s=convertToSec("0-2:10:00"),
+    resources:
+        mem_mb = 8000
     threads: 2
     log: "logs/{group}_prune_and_concat.log"
     script:
@@ -290,16 +290,16 @@ rule make_tree:
     input:
         pruned_cat = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta"
     output:
-        pdf = "05_IQTree/{group}/{group}_Phylogeny.iqtree",
+        pdf = "05_IQTree/{group}/{group}_Phylogeny.treefile",
         iqlog = "05_IQTree/{group}/{group}_Phylogeny.log"
     params:
         outdir = "05_IQTree/{group}/"
-    #     mailto="aiswarya.prasad@unil.ch",
-    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
-    #     account="pengel_spirit",
-    #     runtime_s=convertToSec("0-2:10:00"),
-    # resources:
-    #     mem_mb = 8000
+        mailto="aiswarya.prasad@unil.ch",
+        mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
+        account="pengel_spirit",
+        runtime_s=convertToSec("0-2:10:00"),
+    resources:
+        mem_mb = 8000
     threads: 16
     log: "logs/{group}_make_tree.log"
     conda: "envs/phylogenies-env.yaml"
