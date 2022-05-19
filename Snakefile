@@ -129,16 +129,15 @@ def convertToSec(string):
 
 rule all:
     input:
-        tree = expand("05_IQTree/{group}/{group}_Phylogeny.iqtree", group=Groups),
+        tree = expand("04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta", group=Groups),
 
 rule download_genome:
-    input:
-        info = GenomeInfo,
     output:
         genome = "00_genomes/{genome}.fa",
         genome_gz = temp("00_genomes/{genome}.fa.gz"),
     threads: 1
     params:
+        info = GenomeInfo,
         ftp_summary = "https://ftp.ncbi.nih.gov/genomes/ASSEMBLY_REPORTS/assembly_summary_genbank.txt",
         assembly_summary_genbank = "assembly_summary_genbank.txt",
     log: "logs/{genome}_download.log"
@@ -150,7 +149,7 @@ rule download_genome:
         else
             echo "cannot find {output.genome}. Going to try to download!" 2>&1 | tee -a {log}
             wget -N "{params.ftp_summary}" 2>&1 | tee -a {log}
-            strain=$(cat {input.info} | grep {wildcards.genome} | cut -f4)
+            strain=$(cat {params.info} | grep {wildcards.genome} | cut -f4)
             echo "The strain is ${{strain}}" 2>&1 | tee -a {log}
             genbank_path=$(cat {params.assembly_summary_genbank} | grep "strain="${{strain}} | cut -f15,20 | sort -k1 -r | head -1 | cut -f2)
             echo "${{genbank_path}}_here" 2>&1 | tee -a {log}
@@ -178,6 +177,7 @@ rule annotate:
     params:
         outdir = "01_prokka/{genome}/"
     #     mailto="aiswarya.prasad@unil.ch",
+    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
     #     account="pengel_spirit",
     #     runtime_s=convertToSec("0-2:10:00"),
     # resources:
@@ -223,6 +223,7 @@ rule run_orthofinder:
     conda: "envs/phylogenies-env.yaml"
     # params:
     #     mailto="aiswarya.prasad@unil.ch",
+    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
     #     account="pengel_spirit",
     #     runtime_s=convertToSec("0-2:10:00"),
     #  resources:
@@ -244,6 +245,7 @@ rule align_orthologs:
     conda: "envs/phylogenies-env.yaml"
     # params:
     #     mailto="aiswarya.prasad@unil.ch",
+    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
     #     account="pengel_spirit",
     #     runtime_s=convertToSec("0-2:10:00"),
     # resources:
@@ -274,6 +276,7 @@ rule prune_and_concat:
     params:
         pipe_names = False
     #     mailto="aiswarya.prasad@unil.ch",
+    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
     #     account="pengel_spirit",
     #     runtime_s=convertToSec("0-2:10:00"),
     # resources:
@@ -292,6 +295,7 @@ rule make_tree:
     params:
         outdir = "05_IQTree/{group}/"
     #     mailto="aiswarya.prasad@unil.ch",
+    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
     #     account="pengel_spirit",
     #     runtime_s=convertToSec("0-2:10:00"),
     # resources:
