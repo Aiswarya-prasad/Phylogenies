@@ -175,7 +175,7 @@ rule annotate:
     output:
         faa = "01_prokka/{genome}/{genome}.faa",
     params:
-        outdir = "01_prokka/{genome}/"
+        outdir = "01_prokka/{genome}/",
         mailto="aiswarya.prasad@unil.ch",
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
@@ -221,13 +221,13 @@ rule run_orthofinder:
         orthogroups_dir = directory("02_orthofinder/{group}/OrthoFinder/Results_{group}/Single_Copy_Orthologue_Sequences/"),
         orthofinder_dir = directory("02_orthofinder/{group}/OrthoFinder/Results_{group}/"),
     conda: "envs/phylogenies-env.yaml"
-    # params:
-    #     mailto="aiswarya.prasad@unil.ch",
-    #     mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
-    #     account="pengel_spirit",
-    #     runtime_s=convertToSec("0-2:10:00"),
-    #  resources:
-    #      mem_mb = 8000
+    params:
+        mailto="aiswarya.prasad@unil.ch",
+        mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
+        account="pengel_spirit",
+        runtime_s=convertToSec("0-2:10:00"),
+    resources:
+         mem_mb = 8000
     threads: 4
     log: "logs/{group}_run_orthofinder.log"
     shell:
@@ -243,7 +243,7 @@ rule align_orthologs:
         out_dir = directory("03_aligned_orthogroups/{group}/"),
         done = touch("03_aligned_orthogroups/{group}/mafft.done"),
     conda: "envs/phylogenies-env.yaml"
-    # params:
+    params:
         mailto="aiswarya.prasad@unil.ch",
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
@@ -274,7 +274,7 @@ rule prune_and_concat:
         pruned_dir = directory("04_pruned_and_concat_alignments/{group}/"),
         pruned_cat = "04_pruned_and_concat_alignments/{group}/CoreGeneAlignment.fasta",
     params:
-        pipe_names = False
+        pipe_names = False,
         mailto="aiswarya.prasad@unil.ch",
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",
@@ -293,7 +293,7 @@ rule make_tree:
         pdf = "05_IQTree/{group}/{group}_Phylogeny.treefile",
         iqlog = "05_IQTree/{group}/{group}_Phylogeny.log"
     params:
-        outdir = "05_IQTree/{group}/"
+        outdir = "05_IQTree/{group}/",
         mailto="aiswarya.prasad@unil.ch",
         mailtype="BEGIN,END,FAIL,TIME_LIMIT_80",
         account="pengel_spirit",

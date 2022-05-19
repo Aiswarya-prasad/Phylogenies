@@ -1,5 +1,5 @@
 Project_identifier: "Phylogenies_MAGs_genomes"
-Project_path: "/home/aiswarya/MAG_analyses/Phylogenies"
+Project_path: "/work/FAC/FBM/DMF/pengel/spirit/aprasad/Phylogenies"
 Phylo_groups:
  - "bifido"
  - "snod"
@@ -8,4 +8,4 @@ Phylo_groups:
  - "api"
  - "lacto"
  - "bapis"
-Genome_info_path: "/home/aiswarya/MAG_analyses/Phylogenies/all_GenomeInfo.tsv"
+Genome_info_path: "/work/FAC/FBM/DMF/pengel/spirit/aprasad/Phylogenies/all_GenomeInfo.tsv"
