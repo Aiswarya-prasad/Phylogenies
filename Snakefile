@@ -29,14 +29,13 @@ def get_genomes(path):
     and return list of genomes
     """
     genomeList = []
-    with open(path, "r") as info_fh:
+    with open(path, "r", encoding='utf-8-sig') as info_fh:
         for line in info_fh:
             if line.startswith("ID"):
                 continue
             genome = line.split("\t")[0]
             genome = genome.strip()
-            if genome != "ID":
-                genomeList.append(genome)
+            genomeList.append(genome)
     return(genomeList)
 
 def get_g_list_by_group(path, group_name):
@@ -49,7 +48,7 @@ def get_g_list_by_group(path, group_name):
         pass
     else:
         print(f"Could not find file at {path}")
-    with open(path, "r") as info_fh:
+    with open(path, "r", encoding='utf-8-sig') as info_fh:
         for line in info_fh:
             if line.startswith("ID"):
                 continue
@@ -59,8 +58,7 @@ def get_g_list_by_group(path, group_name):
             if group not in Groups:
                 continue
             if group == group_name:
-                if genome != "ID":
-                    g_list.append(genome)
+                g_list.append(genome)
         return(g_list)
 
 def get_g_dict_for_groups(path):
@@ -75,7 +73,7 @@ def get_g_dict_for_groups(path):
         pass
     else:
         print(f"Could not find file at {path}")
-    with open(path, "r") as info_fh:
+    with open(path, "r", encoding='utf-8-sig') as info_fh:
         for line in info_fh:
             if line.startswith("ID"):
                 continue
@@ -84,8 +82,7 @@ def get_g_dict_for_groups(path):
             # only include groups of interest!
             if group not in Groups:
                 continue
-            if genome != "ID":
-                g_list_dict[group].append(genome)
+            g_list_dict[group].append(genome)
     return(g_list_dict)
 
 
